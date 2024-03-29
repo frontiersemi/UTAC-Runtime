@@ -1,0 +1,599 @@
+#AUTO
+ver=1;' VERSION NUMBER
+MO
+SB 1;
+SB 2;
+SB 3;
+SB 4;
+WT 500
+CB 1;
+CB 2;
+CB 3;
+CB 4;
+'
+DM DO[6]
+DO[0]=0
+DO[1]=0
+DO[2]=0
+DO[3]=0
+DO[4]=0
+DO[5]=0
+Af=0
+'
+DM VM[4]
+VM[0]=0
+VM[1]=0
+VM[2]=0
+VM[3]=0
+'
+FLA=3000000
+BLA=-3000000
+FLB=3000000
+BLB=-3000000
+WT 1000
+TM 500
+AG 0,0
+AU 4,4
+TL 9.9,9.9
+TK 0,0
+MT 1,1,2,2
+LC ,,1,1
+KS ,,64,64 ;' Larger values provide greater smoothness
+YA ,,16,16;''Set 1/16 Microstepping Drive
+YB ,,200,200
+LD 3,3
+'
+FV 0,0
+FA 0,0
+IL 10,10
+PL 0.65,0.70
+'
+' to avoid chain crash physically
+' we let stage move to other direction
+' instead of original direction
+CN 1,-1;' Li MODIFIED 0703
+'
+VF 8.0
+CE 0,0
+IT 0.0025,0.006
+'
+JS #SP2
+'JS #PID2
+'
+'JS #CMX;' servo driver init 
+'JS #CMY
+'
+MG "AUTO DONE"
+EN
+'
+'
+'ADDED TO TEST SPEED
+#SPTEST
+JS#SP2
+JS#PID2
+XQ#RSX,1
+XQ#RSY,2
+EN
+'
+'
+
+'
+#DOCTRL
+IF(DO[Dn]=0)
+SB Dn
+DO[Dn]=1
+ELSE
+CB Dn
+DO[Dn]=0
+ENDIF
+EN
+'
+'
+#GO
+#sub
+PRC=-2000
+BGC
+AMC
+PRC=2000
+BGC
+AMC
+JP #sub
+EN
+'
+'
+#AFCTRL
+IF(DO[Af1]=0)
+SB Af1
+CB Af2
+DO[Af1]=1
+DO[Af2]=0
+ELSE
+CB Af1
+SB Af2
+DO[Af1]=0
+DO[Af2]=1
+ENDIF
+EN
+'
+'
+#GETAN
+val=@AN[3]
+MG val
+EN
+'
+'
+#SP1
+TL 9,9
+AC 16000000,16000000,3000000,30000000
+DC 16000000,16000000,3000000,30000000
+SP 15000000,15000000,1000,1000
+MG "SP1 DONE 22-K2"
+EN
+'
+'
+#SP2
+TL 7,7
+AC 15000000,15000000,3000000,30000000
+DC 15000000,15000000,3000000,30000000
+SP 600000,600000,1000,700
+MG "SP2 DONE 5-K2"
+EN
+'
+'
+#PID1
+KP 9,20
+KD 270,100
+KI 0,0
+PL 0.71,0.7
+IT .025,.01
+MG "PID1 DONE Move"
+EN
+'
+'
+#PID2
+KP 42,25
+KD 270,140
+KI 0.65,0.025
+PL 0.71,0.7
+IT .025,.01
+MG "PID2 DONE Init"
+EN
+'
+'
+#RSX
+SHA
+SPA=600000
+VF 8.0
+FEA
+BGA
+AMA
+x=_TPA
+DP 0
+MG "x's value: ",x
+' to avoid chain crash physically
+' we let stage move to other direction
+' instead of original direction
+PRA=1620000
+SPA=22000000
+BGA
+AMA
+DP 0
+MOA
+'FEA
+'BGA
+'AMA
+'y=_TPA
+'MG "y's value: ",y
+'z=(x+y)/2
+'CN 1,1
+'PA z
+'BGA
+'AMA
+'DP 0
+'FLA=(x-y)/2
+'BLA=-_FLA
+MG "X RESET OK"
+EN
+'
+'
+#RSY
+SHB
+SPB=600000
+VF 8.0
+FEB
+BGB
+AMB
+c=_TPB
+DP ,0
+MG "c's value: ",c
+' to avoid chain crash physically
+' we let stage move to other direction
+' instead of original direction
+PRB=1645000 ;'Dr.Ryu MODIFIED 0628, Li MODIFIED 0703
+SPB=22000000
+BGB
+AMB
+WT 1000
+DP ,0
+MOB
+'CN 1,-1
+'FEB
+'BGB
+'AMB
+'d=_TPB
+'MG "d's value: ",d
+'m=(c+d)/2
+'CN 1,1
+'PA ,m
+'BGB
+'AMB
+'DP,0
+'FLB=(c-d)/2
+'BLB=-_FLB
+MG "Y RESET OK"
+EN
+'
+'
+#RSZ1
+VF 8.0
+'
+MG "RSZ1"
+VM[2]=1
+SHC
+'
+IF (_LRC = 0)
+PRC=4000
+BGC
+AMC
+ENDIF
+'
+PRC= -27000
+BGC
+AMC
+WT 500
+'
+PRC=180 
+BGC
+AMC
+WT 500
+'
+' SPC=15
+PRC=-220
+BGC
+AMC
+WT 500
+'
+SPC=1000 ;'Li added
+DPC=0
+FLC= 8000
+'
+MG"YES END.."
+'
+VM[2]=0
+'
+MG "Z1 RESET OK"
+EN
+'
+#RSZ2
+VF 8.0
+'
+MG "RSZ2"
+VM[3]=1
+SHD
+'
+IF (_LRD = 0)
+PRD=4000
+BGD
+AMD
+ENDIF
+'
+PRD= -27000
+BGD
+AMD
+WT 500
+'
+PRD=180 
+BGD
+AMD
+WT 500
+'
+' SPD=15
+PRD=-220
+BGD
+AMD
+WT 500
+'
+SPD=1000 ;'Li added
+DPD=0
+FLD= 8000
+'
+MG"YES END.."
+'
+VM[3]=0
+'
+MG "Z2 RESET OK"
+EN
+'
+'
+#CMX
+MOA
+WT1000
+#tva1;
+JP #tva1,_TVA>500
+BAA; 'Set Sinusoidal operation
+BMA= 900000; 'Define length of magnetic cycle in encoder count
+BX <1000
+bx_i= 0
+#com_a
+tc=0
+#tva;JP #tva,_TVA>500
+BXA=-3
+#loopa;JP #loopa,((_BXA<>3)&(tc=0))
+JP #com_a,((tc<>0)&(bx_i<5))
+IF (bx_i<5)
+MG "X Commutation complete"
+ELSE
+MG "A BX failed to complete"
+MG "attempting BZ command"
+tc=0;BZA=-3
+IF tc=0
+MG "A BZ command complete"
+ELSE
+MG "A BZ command failed"
+MG "check motor and encoder wiring"
+MG "try setting CE 2 or swapping 2 motor leads"
+ENDIF
+ENDIF
+SHA
+EN
+'
+'
+#CMY
+MOB
+WT 1000
+#tvb1;
+JP #tvb1,_TVA>500
+BAB; 'Set Sinusoidal operation
+BMB= 900000; 'Define length of magnetic cycle in encoder count
+BX <1000
+bx_i= 0
+#com_b
+tc=0
+#tvb;JP #tvb,_TVB>500
+BXB=-3
+#loopb;JP #loopb,((_BXB<>3)&(tc=0))
+JP #com_b,((tc<>0)&(bx_i<5))
+IF (bx_i<5)
+MG "Y Commutation complete"
+ELSE
+MG "A BX failed to complete"
+MG "attempting BZ command"
+tc=0; BZB=-3
+IF tc=0
+MG "A BZ command complete"
+ELSE
+MG "A BZ command failed"
+MG "check motor and encoder wiring"
+MG "try setting CE 2 or swapping 2 motor leads"
+ENDIF
+ENDIF
+SHB
+EN
+'
+'
+#CMZ1
+MOC
+WT 400
+MG "Z1 Commutation complete"
+SHC
+EN
+'
+'
+#GPXY
+' Get position of all axis
+' Output: 'A B', 1 is moving, 0 is idle
+MG _TPA {Z9.0},_TPB {Z9.0}
+EN
+'
+'
+#IMA
+' Query moving status of all axis?
+' Output 'A B C D', 1 is moving, 0 is idle
+MG VM[0]{Z1.0},VM[1]{Z1.0},VM[2]{Z1.0},VM[3]{Z1.0}
+EN
+'
+'
+#GPA
+' Get position of a single axis
+' Input ~a = axis 0,1,2 or 3
+IF(~a==0)
+MG _TPA {Z9.0}
+ENDIF
+'
+IF(~a==1)
+MG _TPB {Z9.0}
+ENDIF
+'
+IF(~a==2)
+MG _TDC {Z9.0}
+ENDIF
+'
+IF(~a==3)
+MG _TDD {Z9.0}
+ENDIF
+EN
+'
+'
+#MAA
+MG "Absolute A"
+VM[0]=1
+'
+SHA
+PAA=Va
+BGA
+AMA
+MCA
+'
+VM[0]=0
+EN
+'
+#MAB
+MG "Absolute B"
+VM[1]=1
+'
+SHB
+PAB=Vb
+BGB
+AMB
+MCB
+'
+VM[1]=0
+EN
+'
+#MAC
+MG "Absolute C"
+VM[2]=1
+'
+SHC
+PAC=Vc
+BGC
+AMC
+MCC
+'
+VM[2]=0
+EN
+'
+#MAXY
+MG"Absolute XY"
+VM[0]=1
+VM[1]=1
+'
+SHAB
+PA Va,Vb
+BGAB
+AMAB
+MCAB
+WT50
+'
+VM[0]=0
+VM[1]=0
+EN
+'
+'
+#MRA
+MG "Relative A"
+VM[0]=1
+'
+SHA
+PRA=Va
+BGA
+AMA
+MCA
+'
+VM[0]=0
+EN
+'
+#MRB
+MG "Relative B"
+VM[1]=1
+'
+SHB
+PRB=Vb
+BGB
+AMB
+MCB
+'
+VM[1]=0
+EN
+'
+#MRC
+MG "Relative C"
+VM[2]=1
+'
+SHC
+PRC=Vc
+BGC
+AMC
+MCC
+'
+VM[2]=0
+EN
+'
+#MRXY
+MG"Relative XY"
+VM[0]=1
+VM[1]=1
+'
+SHAB
+PR Va,Vb
+BGAB
+AMAB
+MCAB
+WT50
+'
+VM[0]=0
+VM[1]=0
+EN
+'
+'
+#GP
+' Get position of all axis
+MG _TPA {Z9.0},_TPB {Z9.0},_TDC {Z9.0},_TDD {Z9.0}
+EN
+'
+'
+#IM
+' Is a1 axis Moving?
+' Input a1 = axis 0,1,2 or 3
+' Output status of axis a1, 1 is moving, 0 is idle
+MG VM[a1]{Z1.0} 
+EN
+'
+'
+#IMXY
+' Query moving status of axis A and B
+' Output 'A B', 1 is moving, 0 is idle
+MG VM[0]{Z1.0},VM[1]{Z1.0}
+EN
+'
+'
+#SWINGX; 'SWING X
+SHA
+PAA=1450000
+BGA
+AMA
+MCA
+PAA=-1450000
+BGA
+AMA
+MCA
+JP#SWINGX
+EN
+'
+#SWINGY; 'SWING Y
+SHB
+PAB=1450000
+BGB
+AMB
+MCB
+PAB=-1450000
+BGB
+AMB
+MCB
+JP#SWINGY
+EN
+'
+#INI
+JS#SP1
+JS#PID1
+EN
+'
+#INI2
+JS#SP2
+JS#PID2
+EN
+'
+#DEMO
+XQ#SWINGX,1
+XQ#SWINGY,2
+EN

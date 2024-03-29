@@ -1,0 +1,751 @@
+20/05/30 13:33:27   Begin: LP1, 1A27S360, test_04_27_2020
+20/05/30 13:33:44   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/05/30 13:34:09   STOP: On 0.26 hours   Lot 0.69 mins Wafer 0.42  Max 0.0 secs
+20/06/08 15:54:37   Begin: LP1, 1A27S360, test_04_27_2020
+20/06/08 15:54:42   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 15:54:43   WaferID: , SlotNo: 1
+20/06/08 15:54:44   DONE: On 0.03 hours  Lot 0.08 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:44   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 15:54:44   WaferID: , SlotNo: 2
+20/06/08 15:54:45   DONE: On 0.03 hours  Lot 0.10 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:45   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 15:54:45   WaferID: , SlotNo: 3
+20/06/08 15:54:46   DONE: On 0.03 hours  Lot 0.12 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:46   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 15:54:46   WaferID: , SlotNo: 4
+20/06/08 15:54:47   DONE: On 0.03 hours  Lot 0.14 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:47   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 15:54:48   WaferID: , SlotNo: 5
+20/06/08 15:54:48   DONE: On 0.03 hours  Lot 0.16 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:48   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 15:54:49   WaferID: , SlotNo: 6
+20/06/08 15:54:49   DONE: On 0.03 hours  Lot 0.18 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:49   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 15:54:50   WaferID: , SlotNo: 7
+20/06/08 15:54:51   DONE: On 0.03 hours  Lot 0.20 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:51   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 15:54:52   WaferID: , SlotNo: 8
+20/06/08 15:54:52   DONE: On 0.03 hours  Lot 0.23 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:52   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 15:54:53   WaferID: , SlotNo: 9
+20/06/08 15:54:53   DONE: On 0.03 hours  Lot 0.25 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:53   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 15:54:54   WaferID: , SlotNo: 10
+20/06/08 15:54:54   DONE: On 0.03 hours  Lot 0.26 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:54   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 15:54:55   WaferID: , SlotNo: 16
+20/06/08 15:54:55   DONE: On 0.03 hours  Lot 0.28 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:56   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 15:54:56   WaferID: , SlotNo: 17
+20/06/08 15:54:57   DONE: On 0.03 hours  Lot 0.30 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:57   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 15:54:57   WaferID: , SlotNo: 18
+20/06/08 15:54:58   DONE: On 0.03 hours  Lot 0.32 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:58   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 15:54:58   WaferID: , SlotNo: 19
+20/06/08 15:54:59   DONE: On 0.03 hours  Lot 0.34 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:54:59   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 15:54:59   WaferID: , SlotNo: 20
+20/06/08 15:55:00   DONE: On 0.03 hours  Lot 0.35 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:55:00   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 15:55:01   WaferID: , SlotNo: 21
+20/06/08 15:55:01   DONE: On 0.03 hours  Lot 0.37 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:55:01   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 15:55:02   WaferID: , SlotNo: 22
+20/06/08 15:55:02   DONE: On 0.03 hours  Lot 0.39 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:55:02   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 15:55:03   WaferID: , SlotNo: 23
+20/06/08 15:55:03   DONE: On 0.04 hours  Lot 0.41 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:55:03   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 15:55:04   WaferID: , SlotNo: 24
+20/06/08 15:55:04   DONE: On 0.04 hours  Lot 0.43 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:55:04   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 15:55:05   WaferID: , SlotNo: 25
+20/06/08 15:55:05   DONE: On 0.04 hours  Lot 0.45 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 15:55:08   COMPLETE: On 0.04 hours  Lot 0.48 mins  Max 0.0 secs
+20/06/08 15:55:53   Begin: LP1, 1A27S360, SC BUMP TEST
+20/06/08 15:55:55   PROCESSING: LP1, S1, 1A27S360, SC BUMP TEST
+20/06/08 15:55:56   WaferID: , SlotNo: 1
+20/06/08 15:55:57   DONE: On 0.05 hours  Lot 0.07 mins Wafer 0.03 mins   Max 0.0 secs
+20/06/08 15:55:57   STOP: On 0.05 hours   Lot 0.07 mins Wafer 0.03  Max 0.0 secs
+20/06/08 16:34:04   Begin: LP1, 1A27S360, BARE1
+20/06/08 16:34:07   PROCESSING: LP1, S1, 1A27S360, BARE1
+20/06/08 16:34:08   STOP: On 0.01 hours   Lot 0.05 mins Wafer 0.01  Max 0.0 secs
+20/06/08 18:38:59   Begin: LP1, 1A27S360, test_04_27_2020
+20/06/08 18:39:02   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:39:02   WaferID: , SlotNo: 1
+20/06/08 18:39:03   DONE: On 0.07 hours  Lot 0.07 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:03   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:39:04   WaferID: , SlotNo: 2
+20/06/08 18:39:04   DONE: On 0.07 hours  Lot 0.09 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:04   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:39:05   WaferID: , SlotNo: 3
+20/06/08 18:39:06   DONE: On 0.07 hours  Lot 0.11 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:06   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:39:06   WaferID: , SlotNo: 4
+20/06/08 18:39:07   DONE: On 0.07 hours  Lot 0.13 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:07   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:39:08   WaferID: , SlotNo: 5
+20/06/08 18:39:08   DONE: On 0.07 hours  Lot 0.15 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:08   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:39:09   WaferID: , SlotNo: 6
+20/06/08 18:39:09   DONE: On 0.07 hours  Lot 0.17 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:09   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:39:10   WaferID: , SlotNo: 7
+20/06/08 18:39:11   DONE: On 0.07 hours  Lot 0.19 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:11   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:39:11   WaferID: , SlotNo: 8
+20/06/08 18:39:12   DONE: On 0.07 hours  Lot 0.22 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:12   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:39:13   WaferID: , SlotNo: 9
+20/06/08 18:39:13   DONE: On 0.07 hours  Lot 0.24 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:13   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:39:14   WaferID: , SlotNo: 10
+20/06/08 18:39:15   DONE: On 0.07 hours  Lot 0.26 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:15   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:39:15   WaferID: , SlotNo: 16
+20/06/08 18:39:16   DONE: On 0.07 hours  Lot 0.28 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:16   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:39:16   WaferID: , SlotNo: 17
+20/06/08 18:39:17   DONE: On 0.07 hours  Lot 0.30 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:17   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:39:18   WaferID: , SlotNo: 18
+20/06/08 18:39:18   DONE: On 0.07 hours  Lot 0.32 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:18   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:39:19   WaferID: , SlotNo: 19
+20/06/08 18:39:20   DONE: On 0.07 hours  Lot 0.34 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:20   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:39:20   WaferID: , SlotNo: 20
+20/06/08 18:39:21   DONE: On 0.07 hours  Lot 0.36 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:21   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:39:22   WaferID: , SlotNo: 21
+20/06/08 18:39:22   DONE: On 0.07 hours  Lot 0.38 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:22   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:39:23   WaferID: , SlotNo: 22
+20/06/08 18:39:23   DONE: On 0.07 hours  Lot 0.40 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:23   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:39:24   WaferID: , SlotNo: 23
+20/06/08 18:39:25   DONE: On 0.07 hours  Lot 0.42 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:25   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:39:25   WaferID: , SlotNo: 24
+20/06/08 18:39:26   DONE: On 0.07 hours  Lot 0.45 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:26   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:39:27   WaferID: , SlotNo: 25
+20/06/08 18:39:27   DONE: On 0.07 hours  Lot 0.47 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:30   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:39:30   WaferID: , SlotNo: 1
+20/06/08 18:39:31   DONE: On 0.08 hours  Lot 0.53 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:31   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:39:32   WaferID: , SlotNo: 2
+20/06/08 18:39:32   DONE: On 0.08 hours  Lot 0.55 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:32   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:39:33   WaferID: , SlotNo: 3
+20/06/08 18:39:33   DONE: On 0.08 hours  Lot 0.57 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:33   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:39:34   WaferID: , SlotNo: 4
+20/06/08 18:39:35   DONE: On 0.08 hours  Lot 0.59 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:35   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:39:35   WaferID: , SlotNo: 5
+20/06/08 18:39:36   DONE: On 0.08 hours  Lot 0.61 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:36   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:39:37   WaferID: , SlotNo: 6
+20/06/08 18:39:37   DONE: On 0.08 hours  Lot 0.63 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:37   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:39:38   WaferID: , SlotNo: 7
+20/06/08 18:39:38   DONE: On 0.08 hours  Lot 0.65 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:38   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:39:39   WaferID: , SlotNo: 8
+20/06/08 18:39:40   DONE: On 0.08 hours  Lot 0.68 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:40   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:39:40   WaferID: , SlotNo: 9
+20/06/08 18:39:41   DONE: On 0.08 hours  Lot 0.70 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:41   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:39:42   WaferID: , SlotNo: 10
+20/06/08 18:39:42   DONE: On 0.08 hours  Lot 0.72 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:42   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:39:43   WaferID: , SlotNo: 16
+20/06/08 18:39:44   DONE: On 0.08 hours  Lot 0.75 mins Wafer 0.03 mins   Max 0.0 secs
+20/06/08 18:39:44   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:39:45   WaferID: , SlotNo: 17
+20/06/08 18:39:45   DONE: On 0.08 hours  Lot 0.77 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:45   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:39:46   WaferID: , SlotNo: 18
+20/06/08 18:39:47   DONE: On 0.08 hours  Lot 0.79 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:47   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:39:47   WaferID: , SlotNo: 19
+20/06/08 18:39:48   DONE: On 0.08 hours  Lot 0.81 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:48   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:39:48   WaferID: , SlotNo: 20
+20/06/08 18:39:49   DONE: On 0.08 hours  Lot 0.83 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:49   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:39:50   WaferID: , SlotNo: 21
+20/06/08 18:39:50   DONE: On 0.08 hours  Lot 0.85 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:50   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:39:51   WaferID: , SlotNo: 22
+20/06/08 18:39:52   DONE: On 0.08 hours  Lot 0.88 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:52   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:39:52   WaferID: , SlotNo: 23
+20/06/08 18:39:53   DONE: On 0.08 hours  Lot 0.90 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:53   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:39:54   WaferID: , SlotNo: 24
+20/06/08 18:39:54   DONE: On 0.08 hours  Lot 0.92 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:54   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:39:55   WaferID: , SlotNo: 25
+20/06/08 18:39:55   DONE: On 0.08 hours  Lot 0.94 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:58   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:39:59   WaferID: , SlotNo: 1
+20/06/08 18:39:59   DONE: On 0.08 hours  Lot 1.00 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:39:59   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:40:00   WaferID: , SlotNo: 2
+20/06/08 18:40:00   DONE: On 0.08 hours  Lot 1.02 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:00   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:40:01   WaferID: , SlotNo: 3
+20/06/08 18:40:02   DONE: On 0.08 hours  Lot 1.04 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:02   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:40:02   WaferID: , SlotNo: 4
+20/06/08 18:40:03   DONE: On 0.08 hours  Lot 1.06 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:03   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:40:04   WaferID: , SlotNo: 5
+20/06/08 18:40:04   DONE: On 0.08 hours  Lot 1.08 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:04   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:40:05   WaferID: , SlotNo: 6
+20/06/08 18:40:05   DONE: On 0.09 hours  Lot 1.11 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:05   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:40:06   WaferID: , SlotNo: 7
+20/06/08 18:40:07   DONE: On 0.09 hours  Lot 1.13 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:07   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:40:07   WaferID: , SlotNo: 8
+20/06/08 18:40:08   DONE: On 0.09 hours  Lot 1.15 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:08   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:40:09   WaferID: , SlotNo: 9
+20/06/08 18:40:09   DONE: On 0.09 hours  Lot 1.17 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:09   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:40:10   WaferID: , SlotNo: 10
+20/06/08 18:40:11   DONE: On 0.09 hours  Lot 1.19 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:11   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:40:11   WaferID: , SlotNo: 16
+20/06/08 18:40:12   DONE: On 0.09 hours  Lot 1.22 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:12   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:40:13   WaferID: , SlotNo: 17
+20/06/08 18:40:13   DONE: On 0.09 hours  Lot 1.24 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:13   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:40:14   WaferID: , SlotNo: 18
+20/06/08 18:40:15   DONE: On 0.09 hours  Lot 1.26 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:15   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:40:15   WaferID: , SlotNo: 19
+20/06/08 18:40:16   DONE: On 0.09 hours  Lot 1.28 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:16   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:40:17   WaferID: , SlotNo: 20
+20/06/08 18:40:17   DONE: On 0.09 hours  Lot 1.30 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:17   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:40:18   WaferID: , SlotNo: 21
+20/06/08 18:40:18   DONE: On 0.09 hours  Lot 1.32 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:18   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:40:19   WaferID: , SlotNo: 22
+20/06/08 18:40:20   DONE: On 0.09 hours  Lot 1.35 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:20   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:40:21   WaferID: , SlotNo: 23
+20/06/08 18:40:21   DONE: On 0.09 hours  Lot 1.37 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:21   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:40:22   WaferID: , SlotNo: 24
+20/06/08 18:40:23   DONE: On 0.09 hours  Lot 1.39 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:23   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:40:23   WaferID: , SlotNo: 25
+20/06/08 18:40:24   DONE: On 0.09 hours  Lot 1.41 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:26   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:40:27   WaferID: , SlotNo: 1
+20/06/08 18:40:28   DONE: On 0.09 hours  Lot 1.48 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:28   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:40:28   WaferID: , SlotNo: 2
+20/06/08 18:40:29   DONE: On 0.09 hours  Lot 1.50 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:29   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:40:30   WaferID: , SlotNo: 3
+20/06/08 18:40:30   DONE: On 0.09 hours  Lot 1.52 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:30   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:40:31   WaferID: , SlotNo: 4
+20/06/08 18:40:32   DONE: On 0.09 hours  Lot 1.54 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:32   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:40:32   WaferID: , SlotNo: 5
+20/06/08 18:40:33   DONE: On 0.09 hours  Lot 1.56 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:33   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:40:34   WaferID: , SlotNo: 6
+20/06/08 18:40:34   DONE: On 0.09 hours  Lot 1.59 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:34   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:40:35   WaferID: , SlotNo: 7
+20/06/08 18:40:36   DONE: On 0.09 hours  Lot 1.61 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:36   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:40:36   WaferID: , SlotNo: 8
+20/06/08 18:40:37   DONE: On 0.09 hours  Lot 1.63 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:37   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:40:38   WaferID: , SlotNo: 9
+20/06/08 18:40:38   DONE: On 0.09 hours  Lot 1.65 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:38   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:40:39   WaferID: , SlotNo: 10
+20/06/08 18:40:39   DONE: On 0.09 hours  Lot 1.67 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:40   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:40:40   WaferID: , SlotNo: 16
+20/06/08 18:40:41   DONE: On 0.10 hours  Lot 1.70 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:41   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:40:42   WaferID: , SlotNo: 17
+20/06/08 18:40:42   DONE: On 0.10 hours  Lot 1.72 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:42   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:40:43   WaferID: , SlotNo: 18
+20/06/08 18:40:44   DONE: On 0.10 hours  Lot 1.74 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:44   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:40:44   WaferID: , SlotNo: 19
+20/06/08 18:40:45   DONE: On 0.10 hours  Lot 1.76 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:45   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:40:46   WaferID: , SlotNo: 20
+20/06/08 18:40:46   DONE: On 0.10 hours  Lot 1.79 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:46   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:40:47   WaferID: , SlotNo: 21
+20/06/08 18:40:48   DONE: On 0.10 hours  Lot 1.81 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:48   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:40:48   WaferID: , SlotNo: 22
+20/06/08 18:40:49   DONE: On 0.10 hours  Lot 1.83 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:49   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:40:50   WaferID: , SlotNo: 23
+20/06/08 18:40:50   DONE: On 0.10 hours  Lot 1.85 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:50   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:40:51   WaferID: , SlotNo: 24
+20/06/08 18:40:51   DONE: On 0.10 hours  Lot 1.87 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:51   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:40:52   WaferID: , SlotNo: 25
+20/06/08 18:40:53   DONE: On 0.10 hours  Lot 1.89 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:55   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:40:56   WaferID: , SlotNo: 1
+20/06/08 18:40:57   DONE: On 0.10 hours  Lot 1.96 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:57   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:40:57   WaferID: , SlotNo: 2
+20/06/08 18:40:58   DONE: On 0.10 hours  Lot 1.98 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:58   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:40:58   WaferID: , SlotNo: 3
+20/06/08 18:40:59   DONE: On 0.10 hours  Lot 2.00 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:40:59   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:41:00   WaferID: , SlotNo: 4
+20/06/08 18:41:01   DONE: On 0.10 hours  Lot 2.02 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:01   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:41:01   WaferID: , SlotNo: 5
+20/06/08 18:41:02   DONE: On 0.10 hours  Lot 2.04 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:02   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:41:02   WaferID: , SlotNo: 6
+20/06/08 18:41:03   DONE: On 0.10 hours  Lot 2.07 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:03   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:41:04   WaferID: , SlotNo: 7
+20/06/08 18:41:04   DONE: On 0.10 hours  Lot 2.09 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:04   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:41:05   WaferID: , SlotNo: 8
+20/06/08 18:41:06   DONE: On 0.10 hours  Lot 2.11 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:06   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:41:06   WaferID: , SlotNo: 9
+20/06/08 18:41:07   DONE: On 0.10 hours  Lot 2.13 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:07   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:41:08   WaferID: , SlotNo: 10
+20/06/08 18:41:08   DONE: On 0.10 hours  Lot 2.15 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:08   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:41:09   WaferID: , SlotNo: 16
+20/06/08 18:41:10   DONE: On 0.10 hours  Lot 2.17 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:10   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:41:10   WaferID: , SlotNo: 17
+20/06/08 18:41:11   DONE: On 0.10 hours  Lot 2.20 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:11   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:41:12   WaferID: , SlotNo: 18
+20/06/08 18:41:12   DONE: On 0.10 hours  Lot 2.22 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:13   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:41:13   WaferID: , SlotNo: 19
+20/06/08 18:41:14   DONE: On 0.10 hours  Lot 2.25 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:14   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:41:15   WaferID: , SlotNo: 20
+20/06/08 18:41:15   DONE: On 0.10 hours  Lot 2.27 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:15   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:41:16   WaferID: , SlotNo: 21
+20/06/08 18:41:17   DONE: On 0.11 hours  Lot 2.29 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:17   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:41:17   WaferID: , SlotNo: 22
+20/06/08 18:41:18   DONE: On 0.11 hours  Lot 2.31 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:18   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:41:19   WaferID: , SlotNo: 23
+20/06/08 18:41:19   DONE: On 0.11 hours  Lot 2.34 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:19   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:41:20   WaferID: , SlotNo: 24
+20/06/08 18:41:21   DONE: On 0.11 hours  Lot 2.36 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:21   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:41:21   WaferID: , SlotNo: 25
+20/06/08 18:41:22   DONE: On 0.11 hours  Lot 2.38 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:25   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:41:25   WaferID: , SlotNo: 1
+20/06/08 18:41:26   DONE: On 0.11 hours  Lot 2.45 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:26   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:41:27   WaferID: , SlotNo: 2
+20/06/08 18:41:27   DONE: On 0.11 hours  Lot 2.47 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:27   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:41:28   WaferID: , SlotNo: 3
+20/06/08 18:41:29   DONE: On 0.11 hours  Lot 2.49 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:29   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:41:29   WaferID: , SlotNo: 4
+20/06/08 18:41:30   DONE: On 0.11 hours  Lot 2.52 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:30   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:41:31   WaferID: , SlotNo: 5
+20/06/08 18:41:31   DONE: On 0.11 hours  Lot 2.54 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:31   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:41:32   WaferID: , SlotNo: 6
+20/06/08 18:41:33   DONE: On 0.11 hours  Lot 2.56 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:33   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:41:33   WaferID: , SlotNo: 7
+20/06/08 18:41:34   DONE: On 0.11 hours  Lot 2.58 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:34   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:41:35   WaferID: , SlotNo: 8
+20/06/08 18:41:35   DONE: On 0.11 hours  Lot 2.60 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:35   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:41:36   WaferID: , SlotNo: 9
+20/06/08 18:41:37   DONE: On 0.11 hours  Lot 2.63 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:37   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:41:37   WaferID: , SlotNo: 10
+20/06/08 18:41:38   DONE: On 0.11 hours  Lot 2.65 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:38   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:41:39   WaferID: , SlotNo: 16
+20/06/08 18:41:39   DONE: On 0.11 hours  Lot 2.67 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:39   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:41:40   WaferID: , SlotNo: 17
+20/06/08 18:41:41   DONE: On 0.11 hours  Lot 2.70 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:41   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:41:42   WaferID: , SlotNo: 18
+20/06/08 18:41:43   DONE: On 0.11 hours  Lot 2.72 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:43   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:41:43   WaferID: , SlotNo: 19
+20/06/08 18:41:44   DONE: On 0.11 hours  Lot 2.75 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:44   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:41:45   WaferID: , SlotNo: 20
+20/06/08 18:41:45   DONE: On 0.11 hours  Lot 2.77 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:45   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:41:46   WaferID: , SlotNo: 21
+20/06/08 18:41:47   DONE: On 0.11 hours  Lot 2.79 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:47   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:41:47   WaferID: , SlotNo: 22
+20/06/08 18:41:48   DONE: On 0.11 hours  Lot 2.81 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:48   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:41:49   WaferID: , SlotNo: 23
+20/06/08 18:41:49   DONE: On 0.11 hours  Lot 2.84 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:49   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:41:50   WaferID: , SlotNo: 24
+20/06/08 18:41:51   DONE: On 0.11 hours  Lot 2.86 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:51   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:41:51   WaferID: , SlotNo: 25
+20/06/08 18:41:52   DONE: On 0.11 hours  Lot 2.88 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:54   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:41:55   WaferID: , SlotNo: 1
+20/06/08 18:41:56   DONE: On 0.12 hours  Lot 2.95 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:56   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:41:57   WaferID: , SlotNo: 2
+20/06/08 18:41:57   DONE: On 0.12 hours  Lot 2.97 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:57   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:41:58   WaferID: , SlotNo: 3
+20/06/08 18:41:59   DONE: On 0.12 hours  Lot 2.99 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:41:59   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:41:59   WaferID: , SlotNo: 4
+20/06/08 18:42:00   DONE: On 0.12 hours  Lot 3.02 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:00   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:42:01   WaferID: , SlotNo: 5
+20/06/08 18:42:01   DONE: On 0.12 hours  Lot 3.04 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:01   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:42:02   WaferID: , SlotNo: 6
+20/06/08 18:42:03   DONE: On 0.12 hours  Lot 3.06 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:03   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:42:03   WaferID: , SlotNo: 7
+20/06/08 18:42:04   DONE: On 0.12 hours  Lot 3.08 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:04   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:42:05   WaferID: , SlotNo: 8
+20/06/08 18:42:05   DONE: On 0.12 hours  Lot 3.11 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:06   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:42:06   WaferID: , SlotNo: 9
+20/06/08 18:42:07   DONE: On 0.12 hours  Lot 3.13 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:07   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:42:08   WaferID: , SlotNo: 10
+20/06/08 18:42:08   DONE: On 0.12 hours  Lot 3.15 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:08   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:42:09   WaferID: , SlotNo: 16
+20/06/08 18:42:10   DONE: On 0.12 hours  Lot 3.18 mins Wafer 0.03 mins   Max 0.0 secs
+20/06/08 18:42:10   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:42:10   WaferID: , SlotNo: 17
+20/06/08 18:42:11   DONE: On 0.12 hours  Lot 3.20 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:11   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:42:12   WaferID: , SlotNo: 18
+20/06/08 18:42:13   DONE: On 0.12 hours  Lot 3.22 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:13   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:42:13   WaferID: , SlotNo: 19
+20/06/08 18:42:14   DONE: On 0.12 hours  Lot 3.25 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:14   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:42:15   WaferID: , SlotNo: 20
+20/06/08 18:42:15   DONE: On 0.12 hours  Lot 3.27 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:15   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:42:16   WaferID: , SlotNo: 21
+20/06/08 18:42:17   DONE: On 0.12 hours  Lot 3.29 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:17   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:42:17   WaferID: , SlotNo: 22
+20/06/08 18:42:18   DONE: On 0.12 hours  Lot 3.32 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:18   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:42:19   WaferID: , SlotNo: 23
+20/06/08 18:42:19   DONE: On 0.12 hours  Lot 3.34 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:19   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:42:20   WaferID: , SlotNo: 24
+20/06/08 18:42:21   DONE: On 0.12 hours  Lot 3.36 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:21   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:42:21   WaferID: , SlotNo: 25
+20/06/08 18:42:22   DONE: On 0.12 hours  Lot 3.38 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:25   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:42:25   WaferID: , SlotNo: 1
+20/06/08 18:42:26   DONE: On 0.12 hours  Lot 3.45 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:26   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:42:27   WaferID: , SlotNo: 2
+20/06/08 18:42:27   DONE: On 0.12 hours  Lot 3.47 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:27   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:42:28   WaferID: , SlotNo: 3
+20/06/08 18:42:29   DONE: On 0.13 hours  Lot 3.49 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:29   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:42:29   WaferID: , SlotNo: 4
+20/06/08 18:42:30   DONE: On 0.13 hours  Lot 3.52 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:30   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:42:31   WaferID: , SlotNo: 5
+20/06/08 18:42:31   DONE: On 0.13 hours  Lot 3.54 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:31   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:42:32   WaferID: , SlotNo: 6
+20/06/08 18:42:33   DONE: On 0.13 hours  Lot 3.56 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:33   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:42:33   WaferID: , SlotNo: 7
+20/06/08 18:42:34   DONE: On 0.13 hours  Lot 3.58 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:34   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:42:35   WaferID: , SlotNo: 8
+20/06/08 18:42:35   DONE: On 0.13 hours  Lot 3.61 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:35   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:42:36   WaferID: , SlotNo: 9
+20/06/08 18:42:37   DONE: On 0.13 hours  Lot 3.63 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:37   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:42:38   WaferID: , SlotNo: 10
+20/06/08 18:42:38   DONE: On 0.13 hours  Lot 3.65 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:38   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:42:39   WaferID: , SlotNo: 16
+20/06/08 18:42:40   DONE: On 0.13 hours  Lot 3.68 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:40   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:42:41   WaferID: , SlotNo: 17
+20/06/08 18:42:41   DONE: On 0.13 hours  Lot 3.71 mins Wafer 0.03 mins   Max 0.0 secs
+20/06/08 18:42:41   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:42:42   WaferID: , SlotNo: 18
+20/06/08 18:42:43   DONE: On 0.13 hours  Lot 3.73 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:43   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:42:43   WaferID: , SlotNo: 19
+20/06/08 18:42:44   DONE: On 0.13 hours  Lot 3.75 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:44   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:42:45   WaferID: , SlotNo: 20
+20/06/08 18:42:45   DONE: On 0.13 hours  Lot 3.77 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:45   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:42:46   WaferID: , SlotNo: 21
+20/06/08 18:42:47   DONE: On 0.13 hours  Lot 3.79 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:47   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:42:47   WaferID: , SlotNo: 22
+20/06/08 18:42:48   DONE: On 0.13 hours  Lot 3.82 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:48   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:42:49   WaferID: , SlotNo: 23
+20/06/08 18:42:49   DONE: On 0.13 hours  Lot 3.84 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:49   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:42:50   WaferID: , SlotNo: 24
+20/06/08 18:42:51   DONE: On 0.13 hours  Lot 3.86 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:51   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:42:51   WaferID: , SlotNo: 25
+20/06/08 18:42:52   DONE: On 0.13 hours  Lot 3.88 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:55   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:42:55   WaferID: , SlotNo: 1
+20/06/08 18:42:56   DONE: On 0.13 hours  Lot 3.95 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:56   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:42:57   WaferID: , SlotNo: 2
+20/06/08 18:42:57   DONE: On 0.13 hours  Lot 3.97 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:57   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:42:58   WaferID: , SlotNo: 3
+20/06/08 18:42:59   DONE: On 0.13 hours  Lot 3.99 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:42:59   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:42:59   WaferID: , SlotNo: 4
+20/06/08 18:43:00   DONE: On 0.13 hours  Lot 4.01 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:00   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:43:01   WaferID: , SlotNo: 5
+20/06/08 18:43:01   DONE: On 0.13 hours  Lot 4.04 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:01   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:43:02   WaferID: , SlotNo: 6
+20/06/08 18:43:03   DONE: On 0.13 hours  Lot 4.06 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:03   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:43:03   WaferID: , SlotNo: 7
+20/06/08 18:43:04   DONE: On 0.13 hours  Lot 4.08 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:04   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:43:05   WaferID: , SlotNo: 8
+20/06/08 18:43:05   DONE: On 0.14 hours  Lot 4.10 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:05   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:43:06   WaferID: , SlotNo: 9
+20/06/08 18:43:07   DONE: On 0.14 hours  Lot 4.13 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:07   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:43:08   WaferID: , SlotNo: 10
+20/06/08 18:43:08   DONE: On 0.14 hours  Lot 4.15 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:08   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:43:09   WaferID: , SlotNo: 16
+20/06/08 18:43:09   DONE: On 0.14 hours  Lot 4.17 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:09   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:43:10   WaferID: , SlotNo: 17
+20/06/08 18:43:11   DONE: On 0.14 hours  Lot 4.20 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:11   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:43:12   WaferID: , SlotNo: 18
+20/06/08 18:43:12   DONE: On 0.14 hours  Lot 4.22 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:12   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:43:13   WaferID: , SlotNo: 19
+20/06/08 18:43:14   DONE: On 0.14 hours  Lot 4.24 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:14   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:43:14   WaferID: , SlotNo: 20
+20/06/08 18:43:15   DONE: On 0.14 hours  Lot 4.26 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:15   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:43:16   WaferID: , SlotNo: 21
+20/06/08 18:43:16   DONE: On 0.14 hours  Lot 4.28 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:16   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:43:17   WaferID: , SlotNo: 22
+20/06/08 18:43:17   DONE: On 0.14 hours  Lot 4.30 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:17   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:43:18   WaferID: , SlotNo: 23
+20/06/08 18:43:19   DONE: On 0.14 hours  Lot 4.33 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:19   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:43:19   WaferID: , SlotNo: 24
+20/06/08 18:43:20   DONE: On 0.14 hours  Lot 4.35 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:20   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:43:21   WaferID: , SlotNo: 25
+20/06/08 18:43:21   DONE: On 0.14 hours  Lot 4.37 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:24   PROCESSING: LP1, S1, 1A27S360, test_04_27_2020
+20/06/08 18:43:25   WaferID: , SlotNo: 1
+20/06/08 18:43:25   DONE: On 0.14 hours  Lot 4.43 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:25   PROCESSING: LP1, S2, 1A27S360, test_04_27_2020
+20/06/08 18:43:26   WaferID: , SlotNo: 2
+20/06/08 18:43:26   DONE: On 0.14 hours  Lot 4.46 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:26   PROCESSING: LP1, S3, 1A27S360, test_04_27_2020
+20/06/08 18:43:27   WaferID: , SlotNo: 3
+20/06/08 18:43:28   DONE: On 0.14 hours  Lot 4.48 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:28   PROCESSING: LP1, S4, 1A27S360, test_04_27_2020
+20/06/08 18:43:29   WaferID: , SlotNo: 4
+20/06/08 18:43:29   DONE: On 0.14 hours  Lot 4.50 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:29   PROCESSING: LP1, S5, 1A27S360, test_04_27_2020
+20/06/08 18:43:30   WaferID: , SlotNo: 5
+20/06/08 18:43:30   DONE: On 0.14 hours  Lot 4.52 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:30   PROCESSING: LP1, S6, 1A27S360, test_04_27_2020
+20/06/08 18:43:31   WaferID: , SlotNo: 6
+20/06/08 18:43:32   DONE: On 0.14 hours  Lot 4.54 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:32   PROCESSING: LP1, S7, 1A27S360, test_04_27_2020
+20/06/08 18:43:32   WaferID: , SlotNo: 7
+20/06/08 18:43:33   DONE: On 0.14 hours  Lot 4.57 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:33   PROCESSING: LP1, S8, 1A27S360, test_04_27_2020
+20/06/08 18:43:34   WaferID: , SlotNo: 8
+20/06/08 18:43:34   DONE: On 0.14 hours  Lot 4.59 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:34   PROCESSING: LP1, S9, 1A27S360, test_04_27_2020
+20/06/08 18:43:35   WaferID: , SlotNo: 9
+20/06/08 18:43:36   DONE: On 0.14 hours  Lot 4.61 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:36   PROCESSING: LP1, S10, 1A27S360, test_04_27_2020
+20/06/08 18:43:36   WaferID: , SlotNo: 10
+20/06/08 18:43:37   DONE: On 0.14 hours  Lot 4.63 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:37   PROCESSING: LP1, S16, 1A27S360, test_04_27_2020
+20/06/08 18:43:38   WaferID: , SlotNo: 16
+20/06/08 18:43:38   DONE: On 0.14 hours  Lot 4.65 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:38   PROCESSING: LP1, S17, 1A27S360, test_04_27_2020
+20/06/08 18:43:39   WaferID: , SlotNo: 17
+20/06/08 18:43:40   DONE: On 0.14 hours  Lot 4.67 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:40   PROCESSING: LP1, S18, 1A27S360, test_04_27_2020
+20/06/08 18:43:40   WaferID: , SlotNo: 18
+20/06/08 18:43:41   DONE: On 0.15 hours  Lot 4.70 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:41   PROCESSING: LP1, S19, 1A27S360, test_04_27_2020
+20/06/08 18:43:42   WaferID: , SlotNo: 19
+20/06/08 18:43:42   DONE: On 0.15 hours  Lot 4.72 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:42   PROCESSING: LP1, S20, 1A27S360, test_04_27_2020
+20/06/08 18:43:43   WaferID: , SlotNo: 20
+20/06/08 18:43:44   DONE: On 0.15 hours  Lot 4.74 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:44   PROCESSING: LP1, S21, 1A27S360, test_04_27_2020
+20/06/08 18:43:44   WaferID: , SlotNo: 21
+20/06/08 18:43:45   DONE: On 0.15 hours  Lot 4.76 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:45   PROCESSING: LP1, S22, 1A27S360, test_04_27_2020
+20/06/08 18:43:45   WaferID: , SlotNo: 22
+20/06/08 18:43:46   DONE: On 0.15 hours  Lot 4.78 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:46   PROCESSING: LP1, S23, 1A27S360, test_04_27_2020
+20/06/08 18:43:47   WaferID: , SlotNo: 23
+20/06/08 18:43:47   DONE: On 0.15 hours  Lot 4.81 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:48   PROCESSING: LP1, S24, 1A27S360, test_04_27_2020
+20/06/08 18:43:48   WaferID: , SlotNo: 24
+20/06/08 18:43:49   DONE: On 0.15 hours  Lot 4.83 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:49   PROCESSING: LP1, S25, 1A27S360, test_04_27_2020
+20/06/08 18:43:50   WaferID: , SlotNo: 25
+20/06/08 18:43:50   DONE: On 0.15 hours  Lot 4.85 mins Wafer 0.02 mins   Max 0.0 secs
+20/06/08 18:43:52   COMPLETE: On 0.15 hours  Lot 4.89 mins  Max 0.0 secs
+20/08/03 19:45:14   Begin: LP2, 1A27S361, test_04_27_2020
+20/08/03 19:45:14   STOP: On 0.11 hours   Lot 14042.67 mins Wafer 14042.67  Max 0.0 secs
+20/08/03 19:56:30   Begin: LP2, 1A27S361, test_04_27_2020
+20/08/03 19:56:37   PROCESSING: LP2, S1, 1A27S361, test_04_27_2020
+20/08/03 19:56:38   STOP: On 0.02 hours   Lot 0.13 mins Wafer 0.01  Max 0.0 secs
+20/09/15 21:59:51   Begin: LP2, 1A27S361, BARE1
+20/09/15 21:59:52   STOP: On 0.02 hours   Lot 14036.90 mins Wafer 14036.90  Max 0.0 secs
+20/09/16 08:02:30   Begin: LP2, 1A27S361, BARE1
+20/09/16 08:02:30   STOP: On 0.03 hours   Lot 14037.44 mins Wafer 14037.44  Max 0.0 secs
+20/09/16 08:20:45   Begin: LP2, 1A27S361, BARE1
+20/09/16 08:20:45   STOP: On 0.04 hours   Lot 14038.00 mins Wafer 14038.00  Max 0.0 secs
+20/09/16 09:18:20   Begin: LP2, 1A27S361, BARE1
+20/09/16 09:18:20   STOP: On 0.02 hours   Lot 14036.89 mins Wafer 14036.89  Max 0.0 secs
+20/10/06 12:54:12   Begin: LP1, 1A27S360, TRIM_REPEATABILITY_VALUE_OFFSET
+20/10/06 12:54:15   PROCESSING: LP1, S19, 1A27S360, TRIM_REPEATABILITY_VALUE_OFFSET
+20/10/06 12:54:15   WaferID: , SlotNo: 19
+20/10/06 13:51:04   Begin: LP1, 1A27S360, TRIM_REPEATABILITY_VALUE_OFFSET
+20/10/06 13:51:06   PROCESSING: LP1, S17, 1A27S360, TRIM_REPEATABILITY_VALUE_OFFSET
+20/10/06 13:51:07   WaferID: , SlotNo: 17
+20/10/06 13:53:08   DONE: On 0.05 hours  Lot 2.07 mins Wafer 2.02 mins   Max 50.9 secs
+20/10/06 13:53:08   STOP: On 0.05 hours   Lot 2.07 mins Wafer 2.02  Max 50.9 secs
+20/10/06 14:07:52   Begin: LP2, 1A27S361, TRIM_REPEATABILITY_VALUE_OFFSET
+20/10/06 14:07:58   PROCESSING: LP2, S17, 1A27S361, TRIM_REPEATABILITY_VALUE_OFFSET
+20/10/06 14:07:59   WaferID: , SlotNo: 17
+20/10/08 10:26:17   Begin: LP2, 1A27S361, STATIC_TOP_BOT_TT_1pt
+20/10/08 10:26:18   STOP: On 0.01 hours   Lot 0.01 mins Wafer 0.01  Max 0.0 secs
+20/10/08 10:30:18   Begin: LP1, 1A27S360, TRIM_REPEATABILITY
+20/10/08 10:30:18   STOP: On 0.08 hours   Lot 0.01 mins Wafer 0.01  Max 0.0 secs
+20/10/08 10:32:27   Begin: LP2, 1A27S361, TRIM_REPEATABILITY_1
+20/10/08 10:32:27   STOP: On 0.03 hours   Lot 0.01 mins Wafer 0.01  Max 0.0 secs
+21/03/24 22:56:41   Begin: LP1, 1A27S360, STATIC_TOP_BOT_TT_1pt
+21/03/24 22:56:42   STOP: On 0.02 hours   Lot 0.01 mins Wafer 0.01  Max 0.0 secs
+21/03/24 23:26:14   Begin: LP2, 1A27S361, STATIC_TOP_BOT_TT_1pt
+21/03/24 23:26:15   STOP: On 0.51 hours   Lot 0.01 mins Wafer 0.01  Max 0.0 secs
+22/05/04 16:58:34   Begin: LP1, 1A27S360, 1ST-TRIM
+22/05/04 16:58:36   PROCESSING: LP1, S9, 1A27S360, 1ST-TRIM
+22/05/04 16:58:36   WaferID: , SlotNo: 9
+22/05/04 16:59:02   DONE: On 0.02 hours  Lot 0.46 mins Wafer 0.43 mins   Max 5.9 secs
+22/05/04 16:59:04   COMPLETE: On 0.02 hours  Lot 0.49 mins  Max 5.9 secs
+22/05/04 17:01:23   Begin: LP1, 1A27S360, DYNAMIC_STAGE_TRIM_W_D_10pts
+22/05/04 17:01:25   PROCESSING: LP1, S8, 1A27S360, DYNAMIC_STAGE_TRIM_W_D_10pts
+22/05/04 17:01:25   WaferID: , SlotNo: 8
+22/05/04 17:03:08   DONE: On 0.05 hours  Lot 1.74 mins Wafer 1.71 mins   Max 7.6 secs
+22/05/04 17:03:10   COMPLETE: On 0.05 hours  Lot 1.78 mins  Max 7.6 secs
+22/05/31 18:49:38   Begin: LP1, 1A27S360, 2.6mm-Trim
+22/05/31 18:49:40   PROCESSING: LP1, S21, 1A27S360, 2.6mm-Trim
+22/05/31 18:49:40   WaferID: , SlotNo: 21
+22/05/31 18:49:40   DONE: On 0.12 hours  Lot 0.03 mins Wafer 0.00 mins   Max 0.0 secs
+22/05/31 18:49:42   COMPLETE: On 0.12 hours  Lot 0.06 mins  Max 0.0 secs
+22/05/31 18:50:29   Begin: LP1, 1A27S360, STATIC_TOP_BOT_TT_1pt
+22/05/31 18:50:31   PROCESSING: LP1, S18, 1A27S360, STATIC_TOP_BOT_TT_1pt
+22/05/31 18:50:31   WaferID: , SlotNo: 18
+22/05/31 18:50:40   DONE: On 0.13 hours  Lot 0.17 mins Wafer 0.14 mins   Max 0.7 secs
+22/05/31 18:50:42   COMPLETE: On 0.13 hours  Lot 0.20 mins  Max 0.7 secs
+22/05/31 18:51:34   Begin: LP1, 1A27S360, STATIC_TOP_BOT_TT_1pt
+22/05/31 18:51:36   PROCESSING: LP1, S18, 1A27S360, STATIC_TOP_BOT_TT_1pt
+22/05/31 18:51:36   WaferID: , SlotNo: 18
+22/05/31 18:51:44   DONE: On 0.15 hours  Lot 0.17 mins Wafer 0.14 mins   Max 0.7 secs
+22/05/31 18:51:46   COMPLETE: On 0.15 hours  Lot 0.20 mins  Max 0.7 secs
+22/05/31 18:52:54   Begin: LP1, 1A27S360, DYNAMIC_TOP_BOT_TT_17pts
+22/05/31 18:52:56   PROCESSING: LP1, S18, 1A27S360, DYNAMIC_TOP_BOT_TT_17pts
+22/05/31 18:52:56   WaferID: , SlotNo: 18
+22/05/31 18:53:09   DONE: On 0.18 hours  Lot 0.25 mins Wafer 0.22 mins   Max 0.5 secs
+22/05/31 18:53:09   PROCESSING: LP1, S20, 1A27S360, DYNAMIC_TOP_BOT_TT_17pts
+22/05/31 18:53:09   WaferID: , SlotNo: 20
+22/05/31 18:53:23   DONE: On 0.18 hours  Lot 0.48 mins Wafer 0.23 mins   Max 0.6 secs
+22/05/31 18:53:25   COMPLETE: On 0.18 hours  Lot 0.51 mins  Max 0.6 secs
+22/06/15 17:55:19   Begin: LP1, 1A27S360, 2.6mm-Trim_thin_bevel
+22/06/15 17:55:20   PROCESSING: LP1, S9, 1A27S360, 2.6mm-Trim_thin_bevel
+22/06/15 17:55:20   WaferID: , SlotNo: 9
+22/06/15 17:55:51   DONE: On 0.02 hours  Lot 0.54 mins Wafer 0.51 mins   Max 7.2 secs
+22/06/15 17:55:53   COMPLETE: On 0.02 hours  Lot 0.57 mins  Max 7.2 secs
+22/06/15 17:57:41   Begin: LP1, 1A27S360, 2.6mm-Trim_thin_bevel
+22/06/15 17:57:43   PROCESSING: LP1, S8, 1A27S360, 2.6mm-Trim_thin_bevel
+22/06/15 17:57:43   WaferID: , SlotNo: 8
+22/06/15 17:58:03   COMPLETE: On 0.01 hours  Lot 0.36 mins  Max 7.0 secs

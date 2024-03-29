@@ -1,0 +1,1046 @@
+#AUTO
+MO
+ver=1.1; ' VERSION NUMBER THAT APP CAN READ
+WT 1000
+TM 500
+MT 1,1,2,2
+AG 2,2
+AU 2,2
+TL 9.9,9.9
+TK 0,0
+CE 0,0
+LC ,,1,1
+FLA=1510000; ' FORWARD SOFTWARE LIMITS
+FLB=1510000;
+BLA=-1510000; 'REVERSE SOFTWARE LIMITS
+BLB=-1510000;
+LD 0,0,0,0;   'USE TEMPORARY
+' OLD NOT SMOOTH KS ,,32,32
+KS ,,64,64
+YA ,,16,16
+YB ,,200,200
+FV 0,0
+FA 0,0
+IL 10,10
+PL 0,0
+IT 1,1
+CN 1,1,-1,0,0
+'BO 0.412,0.2593; ' Amplifier offset
+VF 8.0
+'
+JS #X1
+JS #Y1
+'
+cont=1; ' 0=will not perform settling test
+Res=5; ' End point precision
+RetX=0; ' Return status, 0=fail, 1=OK
+RetY=0; ' Return status, 0=fail, 1=OK
+RetZ1=0; ' Return status, 0=fail, 1=OK
+RetZ2=0; ' Return status, 0=fail, 1=OK
+RetXY=0; ' Return status, 0=fail, 1=OK
+ResetX=0; ' Reset flag, 0=Reset needed
+ResetY=0; ' Reset flag, 0=Reset needed
+ResetZ1=0; ' Reset flag, 0=Reset needed
+ResetZ2=0; ' Reset flag, 0=Reset needed
+PosX=0;
+ErrX=0;
+PosY=0;
+ErrY=0;
+PosZ1=0;
+ErrZ1=0;
+PosZ2=0;
+ErrZ2=0;
+RetXYZ=0;
+wait=1000
+step=10000
+center=0
+HomeX=0
+HomeY=0
+ZHTDD=0;
+Z2HTDD=0;
+StepSize=50
+TOut=1000
+Vct=0
+Rtn=9
+
+v1=1
+' 1 if backlash correction is needed
+bl=1
+' 1 for high precision, bigger value for lower precision
+bl1=20
+sfx=6.103730293
+isfx=0.163714315
+sfy=6.100934433
+isfy=0.163838607
+'
+DM VM[4]
+VM[0]=0
+VM[1]=0
+VM[2]=0
+VM[3]=0
+'
+JS #ZPARAM
+'
+JS #VCT
+'
+JS #CMX
+MG " "
+JS #CMY
+'
+WT500
+'
+'XQ #RSX,2
+'XQ #RSY,3
+'XQ #RSZ1,4
+'XQ #RSZ2,5
+'
+MG "AUTO DONE"
+EN
+'
+#AMPER
+MG "Amplifier error"
+EN
+'
+#POSER
+MG "Position ERROR"
+EN
+'
+#CMS
+MO~a
+WT 1000
+#tva1;JP #tva1,_TV~a>500
+BA~a; 'Set Sinusoidal operation
+BM~a= 900000; 'Define length of magnetic cycle in encoder count
+BX <2000
+bx_i= 0
+#com_a
+tc=0
+MO~a
+#tva;JP #tva,_TV~a>500
+BX~a= -3
+#loopa;JP #loopa,((_BX~a<>3)&(tc=0))
+JP #com_a,((tc<>0)&(bx_i<5))
+IF (bx_i<5)
+MG ~a," Commutation complete"
+ELSE
+MG ~a," BX failed to complete"
+MG "Attempting BZ command"
+tc= 0;BZ~a = -3
+IF tc=0
+MG ~a," BZ command complete"
+ELSE
+MG ~a," BZ command failed"
+MG "Check motor and encoder wiring"
+MG "Try CE 2 or swapping 2 motor leads"
+ENDIF
+ENDIF
+WT 1000
+SH~a
+EN
+'
+'
+#CMX
+~a=4
+JP#CMS
+EN
+'
+#CMY
+~a=5
+JP#CMS
+EN
+'
+'
+#RSX
+RetX=0
+BLA=-36000000
+FLA=36000000
+JS#X2
+SHA
+DPA=0
+IF (_LFA = 0)
+DPA=0
+SPA=700000
+PRA=-280000
+BGA
+AMA
+ENDIF
+LD0
+SPA=200000
+PRA=3500000
+BGA
+AMA
+LD0
+WT500
+PRA=-150000
+BGA
+AMA
+WT500
+SPA=25000
+PRA=600000
+BGA
+AMA
+WT500
+SPA= 500000
+PRA= -380000
+BGA
+AMA
+WT500
+JGA= -20000
+HVA= 300
+FIA
+BGA
+AMA
+WT 500
+SPA=700000
+PRA=-1105000+HomeX
+BGA
+AMA
+WT 500
+DPA=0
+FLA=1550000
+BLA=-1550000
+JS#X2
+ResetX=1
+PosX=_TPA
+ErrX=_TEA
+RetX=1
+MG "X-DONE"
+EN
+'
+'
+#RSY
+RetY=0
+BLB=-36000000
+FLB=36000000
+JS#Y2
+S1=_SPB
+SHB
+DPB=0
+IF (_LFB = 0);' STAGE 0 
+DPB=0
+MG"STAGE0"
+SPB= 200000
+PRB=-300000
+BGB
+AMB
+ENDIF
+'LD,0 ;'???
+'STAGE 1A
+MG"STAGE1A"
+SPB= 200000
+PRB=3500000
+BGB
+AMB
+WT500
+'STAGE 1B
+MG"STAGE1B"
+PRB=-150000
+BGB
+AMB
+WT500
+'STAGE 1C
+MG"STAGE1C"
+SPB=25000
+PRB=500000
+BGB
+AMB
+WT500
+MG"STAGE2"
+SPB=200000
+PRB=-900000
+BGB
+AMB
+WT500
+MG"STAGE3"
+JGB=-100000
+HVB= 300
+FIB
+BGB
+AMB
+WT500
+MG"STAGE4"
+SPB= 800000
+PRB=-600000+HomeY
+BGB
+AMB
+WT 200
+DPB=0
+FLB=1550000
+BLB=-1550000
+SPB=S1
+ResetY=1
+PosY=_TPB
+ErrY=_TEB
+RetY=1
+MG "Y-DONE"
+EN
+'
+#K
+SPC=Z1Spd
+JS
+SHC
+IF (_LFC = 0)
+PRC=-50000
+BGC
+AMC
+ENDIF
+PRC=1000000
+BGC
+AMC
+WT500
+MG"DONE"
+EN
+'
+#V
+SPD=Z2Spd
+JS
+SHD
+IF (_LFD = 0)
+PRD=-50000
+BGD
+AMD
+ENDIF
+PRD=1000000
+BGD
+AMD
+WT500
+MG"DONE"
+EN
+'
+#ZPARAM
+Z1Spd=60000;
+Z2Spd=60000;
+'
+SP Z1Spd,Z2Spd
+AC 3000000,3000000
+DC 3000000,3000000
+EN
+'
+#RSZ1
+VM[2]=1
+RetZ1=0
+ResetZ1=0
+JS#ZPARAM
+SHA
+IF (_LRC = 0)
+'STAGE0
+SPC=Z1Spd
+PRC=20000
+BGC
+AMC
+WT500
+ENDIF
+'STAGE1A
+SPC=Z1Spd
+PRC=-2000000
+BGC
+AMC
+WT500
+DPC=0
+'STAGE1B
+PRC=16000
+BGC
+AMC
+WT500
+'STAGE1C
+SPC=1000
+PRC=-25000
+BGC
+AMC
+WT500
+PRC=500
+BGC
+AMC
+WT500
+IF (_LRC = 0)
+PRC=50
+BGC
+AMC
+WT500
+ENDIF
+IF (_LRC = 0)
+PRC=50
+BGC
+AMC
+WT500
+ENDIF
+IF (_LRC = 0)
+PRC=50
+BGC
+AMC
+WT500
+ENDIF
+DPC=0
+SPC=Z1Spd
+PRC=137664
+BGC
+AMC
+WT500
+VM[2]=0
+ResetZ1=1
+PosZ1=_TDC
+ErrZ1=_TEC
+RetZ1=1
+EN
+'
+#RSZ2
+VM[3]=1
+RetZ2=0
+ResetZ2=0
+JS#ZPARAM
+SHD
+IF (_LRD = 0)
+MG "STAGE0"
+SPD=Z2Spd
+PRD=20000
+BGD
+AMD
+ENDIF
+MG "STAGE1A"
+SPD=Z2Spd
+PRD=-2000000
+BGD
+AMD
+WT500
+DPD=0
+MG "STAGE1B"
+PRD=16000
+BGD
+AMD
+WT500
+MG "STAGE1C"
+SPD=1000
+PRD=-25000
+BGD
+AMD
+WT500
+PRD=500
+BGD
+AMD
+WT500
+IF (_LRD = 0)
+PRD=50
+BGD
+AMD
+ENDIF
+IF (_LRD = 0)
+PRD=50
+BGD
+AMD
+ENDIF
+IF (_LRD = 0)
+PRD=5000
+BGD
+AMD
+ENDIF
+DPD=0
+SPD=Z2Spd
+PRD=242809
+BGD
+AMD
+WT500
+VM[3]=0
+ResetZ2=1
+PosZ2=_TDD
+ErrZ2=_TED
+RetZ2=1
+EN
+'
+#INIT_XY
+#RSXY
+ResetX=0
+ResetY=0
+XQ#RSX,2
+XQ#RSY,3
+#RSXY1
+IF (RetX=0) | (RetY=0)
+WT100
+JP#RSXY1
+ENDIF
+EN
+'
+#RSZALL
+XQ#RSZ1,4
+XQ#RSZ2,5
+#RSZALL1
+IF (RetZ1=0) | (RetZ2=0)
+WT100
+JP#RSZALL1
+ENDIF
+EN
+''
+#CMDERR
+tc=_TC
+TC 1
+IF tc=160
+MG "Retry BX"
+bx_i= bx_i+1
+BX <(bx_i*1000)
+ENDIF
+RE
+EN
+'
+#CPIDX
+IF (@ABS[_TPA-Vx] >= 500000)
+JS#X3
+JP#CPDXE
+ENDIF
+IF (@ABS[_TPA-Vx] >= 400)
+JS#X2
+JP#CPDXE
+ENDIF
+JS#X1
+#CPDXE
+EN
+'
+#CPIDY
+IF @ABS[_TPB-Vy] >= 500000
+JS#Y3
+JP#CPDYE
+ENDIF
+IF @ABS[_TPB-Vy] >= 400
+JS#Y2
+JP#CPDYE
+ENDIF
+JS#Y1
+#CPDYE
+EN
+'
+#CPIDZ
+SPC=1200
+EN
+'
+#MRXYZ1
+RetXY=0
+RetZ1=0
+Vx=_TPA+Vx
+Vy=_TPB+Vy
+Vz1=_TDC+Vz1
+JS#MAXYZ1
+EN
+'
+#MAXYZ1
+' Move X and Y axis at the same time
+' Input Vx, Vy - absolute position of X and Y Axis respectively
+RetXY = 0
+RetZ1 = 0
+IF ResetX<>1
+JS #RSX
+ENDIF
+IF ResetY<>1
+JS #RSY
+ENDIF
+IF ResetZ1<>1
+JS #RSZ1
+ENDIF
+MG "MAXYZ1"
+' Only move if compress air is available
+'IF (@AN[0] == 0); ' Check compress air
+'Choose PID
+JS#CPIDX
+JS#CPIDY
+JS#CPIDZ
+  SHABC
+  PA Vx,Vy,Vz1
+  BGABC
+  MCABC
+  WT50
+  JS #WSY; ' cnx > TOut is time out error
+  JS #WSX; ' cny > TOut is time out error
+  IF (cnx >= TOut) | (cny >= TOut)
+    RetXY = 2
+  ELSE
+    RetXY = 1
+    RetZ1 = 1
+  ENDIF
+MG "AXYZ1",RetXY,RetZ1,Vx-_TPA,Vy-_TPB,Vz1-_TDC
+EN
+'
+#MRXYZ2
+RetXY=0
+RetZ2=0
+Vx=_TPA+Vx
+Vy=_TPB+Vy
+Vz2=_TDD+Vz2
+JS#MAXYZ2
+EN
+'
+'
+#MAXYZ2
+' Move X and Y axis at the same time
+' Input Vx, Vy - absolute position of X and Y Axis respectively
+RetXY = 0
+RetZ2 = 0
+IF ResetX<>1
+JS #RSX
+ENDIF
+IF ResetY<>1
+JS #RSY
+ENDIF
+IF ResetZ2<>1
+JS #RSZ2
+ENDIF
+MG "MAXYZ2"
+' Only move if compress air is available
+'IF (@AN[0] == 0); ' Check compress air
+'Choose PID
+JS#CPIDX
+JS#CPIDY
+  SHABD
+  PA Vx,Vy,,Vz2
+  BGABD
+  MCABD
+  WT50
+  JS #WSY; ' cnx > TOut is time out error
+  JS #WSX; ' cny > TOut is time out error
+  IF (cnx >= TOut) | (cny >= TOut)
+    RetXY = 2
+  ELSE
+    RetXY = 1
+    RetZ2 = 1
+  ENDIF
+MG "AXYZ2",RetXY,RetZ2,Vx-_TPA,Vy-_TPB,Vz2-_TDD
+EN
+'
+'
+#MRXY
+RetXY=0
+Vx=_TPA+Vx
+Vy=_TPB+Vy
+JS#MAXY
+EN
+'
+#MAXY
+' Move X and Y axis at the same time
+' Input Vx, Vy - absolute position of X and Y Axis respectively
+RetXY = 0
+IF ResetX<>1
+JS #RSX
+ENDIF
+IF ResetY<>1
+JS #RSY
+ENDIF
+' Only move if compress air is available
+'IF (@AN[0] == 0); ' Check compress air
+'Choose PID
+JS#CPIDX
+JS#CPIDY
+  SHAB
+  PA Vx,Vy
+  BGAB
+  MCAB
+  WT50
+  JS #WSY; ' cnx > 1000 is time out error
+  JS #WSX; ' cny > 1000 is time out error
+  IF (cnx >= TOut) | (cny >= TOut)
+    RetXY = 2
+  ELSE
+    RetXY = 1
+  ENDIF
+MG "AXY",RetXY,Vx-_TPA,Vy-_TPB,Vz1-_TDC
+EN
+'
+#MRX
+RetX=0
+Vx=_TPA+Vx
+JS#MAX
+EN
+'
+#MRY
+RetY=0
+Vy=_TPB+Vy
+JS#MAY
+EN
+'
+#MAX
+' Move X axis only
+' Input Vx - absolute position of X Axis
+RetX=0
+IF ResetX<>1
+JS#RSX
+ENDIF
+'IF (@AN[0] == 0); ' Check compress air
+JS#CPIDX
+SHA
+PAA=Vx
+BGA
+MCA
+AMA
+JS #WSX
+  IF (cnx >= TOut)
+    RetX=2
+  ELSE
+    WT 50
+    RetX=1
+  ENDIF
+'ENDIF
+' Caller checks returned values for validity
+MG "AX",RetX,Vx-_TPA
+EN
+'
+#MAY
+' Move Y axis only
+' Input Vy - absolute position of Y Axis
+ResY=0
+IF ResetY<>1
+JS#RSY
+ENDIF
+'IF (@AN[0] == 0); ' Check compress air
+JS#CPIDY
+SHB
+PAB=Vy
+BGB
+MCB
+AMB
+JS #WSY
+  IF (cny >= TOut)
+    RetY=2
+  ELSE
+    WT 50
+    RetY=1
+  ENDIF
+'ENDIF
+' Caller checks returned values for validity
+MG "AY",RetY,Vy-_TPB
+EN
+'
+#MAZ1
+' Move Z axis only
+' Input Vz1 - absolute distance to move in Z axis
+RetZ1=0
+IF ResetZ1<>1
+JS #RSZ1
+ENDIF
+SHC
+IF Vz1 < 0
+PAC=Vz1-8
+ELSE
+PAC=Vz1
+ENDIF
+BGC
+AMC
+WT50
+IF Vz1 < 0
+PAC=8
+BGC
+AMC
+WT50
+ENDIF
+RetZ1=1
+EN
+'
+#MRZ
+#MRZ1
+RetZ1=0
+Vzz1=Vz1 ;' backup Vz1
+Vz1=_TDC+Vz1
+JS#MAZ1
+Vz1=Vzz1
+EN
+'
+'
+'
+#MAZ2
+' Move Z axis only
+' Input Vz2 - releative delta move in Z axis
+RetZ2=0
+IF ResetZ2<>1
+JS #RSZ2
+ENDIF
+SHD
+IF Vz2 < 0
+PAD=Vz2-8
+ELSE
+PAD=Vz2
+ENDIF
+BGD
+AMD
+WT50
+IF Vz2 < 0
+PAD=8
+BGD
+AMD
+WT50
+ENDIF
+RetZ2=1
+EN
+'
+#MRZ2
+RetZ2=0
+Vzz2=Vz2 ;' backup Vz2
+Vz2=_TDD+Vz2
+JS#MAZ2
+Vz2=Vzz2
+EN
+'
+#A
+' Speed need to be set
+SHA
+#A1
+Vx=center+step
+JS #MAX
+Vx=center-step
+JS #MAX
+JP#A1
+EN
+'
+#B
+' Speed need to be set
+SHB
+#B1
+Vy=center+step
+JS #MAY
+Vy=center-step
+JS #MAY
+JP#B1
+EN
+'
+#Y3
+MG "Y3"
+ACB=256000
+DCB=256000
+SPB=256000
+KPB=20
+KDB=120
+KIB=0.8
+PLB=0.5
+ITB=1
+FAB=0
+EN
+'
+#X3
+MG "X3"
+ACA=256000
+DCA=256000
+SPA=256000
+KPA=20
+KDA=120
+KIA=0.8
+PLA=0
+ITA=1
+FAA=0
+EN
+'
+#Y2
+MG "Y2"
+ACB=256000
+DCB=256000
+SPB=256000
+KPB=20
+KDB=120
+KIB=0.8
+PLB=0.5
+ITB=1
+FAB=0
+EN
+'
+#X2
+MG "X2"
+ACA=256000
+DCA=256000
+SPA=256000
+KPA=20
+KDA=120
+KIA=0.8
+PLA=0
+ITA=1
+FAA=0
+EN
+'
+#Y1
+MG "Y1"
+ACB=256000
+DCB=256000
+SPB=256000
+KPB=20
+KDB=120
+KIB=0.8
+PLB=0.5
+ITB=1
+FAB=0
+EN
+'
+#X1
+MG "X1"
+ACA=256000
+DCA=256000
+SPA=256000
+KPA=20
+KDA=120
+KIA=0.8
+PLA=0
+ITA=1
+FAA=0
+EN
+'
+#WSX
+' Wait for motion to stop
+' if cnx > 1000 on exit means function failed
+IF (cont=0); ' fast mode, no waiting
+  MG "FASTX"
+  EN
+ENDIF
+cnx = 0
+#WSX1
+IF (cnx >= TOut)
+  MG "XTOUT"
+  EN
+ENDIF
+cnx=cnx+1
+WT 10
+IF(@ABS[Vx-_TPA]>Res)
+  JP#WSX1
+ENDIF
+WT 10
+IF(@ABS[_TEA]>Res)
+  JP#WSX1
+ENDIF
+WT 10
+IF(@ABS[Vx-_TPA]>Res)
+  JP#WSX1
+ENDIF
+EN
+'
+#WSY
+' Wait for motion to stop
+' if cny > 1000 on exit means function failed
+IF (cont=0); ' fast mode, no waiting
+  MG "FASTY"
+  EN
+ENDIF
+cny=0
+#WSY1
+IF (cny > TOut)
+  MG "YTOUT"
+  EN
+ENDIF
+cny=cny+1
+WT 10
+IF(@ABS[Vy-_TPB]>Res)
+  JP#WSY1
+ENDIF
+WT 10
+IF(@ABS[_TEB]>Res)
+  JP#WSY1
+ENDIF
+WT 10
+IF(@ABS[Vy-_TPB]>Res)
+  JP#WSY1
+ENDIF
+EN
+'
+#AA
+SHA
+#AA2
+PAA=step+center
+BGA
+AMA
+WT wait
+PAA=-step+center
+BGA
+AMA
+WT wait
+JP#AA2
+EN
+'
+#BB
+SHB
+#BB2
+PAB=step+center
+BGB
+AMB
+WT wait
+PAB=-step+center
+BGB
+AMB
+WT wait
+JP#BB2
+EN
+'
+#LODPOS
+PosX=_TPA
+PosY=_TPB
+PosZ1=_TDC
+PosZ2=_TDD
+EN
+'
+#VCT
+Vct=0
+CAS
+CSS
+VM CD
+VS 180
+VA 200000
+VD 200000
+val=2
+inc=1
+cnt=0
+#VCT2
+CR val,270,-180
+val=val+inc
+CR val,90,-180
+val=val+inc
+cnt=cnt+1
+IF (cnt < 50)
+JP#VCT2
+ENDIF
+VE
+Vct=1
+EN
+'
+#VCT1
+Vct=0
+CAS
+CSS
+VM CD
+VS 150
+VA 200000
+VD 200000
+val=2
+inc=2
+cnt=0
+#VCT3
+CR val,270,-180
+val=val+inc
+CR val,90,-180
+val=val+inc
+cnt=cnt+1
+IF (cnt < 50)
+JP#VCT3
+ENDIF
+VE
+Vct=1
+EN
+'
+#CRU;'Fast mode
+IF Vct=0
+JS#VCT
+ENDIF
+'JS#VCT1
+BGS
+AMS
+Vct=0
+EN
+'
+#CRU2;'Fine mode
+IF Vct=0
+JS#VCT1
+ENDIF
+'JS#VCT1
+BGS
+AMS
+Vct=0
+EN
+'
+#STS
+MG step,center,wait
+EN
+'
+#ININT
+II 0; 'DISABLE INTTERRUPT
+MG "OPEN"
+AI 4; 'WAIT TILL INTERRUPT CLEAR
+MG "CLOSE"
+II 4; 'RE-ARM INTERRUPT
+RI
+EN

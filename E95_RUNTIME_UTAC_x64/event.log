@@ -1,0 +1,702 @@
+12/02/24 11:45:25   Begin: LP1, 1A27S360, TrimWidth2
+12/02/24 11:46:03   DONE: On 0.02 hours  Lot 0.62 mins Wafer 0.61 mins   Max 0.5 secs
+12/02/24 11:46:03   NEXT: LP1, 1A27S360, TrimWidth2
+12/02/24 11:46:39   DONE: On 0.03 hours  Lot 1.22 mins Wafer 0.60 mins   Max 0.6 secs
+12/02/24 11:46:39   NEXT: LP1, 1A27S360, TrimWidth2
+12/02/24 11:47:15   DONE: On 0.04 hours  Lot 1.82 mins Wafer 0.60 mins   Max 0.6 secs
+12/02/24 11:47:15   COMPLETE: On 0.04 hours  Lot 1.82 mins  Max 0.6 secs
+12/02/24 11:48:19   Begin: LP1, 1A27S360, StepHeight2
+12/02/24 11:48:48   Begin: LP1, 1A27S360, StepHeight2
+12/02/24 11:49:19   Begin: LP1, 1A27S360, StepHeight2
+12/02/24 11:50:06   Begin: LP1, 1A27S360, StepHeight2
+12/02/24 11:51:58   Begin: LP1, 1A27S360, StepHeight2
+12/02/24 11:52:42   DONE: On 0.04 hours  Lot 0.74 mins Wafer 0.72 mins   Max 3.8 secs
+12/02/24 11:52:42   NEXT: LP1, 1A27S360, StepHeight2
+12/02/24 11:53:22   DONE: On 0.06 hours  Lot 1.40 mins Wafer 0.67 mins   Max 3.8 secs
+12/02/24 11:53:22   NEXT: LP1, 1A27S360, StepHeight2
+12/02/24 11:54:07   DONE: On 0.07 hours  Lot 2.14 mins Wafer 0.73 mins   Max 5.5 secs
+12/02/24 11:54:07   COMPLETE: On 0.07 hours  Lot 2.14 mins  Max 5.5 secs
+12/03/18 18:01:56   Begin: LP1, 1A27S360, BARE1
+12/03/18 18:02:10   DONE: On 0.03 hours  Lot 0.22 mins Wafer 0.20 mins   Max 1.2 secs
+12/03/18 18:02:10   COMPLETE: On 0.03 hours  Lot 0.22 mins  Max 1.2 secs
+12/03/18 18:04:55   Begin: LP1, 1A27S360, 1ST-TRIM-2MM
+12/03/18 18:06:25   DONE: On 0.10 hours  Lot 1.50 mins Wafer 1.49 mins   Max 22.9 secs
+12/03/18 18:06:25   COMPLETE: On 0.10 hours  Lot 1.50 mins  Max 22.9 secs
+12/03/21 07:59:45   Begin: LP1, 1A27S360, TMAV53
+12/03/21 08:02:53   DONE: On 0.07 hours  Lot 3.12 mins Wafer 3.11 mins   Max 5.3 secs
+12/03/21 08:02:53   STOP: On 0.07 hours   Lot 3.12  Wafer 3.11  Max 5.3 secs
+12/03/21 08:11:33   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 08:26:11   DONE: On 0.33 hours  Lot 14.62 mins Wafer 14.60 mins   Max 7.3 secs
+12/03/21 08:26:50   COMPLETE: On 0.34 hours  Lot 15.28 mins  Max 39.0 secs
+12/03/21 08:51:49   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 08:51:49   STOP: On 0.76 hours   Lot 14081.22  Wafer 14081.22  Max 0.0 secs
+12/03/21 08:55:26   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 08:58:04   STOP: On 0.86 hours   Lot 14087.47  Wafer 14087.47  Max 0.0 secs
+12/03/21 08:58:56   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 09:29:19   DONE: On 1.38 hours  Lot 26.84 mins Wafer 26.84 mins   Max 7.4 secs
+12/03/21 09:29:19   STOP: On 1.38 hours   Lot 26.84  Wafer 26.84  Max 7.4 secs
+12/03/21 09:31:17   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 09:32:04   DONE: On 0.03 hours  Lot 0.78 mins Wafer 0.77 mins   Max 6.3 secs
+12/03/21 09:32:04   STOP: On 0.03 hours   Lot 0.78  Wafer 0.77  Max 6.3 secs
+12/03/21 09:35:11   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 09:37:19   DONE: On 0.08 hours  Lot 2.13 mins Wafer 2.11 mins   Max 6.6 secs
+12/03/21 09:37:19   STOP: On 0.08 hours   Lot 2.14  Wafer 2.12  Max 6.6 secs
+12/03/21 10:03:54   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:04:10   DONE: On 0.08 hours  Lot 0.25 mins Wafer 0.24 mins   Max 6.0 secs
+12/03/21 10:04:10   STOP: On 0.08 hours   Lot 0.25  Wafer 0.24  Max 6.0 secs
+12/03/21 10:31:12   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:31:40   DONE: On 0.05 hours  Lot 0.45 mins Wafer 0.43 mins   Max 11.1 secs
+12/03/21 10:31:47   STOP: On 0.06 hours   Lot 0.57  Wafer 0.55  Max 11.1 secs
+12/03/21 10:34:11   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:34:32   DONE: On 0.10 hours  Lot 0.35 mins Wafer 0.35 mins   Max 6.1 secs
+12/03/21 10:34:32   STOP: On 0.10 hours   Lot 0.36  Wafer 0.35  Max 6.1 secs
+12/03/21 10:35:53   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:36:36   DONE: On 0.14 hours  Lot 0.71 mins Wafer 0.71 mins   Max 6.4 secs
+12/03/21 10:36:36   STOP: On 0.14 hours   Lot 0.71  Wafer 0.71  Max 6.4 secs
+12/03/21 10:38:23   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:38:55   DONE: On 0.17 hours  Lot 0.52 mins Wafer 0.52 mins   Max 8.0 secs
+12/03/21 10:38:56   STOP: On 0.17 hours   Lot 0.54  Wafer 0.53  Max 8.0 secs
+12/03/21 10:45:57   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:48:56   DONE: On 0.34 hours  Lot 2.98 mins Wafer 2.97 mins   Max 28.6 secs
+12/03/21 10:50:08   STOP: On -238.61 hours   Lot -14334.08  Wafer -14334.08  Max 28.6 secs
+12/03/21 10:57:41   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 10:58:16   DONE: On 0.07 hours  Lot 0.58 mins Wafer 0.57 mins   Max 6.3 secs
+12/03/21 10:58:17   STOP: On 0.07 hours   Lot 0.59  Wafer 0.58  Max 6.3 secs
+12/03/21 11:10:57   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 11:16:37   DONE: On 0.13 hours  Lot 5.65 mins Wafer 5.63 mins   Max 67.8 secs
+12/03/21 11:16:37   STOP: On 0.13 hours   Lot 5.65  Wafer 5.64  Max 67.8 secs
+12/03/21 11:40:58   Begin: LP1, 1A27S360, TMBJ65-1
+12/03/21 11:45:29   DONE: On 0.61 hours  Lot 4.52 mins Wafer 4.52 mins   Max 6.9 secs
+12/03/21 11:45:29   NEXT: LP1, 1A27S360, TMBJ65-1
+12/03/21 11:49:58   DONE: On 0.69 hours  Lot 9.01 mins Wafer 4.48 mins   Max 6.9 secs
+12/03/21 11:49:59   COMPLETE: On 0.69 hours  Lot 9.02 mins  Max 6.9 secs
+12/03/21 11:51:09   Begin: LP1, 1A27S360, TMBJ65-1
+12/03/21 11:51:24   DONE: On 0.71 hours  Lot 0.23 mins Wafer 0.23 mins   Max 5.7 secs
+12/03/21 11:51:24   STOP: On 0.71 hours   Lot 0.24  Wafer 0.23  Max 5.7 secs
+12/03/21 12:22:56   Begin: LP1, 1A27S360, TMBJ65-1
+12/03/21 12:23:55   DONE: On 0.05 hours  Lot 0.99 mins Wafer 0.97 mins   Max 6.2 secs
+12/03/21 12:23:55   STOP: On 0.05 hours   Lot 0.99  Wafer 0.98  Max 6.2 secs
+12/03/21 12:28:57   Begin: LP1, 1A27S360, TMBJ65-1
+12/03/21 12:56:54   Begin: LP1, 1A27S360, TMBJ65-1
+12/03/21 12:57:48   DONE: On 0.04 hours  Lot 0.89 mins Wafer 0.88 mins   Max 12.2 secs
+12/03/21 12:57:48   STOP: On 0.04 hours   Lot 0.90  Wafer 0.88  Max 12.2 secs
+12/03/21 14:24:50   Begin: LP1, 1A27S360, 1ST-TRIM
+12/03/21 14:26:26   DONE: On 0.20 hours  Lot 1.60 mins Wafer 1.59 mins   Max 25.1 secs
+12/03/21 14:28:03   DONE: On 0.22 hours  Lot 1.61 mins Wafer 1.60 mins   Max 25.2 secs
+12/03/21 14:28:03   COMPLETE: On 0.22 hours  Lot 1.61 mins  Max 25.2 secs
+12/03/21 14:34:21   Begin: LP1, 1A27S360, HNA
+12/03/21 14:34:34   DONE: On 0.33 hours  Lot 0.22 mins Wafer 0.21 mins   Max 1.3 secs
+12/03/21 14:35:45   DONE: On 0.35 hours  Lot 1.18 mins Wafer 1.18 mins   Max 1.3 secs
+12/03/21 14:35:46   COMPLETE: On 0.35 hours  Lot 1.19 mins  Max 1.3 secs
+12/03/21 14:41:14   Begin: LP1, 1A27S360, TMBJ65
+12/03/21 14:42:06   DONE: On 0.46 hours  Lot 0.85 mins Wafer 0.85 mins   Max 6.2 secs
+12/03/21 14:42:06   STOP: On 0.46 hours   Lot 0.85  Wafer 0.85  Max 6.2 secs
+12/03/21 14:48:59   Begin: LP1, 1A27S360, TMAV53
+12/03/21 14:54:33   DONE: On 0.66 hours  Lot 5.55 mins Wafer 5.54 mins   Max 6.1 secs
+12/03/21 15:00:12   DONE: On 0.76 hours  Lot 5.65 mins Wafer 5.64 mins   Max 6.4 secs
+12/03/21 15:00:13   COMPLETE: On 0.76 hours  Lot 5.66 mins  Max 6.4 secs
+12/03/28 15:33:56   Begin: LP1, 1A27S360, BARE3
+12/03/28 15:39:24   DONE: On 0.13 hours  Lot 0.03 mins Wafer 0.01 mins   Max 0.2 secs
+12/03/28 15:39:24   STOP: On 0.13 hours   Lot 0.03  Wafer 0.01  Max 0.2 secs
+12/03/28 21:23:57   Begin: LP1, 1A27S360, TT
+12/03/28 21:23:59   DONE: On 0.02 hours  Lot 0.03 mins Wafer 0.01 mins   Max 0.2 secs
+12/03/28 21:23:59   STOP: On 0.02 hours   Lot 0.03  Wafer 0.01  Max 0.2 secs
+12/03/28 21:25:41   Begin: LP1, 1A27S360, TT
+12/03/28 21:27:24   Begin: LP1, 1A27S360, TT
+12/03/28 21:28:12   Begin: LP1, 1A27S360, TT
+12/03/28 21:29:14   STOP: On 0.03 hours   Lot 1.03  Wafer 1.03  Max 37.0 secs
+12/03/28 21:29:52   Begin: LP1, 1A27S360, TT
+12/03/28 21:30:40   STOP: On 0.06 hours   Lot 0.79  Wafer 0.79  Max 15.2 secs
+12/03/28 21:34:32   Begin: LP1, 1A27S360, TT
+12/03/28 21:35:34   STOP: On 0.03 hours   Lot 1.04  Wafer 1.04  Max 9.6 secs
+12/03/28 21:37:08   Begin: LP1, 1A27S360, TT
+12/03/28 21:38:40   STOP: On 0.04 hours   Lot 1.53  Wafer 1.53  Max 6.2 secs
+12/03/28 22:11:20   Begin: LP1, 1A27S360, TT
+12/03/28 22:11:34   DONE: On 0.06 hours  Lot 0.23 mins Wafer 0.21 mins   Max 1.1 secs
+12/03/28 22:11:34   COMPLETE: On 0.06 hours  Lot 0.23 mins  Max 1.1 secs
+12/03/31 16:52:57   Begin: LP1, 1A27S360, BARE3
+12/03/31 16:53:17   DONE: On 0.03 hours  Lot 0.13 mins Wafer 0.11 mins   Max 1.1 secs
+12/03/31 16:53:17   STOP: On 0.03 hours   Lot 0.13  Wafer 0.11  Max 1.1 secs
+12/03/31 16:55:14   Begin: LP1, 1A27S360, BARE3
+12/03/31 16:55:28   DONE: On 0.07 hours  Lot 0.22 mins Wafer 0.22 mins   Max 1.2 secs
+12/03/31 16:55:28   COMPLETE: On 0.07 hours  Lot 0.23 mins  Max 1.2 secs
+12/03/31 17:02:34   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:02:48   DONE: On 0.02 hours  Lot 0.23 mins Wafer 0.21 mins   Max 1.2 secs
+12/03/31 17:02:48   COMPLETE: On 0.02 hours  Lot 0.23 mins  Max 1.2 secs
+12/03/31 17:06:31   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:06:44   DONE: On 0.08 hours  Lot 0.22 mins Wafer 0.21 mins   Max 1.3 secs
+12/03/31 17:06:44   COMPLETE: On 0.08 hours  Lot 0.22 mins  Max 1.3 secs
+12/03/31 17:23:02   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:23:17   DONE: On 0.05 hours  Lot 0.23 mins Wafer 0.22 mins   Max 1.4 secs
+12/03/31 17:23:17   COMPLETE: On 0.05 hours  Lot 0.24 mins  Max 1.4 secs
+12/03/31 17:29:59   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:30:12   DONE: On 0.16 hours  Lot 0.22 mins Wafer 0.22 mins   Max 1.2 secs
+12/03/31 17:30:13   COMPLETE: On 0.16 hours  Lot 0.23 mins  Max 1.2 secs
+12/03/31 17:34:16   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:34:30   DONE: On 0.03 hours  Lot 0.23 mins Wafer 0.21 mins   Max 1.3 secs
+12/03/31 17:34:30   COMPLETE: On 0.03 hours  Lot 0.23 mins  Max 1.3 secs
+12/03/31 17:37:53   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:37:57   DONE: On 0.02 hours  Lot 0.05 mins Wafer 0.04 mins   Max 0.5 secs
+12/03/31 17:37:57   STOP: On 0.02 hours   Lot 0.05  Wafer 0.04  Max 0.5 secs
+12/03/31 17:57:00   Begin: LP1, 1A27S360, BARE3
+12/03/31 17:57:11   DONE: On 0.02 hours  Lot 0.17 mins Wafer 0.15 mins   Max 1.3 secs
+12/03/31 17:57:11   STOP: On 0.02 hours   Lot 0.17  Wafer 0.15  Max 1.3 secs
+12/03/31 18:00:56   Begin: LP1, 1A27S360, BARE3
+12/03/31 18:01:10   DONE: On 0.02 hours  Lot 0.23 mins Wafer 0.21 mins   Max 1.2 secs
+12/03/31 18:01:10   COMPLETE: On 0.02 hours  Lot 0.23 mins  Max 1.2 secs
+12/03/31 18:01:58   Begin: LP1, 1A27S360, BARE3
+12/03/31 18:02:02   DONE: On 0.03 hours  Lot 0.07 mins Wafer 0.06 mins   Max 0.9 secs
+12/03/31 18:02:03   STOP: On 0.03 hours   Lot 0.07  Wafer 0.07  Max 0.9 secs
+12/03/31 18:07:42   Begin: LP1, 1A27S360, BARE3
+12/03/31 18:07:46   DONE: On 0.02 hours  Lot 0.06 mins Wafer 0.05 mins   Max 0.4 secs
+12/03/31 18:07:46   STOP: On 0.02 hours   Lot 0.06  Wafer 0.05  Max 0.4 secs
+12/03/31 18:14:48   Begin: LP1, 1A27S360, BARE3
+12/03/31 18:15:02   DONE: On 0.02 hours  Lot 0.22 mins Wafer 0.21 mins   Max 1.3 secs
+12/03/31 18:15:02   COMPLETE: On 0.02 hours  Lot 0.23 mins  Max 1.3 secs
+12/04/14 05:04:38   Begin: LP1, 1A27S360, BARE3
+12/04/14 05:04:52   DONE: On 0.02 hours  Lot 0.23 mins Wafer 0.22 mins   Max 1.3 secs
+12/04/14 05:04:52   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:05:05   DONE: On 0.03 hours  Lot 0.45 mins Wafer 0.22 mins   Max 1.3 secs
+12/04/14 05:05:05   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:05:18   DONE: On 0.03 hours  Lot 0.67 mins Wafer 0.23 mins   Max 1.3 secs
+12/04/14 05:05:18   COMPLETE: On 0.03 hours  Lot 0.67 mins  Max 1.3 secs
+12/04/14 05:08:57   Begin: LP1, 1A27S360, BARE3
+12/04/14 05:09:11   DONE: On 0.02 hours  Lot 0.23 mins Wafer 0.21 mins   Max 1.2 secs
+12/04/14 05:09:11   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:09:24   DONE: On 0.02 hours  Lot 0.45 mins Wafer 0.22 mins   Max 1.2 secs
+12/04/14 05:09:24   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:09:37   DONE: On 0.03 hours  Lot 0.67 mins Wafer 0.22 mins   Max 1.4 secs
+12/04/14 05:09:51   DONE: On 0.03 hours  Lot 0.89 mins Wafer 0.22 mins   Max 1.4 secs
+12/04/14 05:09:51   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:10:04   DONE: On 0.03 hours  Lot 1.10 mins Wafer 0.21 mins   Max 1.4 secs
+12/04/14 05:10:04   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:10:16   DONE: On 0.04 hours  Lot 1.32 mins Wafer 0.21 mins   Max 1.4 secs
+12/04/14 05:10:30   DONE: On 0.04 hours  Lot 1.54 mins Wafer 0.22 mins   Max 1.4 secs
+12/04/14 05:10:30   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:10:43   DONE: On 0.04 hours  Lot 1.76 mins Wafer 0.22 mins   Max 1.4 secs
+12/04/14 05:10:43   NEXT: LP1, 1A27S360, BARE3
+12/04/14 05:10:56   DONE: On 0.05 hours  Lot 1.97 mins Wafer 0.21 mins   Max 1.4 secs
+12/04/14 05:10:56   COMPLETE: On 0.05 hours  Lot 1.98 mins  Max 1.4 secs
+12/05/09 13:52:38   Begin: LP1, 1A27S360, TMBJ65
+12/05/09 13:53:07   DONE: On 0.12 hours  Lot 0.48 mins Wafer 0.46 mins   Max 5.2 secs
+12/05/09 13:53:07   STOP: On 0.12 hours   Lot 0.48  Wafer 0.46  Max 5.2 secs
+12/05/09 13:54:52   Begin: LP1, 1A27S360, HNA
+12/05/09 13:55:05   DONE: On 0.15 hours  Lot 0.21 mins Wafer 0.21 mins   Max 1.2 secs
+12/05/09 13:56:14   DONE: On 0.17 hours  Lot 1.15 mins Wafer 1.14 mins   Max 1.3 secs
+12/05/09 13:56:15   COMPLETE: On 0.17 hours  Lot 1.15 mins  Max 1.3 secs
+12/05/15 13:21:00   Begin: LP1, 1A27S360, HNA
+12/05/15 13:21:14   DONE: On 0.02 hours  Lot 0.22 mins Wafer 0.21 mins   Max 1.2 secs
+12/05/15 13:22:24   DONE: On 0.04 hours  Lot 1.16 mins Wafer 1.16 mins   Max 1.3 secs
+12/05/15 13:22:24   COMPLETE: On 0.04 hours  Lot 1.17 mins  Max 1.3 secs
+12/05/15 17:18:37   Begin: LP1, 1A27S360, 1ST-TRIM
+12/05/15 17:20:00   DONE: On 0.05 hours  Lot 1.38 mins Wafer 1.37 mins   Max 23.4 secs
+12/05/15 17:21:25   DONE: On 0.07 hours  Lot 1.42 mins Wafer 1.41 mins   Max 24.2 secs
+12/05/15 17:21:26   COMPLETE: On 0.07 hours  Lot 1.42 mins  Max 24.2 secs
+12/05/15 17:28:15   Begin: LP1, 1A27S360, HNA
+12/05/15 17:28:28   DONE: On 0.19 hours  Lot 0.22 mins Wafer 0.22 mins   Max 1.2 secs
+12/05/15 17:28:36   DONE: On 0.19 hours  Lot 0.13 mins Wafer 0.13 mins   Max 1.2 secs
+12/05/15 17:28:37   COMPLETE: On 0.19 hours  Lot 0.14 mins  Max 1.2 secs
+12/05/15 17:38:23   Begin: LP1, 1A27S360, HNA
+12/05/15 17:38:37   DONE: On 0.03 hours  Lot 0.22 mins Wafer 0.21 mins   Max 1.3 secs
+12/05/15 17:38:45   DONE: On 0.03 hours  Lot 0.13 mins Wafer 0.12 mins   Max 1.3 secs
+12/05/15 17:38:45   COMPLETE: On 0.03 hours  Lot 0.13 mins  Max 1.3 secs
+12/05/15 18:16:56   Begin: LP1, 1A27S360, HNA
+12/05/15 18:17:09   DONE: On 0.04 hours  Lot 0.22 mins Wafer 0.21 mins   Max 1.2 secs
+12/05/15 18:17:17   DONE: On 0.04 hours  Lot 0.13 mins Wafer 0.12 mins   Max 1.2 secs
+12/05/15 18:17:17   COMPLETE: On 0.04 hours  Lot 0.13 mins  Max 1.2 secs
+12/05/30 18:06:54   Begin: LP1, 1A27S360, Bevel
+12/05/30 18:06:57   DONE: On 0.01 hours  Lot 0.04 mins Wafer 0.03 mins   Max 0.3 secs
+12/05/30 18:06:57   COMPLETE: On 0.01 hours  Lot 0.05 mins  Max 0.3 secs
+12/05/30 18:08:41   Begin: LP1, 1A27S360, Bevel
+12/05/30 18:08:43   DONE: On 0.04 hours  Lot 0.03 mins Wafer 0.03 mins   Max 0.3 secs
+12/05/30 18:08:43   COMPLETE: On 0.04 hours  Lot 0.04 mins  Max 0.3 secs
+12/05/31 11:47:30   Begin: LP1, 1A27S360, Bevel
+12/05/31 11:47:32   DONE: On 0.01 hours  Lot 0.04 mins Wafer 0.03 mins   Max 0.4 secs
+12/05/31 11:47:33   COMPLETE: On 0.01 hours  Lot 0.04 mins  Max 0.4 secs
+12/05/31 11:49:59   Begin: LP1, 1A27S360, Bevel
+12/05/31 11:50:02   DONE: On 0.01 hours  Lot 0.04 mins Wafer 0.03 mins   Max 0.4 secs
+12/05/31 11:50:02   COMPLETE: On 0.01 hours  Lot 0.04 mins  Max 0.4 secs
+12/05/31 11:55:38   Begin: LP1, 1A27S360, Bevel
+12/05/31 12:03:38   Begin: LP1, 1A27S360, Bevel
+12/05/31 12:05:45   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:21:15   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:21:17   DONE: On 0.01 hours  Lot 0.04 mins Wafer 0.03 mins   Max 0.4 secs
+12/05/31 13:21:18   COMPLETE: On 0.01 hours  Lot 0.05 mins  Max 0.4 secs
+12/05/31 13:23:50   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:27:23   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:30:59   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:43:18   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:44:14   DONE: On 0.03 hours  Lot 0.93 mins Wafer 0.92 mins   Max 34.0 secs
+12/05/31 13:44:14   COMPLETE: On 0.03 hours  Lot 0.94 mins  Max 34.0 secs
+12/05/31 13:46:42   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:46:53   DONE: On 0.07 hours  Lot 0.18 mins Wafer 0.18 mins   Max 7.4 secs
+12/05/31 13:46:53   COMPLETE: On 0.07 hours  Lot 0.19 mins  Max 7.4 secs
+12/05/31 13:51:29   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:52:07   DONE: On 0.02 hours  Lot 0.63 mins Wafer 0.62 mins   Max 9.3 secs
+12/05/31 13:52:07   COMPLETE: On 0.02 hours  Lot 0.64 mins  Max 9.3 secs
+12/05/31 13:54:56   Begin: LP1, 1A27S360, Bevel
+12/05/31 13:55:28   DONE: On 0.08 hours  Lot 0.52 mins Wafer 0.51 mins   Max 0.4 secs
+12/05/31 13:55:28   COMPLETE: On 0.08 hours  Lot 0.52 mins  Max 0.4 secs
+12/05/31 14:03:40   Begin: LP1, 1A27S360, Bevel
+12/05/31 14:04:03   DONE: On 0.02 hours  Lot 0.37 mins Wafer 0.36 mins   Max 0.4 secs
+12/05/31 14:04:03   COMPLETE: On 0.02 hours  Lot 0.37 mins  Max 0.4 secs
+12/05/31 15:50:52   Begin: LP1, 1A27S360, 1ST-TRIM
+12/05/31 15:51:30   DONE: On 0.02 hours  Lot 0.62 mins Wafer 0.61 mins   Max 21.8 secs
+12/05/31 15:51:30   STOP: On 0.02 hours   Lot 0.62  Wafer 0.61  Max 21.8 secs
+12/05/31 15:54:41   Begin: LP1, 1A27S360, 1ST-TRIM-1
+12/05/31 15:54:54   DONE: On 0.08 hours  Lot 0.21 mins Wafer 0.21 mins   Max 11.2 secs
+12/05/31 15:54:54   COMPLETE: On 0.08 hours  Lot 0.21 mins  Max 11.2 secs
+12/05/31 15:55:25   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/05/31 15:55:39   DONE: On 0.09 hours  Lot 0.23 mins Wafer 0.22 mins   Max 11.4 secs
+12/05/31 15:55:39   COMPLETE: On 0.09 hours  Lot 0.23 mins  Max 11.4 secs
+12/05/31 15:58:05   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/05/31 15:58:18   DONE: On 0.13 hours  Lot 0.22 mins Wafer 0.22 mins   Max 10.4 secs
+12/05/31 15:58:18   COMPLETE: On 0.13 hours  Lot 0.22 mins  Max 10.4 secs
+12/05/31 16:00:02   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/05/31 16:00:16   DONE: On 0.17 hours  Lot 0.22 mins Wafer 0.22 mins   Max 10.5 secs
+12/05/31 16:00:16   COMPLETE: On 0.17 hours  Lot 0.22 mins  Max 10.5 secs
+12/06/06 08:28:42   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 08:34:10   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 08:34:20   DONE: On 0.03 hours  Lot 0.16 mins Wafer 0.16 mins   Max 8.8 secs
+12/06/06 08:35:16   DONE: On 0.04 hours  Lot 0.93 mins Wafer 0.93 mins   Max 17.0 secs
+12/06/06 08:35:16   COMPLETE: On 0.04 hours  Lot 0.93 mins  Max 17.0 secs
+12/06/06 08:48:32   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 08:48:42   DONE: On 0.03 hours  Lot 0.15 mins Wafer 0.15 mins   Max 8.9 secs
+12/06/06 08:49:30   DONE: On 0.04 hours  Lot 0.80 mins Wafer 0.80 mins   Max 13.1 secs
+12/06/06 08:49:30   COMPLETE: On 0.04 hours  Lot 0.81 mins  Max 13.1 secs
+12/06/06 09:09:15   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 09:13:18   DONE: On 0.16 hours  Lot 4.04 mins Wafer 4.04 mins   Max 8.6 secs
+12/06/06 09:25:02   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 09:25:11   DONE: On 0.02 hours  Lot 0.16 mins Wafer 0.16 mins   Max 8.9 secs
+12/06/06 09:26:07   DONE: On 0.04 hours  Lot 0.93 mins Wafer 0.93 mins   Max 17.0 secs
+12/06/06 09:26:07   COMPLETE: On 0.04 hours  Lot 0.93 mins  Max 17.0 secs
+12/06/06 09:31:32   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 09:31:42   DONE: On 0.13 hours  Lot 0.16 mins Wafer 0.16 mins   Max 8.9 secs
+12/06/06 09:32:37   DONE: On 0.15 hours  Lot 0.93 mins Wafer 0.93 mins   Max 17.0 secs
+12/06/06 09:32:37   COMPLETE: On 0.15 hours  Lot 0.93 mins  Max 17.0 secs
+12/06/06 09:58:48   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 10:07:49   DONE: On 0.17 hours  Lot 0.17 mins Wafer 0.16 mins   Max 8.9 secs
+12/06/06 10:09:42   DONE: On 0.20 hours  Lot 0.93 mins Wafer 0.92 mins   Max 17.0 secs
+12/06/06 10:09:42   COMPLETE: On 0.20 hours  Lot 0.93 mins  Max 17.0 secs
+12/06/06 10:11:01   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 10:14:05   DONE: On 0.28 hours  Lot 0.77 mins Wafer 0.16 mins   Max 8.8 secs
+12/06/06 10:14:05   NEXT: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 10:14:19   DONE: On 0.28 hours  Lot 1.01 mins Wafer 0.24 mins   Max 14.3 secs
+12/06/06 10:17:12   DONE: On 0.33 hours  Lot 1.92 mins Wafer 0.92 mins   Max 16.5 secs
+12/06/06 10:17:12   NEXT: LP1, 1A27S360, 2ND-TRIM
+12/06/06 10:18:08   DONE: On 0.34 hours  Lot 2.85 mins Wafer 0.93 mins   Max 16.5 secs
+12/06/06 10:18:08   COMPLETE: On 0.34 hours  Lot 2.86 mins  Max 16.5 secs
+12/06/06 10:34:57   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 10:35:07   DONE: On 0.02 hours  Lot 0.16 mins Wafer 0.16 mins   Max 8.9 secs
+12/06/06 10:36:03   DONE: On 0.04 hours  Lot 0.92 mins Wafer 0.92 mins   Max 16.1 secs
+12/06/06 10:36:03   COMPLETE: On 0.04 hours  Lot 0.93 mins  Max 16.1 secs
+12/06/06 10:52:51   Begin: LP1, 1A27S360, 1ST-TRIM-2
+12/06/06 10:53:01   DONE: On 0.02 hours  Lot 0.16 mins Wafer 0.16 mins   Max 8.9 secs
+12/06/06 10:53:54   DONE: On 0.04 hours  Lot 0.87 mins Wafer 0.87 mins   Max 15.0 secs
+12/06/06 10:53:54   COMPLETE: On 0.04 hours  Lot 0.88 mins  Max 15.0 secs
+12/06/11 16:35:49   Begin: LP1, 1A27S360, BARE3
+12/06/11 16:37:20   DONE: On 0.03 hours  Lot 1.52 mins Wafer 1.04 mins   Max 10.7 secs
+12/06/11 16:37:20   COMPLETE: On 0.03 hours  Lot 1.52 mins  Max 10.7 secs
+12/06/11 17:17:03   Begin: LP1, 1A27S360, BARE4
+12/06/11 17:28:18   Begin: LP1, 1A27S360, BARE4
+12/06/11 18:29:44   Begin: LP1, 1A27S360, BARE4
+12/06/11 18:30:57   Begin: LP1, 1A27S360, BARE4
+12/06/11 18:55:53   Begin: LP1, 1A27S360, BARE4
+12/06/11 19:03:21   Begin: LP1, 1A27S360, BARE4
+12/06/11 19:03:51   Begin: LP1, 1A27S360, BARE4
+12/06/11 19:33:07   Begin: LP1, 1A27S360, BARE4
+12/06/11 19:33:35   Begin: LP1, 1A27S360, BARE4
+12/06/11 19:40:50   DONE: On 0.13 hours  Lot 7.25 mins Wafer 6.21 mins   Max 37.5 secs
+12/06/11 19:40:50   COMPLETE: On 0.13 hours  Lot 7.25 mins  Max 37.5 secs
+12/06/11 19:41:34   Begin: LP1, 1A27S360, BARE4
+12/06/11 19:47:51   DONE: On 0.25 hours  Lot 6.29 mins Wafer 6.17 mins   Max 37.2 secs
+12/06/11 19:47:52   COMPLETE: On 0.25 hours  Lot 6.30 mins  Max 37.2 secs
+12/06/14 16:42:21   Begin: LP1, 1A27S360, BARE1
+12/06/14 16:44:33   Begin: LP1, 1A27S360, BARE1
+12/06/14 16:44:50   Begin: LP1, 1A27S360, BARE1
+12/06/14 16:45:22   Begin: LP1, 1A27S360, BARE1
+12/06/14 16:47:18   DONE: On 0.04 hours  Lot 1.92 mins Wafer 1.34 mins   Max 38.4 secs
+12/06/14 16:47:18   COMPLETE: On 0.04 hours  Lot 1.92 mins  Max 38.4 secs
+12/06/14 16:54:27   Begin: LP1, 1A27S360, BARE1
+12/06/14 16:55:30   DONE: On 0.18 hours  Lot 1.05 mins Wafer 0.98 mins   Max 8.8 secs
+12/06/14 16:55:30   COMPLETE: On 0.18 hours  Lot 1.05 mins  Max 8.8 secs
+12/06/14 16:56:37   Begin: LP1, 1A27S360, BARE1
+12/06/14 16:57:39   DONE: On 0.21 hours  Lot 1.02 mins Wafer 0.96 mins   Max 9.0 secs
+12/06/14 16:57:39   COMPLETE: On 0.21 hours  Lot 1.02 mins  Max 9.0 secs
+12/06/14 20:32:23   Begin: LP1, 1A27S360, BARE1
+12/06/14 20:34:05   DONE: On 0.04 hours  Lot 1.69 mins Wafer 1.10 mins   Max 13.9 secs
+12/06/14 20:34:05   COMPLETE: On 0.04 hours  Lot 1.69 mins  Max 13.9 secs
+12/06/14 20:35:22   Begin: LP1, 1A27S360, BARE1
+12/06/14 20:36:36   DONE: On 0.08 hours  Lot 1.22 mins Wafer 1.13 mins   Max 9.5 secs
+12/06/14 20:36:36   COMPLETE: On 0.08 hours  Lot 1.22 mins  Max 9.5 secs
+12/06/15 09:38:32   Begin: LP1, 1A27S360, BARE1
+12/06/15 09:40:11   DONE: On 0.04 hours  Lot 1.64 mins Wafer 1.10 mins   Max 18.1 secs
+12/06/15 09:40:11   COMPLETE: On 0.04 hours  Lot 1.64 mins  Max 18.1 secs
+12/06/15 13:20:31   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:25:17   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:34:35   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:35:17   STOP: On 0.03 hours   Lot 0.69  Wafer 0.04  Max 23.8 secs
+12/06/15 13:36:01   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:36:08   STOP: On 0.04 hours   Lot 0.11  Wafer 0.04  Max 3.0 secs
+12/06/15 13:38:57   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:47:19   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:47:56   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:56:11   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:57:46   Begin: LP1, 1A27S360, BARE1
+12/06/15 13:59:51   DONE: On 0.05 hours  Lot 2.07 mins Wafer 1.43 mins   Max 23.8 secs
+12/06/15 13:59:51   COMPLETE: On 0.05 hours  Lot 2.07 mins  Max 23.8 secs
+12/06/15 14:03:35   Begin: LP1, 1A27S360, BARE1
+12/06/15 14:05:40   DONE: On 0.05 hours  Lot 2.06 mins Wafer 1.42 mins   Max 23.8 secs
+12/06/15 14:05:40   COMPLETE: On 0.05 hours  Lot 2.06 mins  Max 23.8 secs
+12/06/15 14:06:18   Begin: LP1, 1A27S360, BARE1
+12/06/15 14:07:43   DONE: On 0.08 hours  Lot 1.41 mins Wafer 1.35 mins   Max 16.1 secs
+12/06/15 14:07:43   COMPLETE: On 0.08 hours  Lot 1.41 mins  Max 16.1 secs
+12/06/15 15:38:12   Begin: LP1, 1A27S360, BARE1
+12/06/15 15:40:28   DONE: On 0.05 hours  Lot 2.26 mins Wafer 1.61 mins   Max 23.8 secs
+12/06/15 15:40:28   COMPLETE: On 0.05 hours  Lot 2.26 mins  Max 23.8 secs
+12/06/15 15:40:33   Begin: LP2, 1A27S360, BARE1
+12/06/15 15:42:02   DONE: On 0.08 hours  Lot 1.48 mins Wafer 1.41 mins   Max 17.1 secs
+12/06/15 15:42:02   COMPLETE: On 0.08 hours  Lot 1.48 mins  Max 17.1 secs
+12/06/15 15:42:29   Begin: LP1, 1A27S360, BARE1
+12/06/15 15:43:56   DONE: On 0.11 hours  Lot 1.43 mins Wafer 1.36 mins   Max 17.1 secs
+12/06/15 15:43:56   NEXT: LP1, 1A27S360, BARE1
+12/06/15 15:45:22   DONE: On 0.13 hours  Lot 2.87 mins Wafer 1.44 mins   Max 18.3 secs
+12/06/15 15:45:22   NEXT: LP1, 1A27S360, BARE1
+12/06/15 15:46:46   DONE: On 0.16 hours  Lot 4.26 mins Wafer 1.39 mins   Max 18.3 secs
+12/06/15 15:46:46   NEXT: LP1, 1A27S360, BARE1
+12/06/15 15:48:09   DONE: On 0.18 hours  Lot 5.65 mins Wafer 1.39 mins   Max 18.3 secs
+12/06/15 15:48:09   COMPLETE: On 0.18 hours  Lot 5.65 mins  Max 18.3 secs
+12/06/15 15:48:13   Begin: LP2, 1A27S360, BARE1
+12/06/15 15:49:40   DONE: On 0.20 hours  Lot 1.44 mins Wafer 1.37 mins   Max 18.1 secs
+12/06/15 15:49:40   NEXT: LP2, 1A27S360, BARE1
+12/06/15 15:51:04   DONE: On 0.23 hours  Lot 2.83 mins Wafer 1.40 mins   Max 18.8 secs
+12/06/15 15:51:04   NEXT: LP2, 1A27S360, BARE1
+12/06/15 15:52:30   DONE: On 0.25 hours  Lot 4.27 mins Wafer 1.43 mins   Max 18.8 secs
+12/06/15 15:52:30   COMPLETE: On 0.25 hours  Lot 4.27 mins  Max 18.8 secs
+12/06/15 15:53:31   Begin: LP1, 1A27S360, BARE1
+12/06/15 16:03:58   DONE: On 0.44 hours  Lot 10.44 mins Wafer 10.37 mins   Max 17.1 secs
+12/06/15 16:03:58   COMPLETE: On 0.44 hours  Lot 10.44 mins  Max 17.1 secs
+12/06/15 16:18:06   Begin: LP1, 1A27S360, BARE1
+12/06/15 16:23:51   DONE: On 0.77 hours  Lot 5.74 mins Wafer 5.67 mins   Max 17.1 secs
+12/06/15 16:23:51   STOP: On 0.77 hours   Lot 5.74  Wafer 5.67  Max 17.1 secs
+12/06/16 08:49:15   Begin: LP1, 1A27S360, BARE1
+12/06/16 08:50:50   DONE: On 0.17 hours  Lot 1.57 mins Wafer 1.18 mins   Max 15.0 secs
+12/06/16 08:50:50   COMPLETE: On 0.17 hours  Lot 1.57 mins  Max 15.0 secs
+12/06/16 08:57:09   Begin: LP1, 1A27S360, BARE1
+12/06/16 08:57:13   STOP: On 0.27 hours   Lot 0.06  Wafer 0.06  Max 3.0 secs
+12/06/16 08:58:29   Begin: LP1, 1A27S360, BARE1
+12/06/16 09:00:07   DONE: On 0.04 hours  Lot 1.62 mins Wafer 1.14 mins   Max 21.0 secs
+12/06/16 09:00:07   COMPLETE: On 0.04 hours  Lot 1.62 mins  Max 21.0 secs
+12/06/16 15:07:56   Begin: LP1, 1A27S360, TT
+12/06/16 15:13:04   DONE: On 0.13 hours  Lot 5.13 mins Wafer 4.42 mins   Max 34.9 secs
+12/06/16 15:13:04   NEXT: LP1, 1A27S360, TT
+12/06/16 15:13:47   DONE: On 0.14 hours  Lot 5.84 mins Wafer 0.71 mins   Max 34.9 secs
+12/06/16 15:13:47   STOP: On 0.14 hours   Lot 5.84  Wafer 0.71  Max 34.9 secs
+12/06/16 15:19:55   Begin: LP2, 1A27S360, BARE1
+12/06/16 15:21:39   DONE: On 0.27 hours  Lot 1.72 mins Wafer 1.66 mins   Max 19.1 secs
+12/06/16 15:21:39   NEXT: LP2, 1A27S360, BARE1
+12/06/16 15:23:13   DONE: On 0.30 hours  Lot 3.30 mins Wafer 1.58 mins   Max 19.1 secs
+12/06/16 15:23:13   NEXT: LP2, 1A27S360, BARE1
+12/06/16 15:24:53   DONE: On 0.32 hours  Lot 4.96 mins Wafer 1.66 mins   Max 19.1 secs
+12/06/16 15:24:53   COMPLETE: On 0.32 hours  Lot 4.96 mins  Max 19.1 secs
+12/06/16 16:26:15   Begin: LP2, 1A27S360, BARE1
+12/06/16 16:28:23   DONE: On 0.05 hours  Lot 2.12 mins Wafer 1.63 mins   Max 21.0 secs
+12/06/16 16:28:23   COMPLETE: On 0.05 hours  Lot 2.12 mins  Max 21.0 secs
+12/06/16 16:32:57   Begin: LP2, 1A27S360, BARE1
+12/06/16 16:34:35   DONE: On 0.15 hours  Lot 1.61 mins Wafer 1.55 mins   Max 18.1 secs
+12/06/16 16:34:35   NEXT: LP2, 1A27S360, BARE1
+12/06/16 16:36:12   DONE: On 0.18 hours  Lot 3.24 mins Wafer 1.62 mins   Max 19.1 secs
+12/06/16 16:36:12   COMPLETE: On 0.18 hours  Lot 3.24 mins  Max 19.1 secs
+12/06/16 16:36:59   Begin: LP1, 1A27S360, BARE1
+12/06/16 16:38:37   DONE: On 0.22 hours  Lot 1.62 mins Wafer 1.56 mins   Max 18.1 secs
+12/06/16 16:38:37   COMPLETE: On 0.22 hours  Lot 1.62 mins  Max 18.1 secs
+12/06/17 19:24:43   Begin: LP1, AAA, 
+12/06/18 11:56:50   Begin: LP1, 1A27S360, BARE1
+12/06/18 11:58:55   DONE: On 0.08 hours  Lot 2.08 mins Wafer 1.58 mins   Max 22.0 secs
+12/06/18 11:58:55   COMPLETE: On 0.08 hours  Lot 2.08 mins  Max 22.0 secs
+12/06/18 12:18:28   Begin: LP2, 1A27S360, BARE1
+12/06/18 12:21:31   Begin: LP2, 1A27S360, BARE1
+12/06/18 12:26:51   Begin: LP1, 1A27S360, BARE1
+12/06/18 12:28:44   Begin: LP1, 1A27S360, BARE1
+12/06/18 12:30:20   Begin: LP1, 1A27S360, BARE1
+12/06/18 12:32:26   DONE: On 0.07 hours  Lot 2.07 mins Wafer 1.59 mins   Max 21.0 secs
+12/06/18 12:34:07   DONE: On 0.09 hours  Lot 1.67 mins Wafer 1.61 mins   Max 21.0 secs
+12/06/18 12:34:07   COMPLETE: On 0.09 hours  Lot 1.67 mins  Max 21.0 secs
+12/06/18 17:28:10   Begin: LP1, 1A27S360, 111
+12/06/18 17:30:23   Begin: LP1, 1A27S360, 111
+12/06/18 17:31:40   Begin: LP1, 1A27S360, 111
+12/06/18 17:32:56   DONE: On 0.03 hours  Lot 1.25 mins Wafer 0.77 mins   Max 33.9 secs
+12/06/18 17:32:56   STOP: On 0.03 hours   Lot 1.25  Wafer 0.77  Max 33.9 secs
+12/06/18 17:33:45   Begin: LP1, 1A27S360, 111
+12/06/18 17:34:44   DONE: On 0.06 hours  Lot 0.97 mins Wafer 0.91 mins   Max 16.0 secs
+12/06/18 17:34:44   COMPLETE: On 0.06 hours  Lot 0.98 mins  Max 16.0 secs
+12/06/18 17:49:24   Begin: LP1, 1A27S360, 222
+12/06/18 17:49:50   DONE: On 0.31 hours  Lot 0.42 mins Wafer 0.34 mins   Max 11.7 secs
+12/06/18 17:49:50   NEXT: LP1, 1A27S360, 222
+12/06/18 17:50:10   DONE: On 0.32 hours  Lot 0.76 mins Wafer 0.34 mins   Max 11.7 secs
+12/06/18 17:50:10   NEXT: LP1, 1A27S360, 222
+12/06/18 17:50:31   DONE: On 0.32 hours  Lot 1.10 mins Wafer 0.34 mins   Max 12.1 secs
+12/06/18 17:50:31   NEXT: LP1, 1A27S360, 222
+12/06/18 17:50:44   DONE: On 0.33 hours  Lot 1.33 mins Wafer 0.23 mins   Max 12.1 secs
+12/06/18 17:50:44   STOP: On 0.33 hours   Lot 1.33  Wafer 0.23  Max 12.1 secs
+12/06/18 18:40:02   Begin: LP2, 1A27S360, BARE1
+12/06/18 18:43:05   STOP: On 0.07 hours   Lot 3.03  Wafer 2.54  Max 142.5 secs
+12/06/20 12:56:42   Begin: LP1, 1A27S360, BARE1
+12/06/20 12:56:46   DONE: On 0.02 hours  Lot 0.07 mins Wafer 0.07 mins   Max 0.4 secs
+12/06/20 12:56:46   COMPLETE: On 0.02 hours  Lot 0.07 mins  Max 0.4 secs
+12/06/20 13:03:19   Begin: LP1, 1A27S360, BARE1
+12/06/20 13:03:24   DONE: On 0.01 hours  Lot 0.07 mins Wafer 0.07 mins   Max 0.4 secs
+12/06/20 13:03:24   COMPLETE: On 0.01 hours  Lot 0.07 mins  Max 0.4 secs
+12/06/20 13:03:53   Begin: LP1, 1A27S360, BARE1
+12/06/20 13:03:55   DONE: On 0.02 hours  Lot 0.03 mins Wafer 0.03 mins   Max 0.2 secs
+12/06/20 13:03:55   STOP: On 0.02 hours   Lot 0.03  Wafer 0.03  Max 0.2 secs
+12/06/20 13:06:06   Begin: LP1, 1A27S360, BARE1
+12/06/20 13:06:11   DONE: On 0.02 hours  Lot 0.07 mins Wafer 0.07 mins   Max 0.4 secs
+12/06/20 13:06:11   COMPLETE: On 0.02 hours  Lot 0.07 mins  Max 0.4 secs
+12/06/22 05:34:03   Begin: LP1, 1A27S360, TEST1
+12/06/22 05:35:20   DONE: On 0.03 hours  Lot 1.27 mins Wafer 0.79 mins   Max 21.0 secs
+12/06/22 05:35:20   NEXT: LP1, 1A27S360, TEST1
+12/06/22 05:36:03   DONE: On 0.05 hours  Lot 1.99 mins Wafer 0.72 mins   Max 21.0 secs
+12/06/22 05:36:03   NEXT: LP1, 1A27S360, TEST1
+12/06/22 05:36:47   DONE: On 0.06 hours  Lot 2.73 mins Wafer 0.74 mins   Max 21.0 secs
+12/06/22 05:36:47   NEXT: LP1, 1A27S360, TEST1
+12/06/22 05:37:38   DONE: On 0.07 hours  Lot 3.58 mins Wafer 0.84 mins   Max 21.0 secs
+12/06/22 05:37:38   COMPLETE: On 0.07 hours  Lot 3.58 mins  Max 21.0 secs
+12/06/22 05:41:22   Begin: LP1, 1A27S360, TEST1
+12/06/22 05:44:18   DONE: On 0.18 hours  Lot 2.93 mins Wafer 2.87 mins   Max 17.2 secs
+12/06/22 05:44:19   COMPLETE: On 0.18 hours  Lot 2.94 mins  Max 17.2 secs
+12/06/22 05:51:35   Begin: LP1, 1A27S360, TEST1
+12/06/22 05:52:32   DONE: On 0.32 hours  Lot 0.95 mins Wafer 0.89 mins   Max 16.5 secs
+12/06/22 05:52:32   COMPLETE: On 0.32 hours  Lot 0.95 mins  Max 16.5 secs
+12/06/22 05:54:49   Begin: LP1, 1A27S360, TEST1
+12/06/22 05:55:47   DONE: On 0.38 hours  Lot 0.96 mins Wafer 0.89 mins   Max 16.2 secs
+12/06/22 05:55:47   COMPLETE: On 0.38 hours  Lot 0.96 mins  Max 16.2 secs
+12/08/08 16:55:25   Begin: LP1, 1A27S360, TEST_AP
+12/08/08 17:13:38   DONE: On 0.96 hours  Lot 18.20 mins Wafer 17.74 mins   Max 53.1 secs
+12/08/08 17:13:38   COMPLETE: On 0.96 hours  Lot 18.20 mins  Max 53.1 secs
+12/08/08 17:19:43   Begin: LP1, 1A27S360, TEST_AP
+12/08/08 17:26:43   DONE: On 1.18 hours  Lot 6.99 mins Wafer 6.86 mins   Max 54.3 secs
+12/08/08 17:29:47   DONE: On 1.23 hours  Lot 10.05 mins Wafer 2.98 mins   Max 54.3 secs
+12/08/08 17:32:59   DONE: On 1.29 hours  Lot 13.26 mins Wafer 3.12 mins   Max 54.3 secs
+12/08/08 17:32:59   COMPLETE: On 1.29 hours  Lot 13.26 mins  Max 54.3 secs
+12/08/08 17:36:35   Begin: LP1, 1A27S360, TEST_AP
+12/08/08 17:39:41   DONE: On 1.40 hours  Lot 3.09 mins Wafer 3.00 mins   Max 54.3 secs
+12/08/08 17:42:43   DONE: On 1.45 hours  Lot 6.13 mins Wafer 2.95 mins   Max 54.3 secs
+12/08/08 17:45:55   DONE: On 1.50 hours  Lot 9.32 mins Wafer 3.09 mins   Max 54.3 secs
+12/08/08 17:45:55   COMPLETE: On 1.50 hours  Lot 9.32 mins  Max 54.3 secs
+12/08/08 17:58:44   Begin: LP2, 1A27S360, TEST_AP
+12/08/08 18:01:43   DONE: On 1.77 hours  Lot 2.98 mins Wafer 2.89 mins   Max 57.6 secs
+12/08/08 18:04:42   DONE: On 1.82 hours  Lot 5.96 mins Wafer 2.89 mins   Max 57.6 secs
+12/08/08 18:07:55   DONE: On 1.87 hours  Lot 9.17 mins Wafer 3.12 mins   Max 57.6 secs
+12/08/08 18:07:55   COMPLETE: On 1.87 hours  Lot 9.17 mins  Max 57.6 secs
+12/08/09 14:20:19   Begin: LP1, 1A27S360, TEST_AP
+12/08/09 14:23:56   DONE: On 0.20 hours  Lot 3.61 mins Wafer 3.15 mins   Max 56.1 secs
+12/08/09 14:23:56   COMPLETE: On 0.20 hours  Lot 3.61 mins  Max 56.1 secs
+12/08/09 14:26:48   Begin: LP2, 1A27S360, TEST_AP
+12/08/09 14:29:59   DONE: On 0.30 hours  Lot 3.18 mins Wafer 3.08 mins   Max 57.0 secs
+12/08/09 14:33:16   DONE: On 0.36 hours  Lot 6.46 mins Wafer 3.18 mins   Max 57.0 secs
+12/08/09 14:36:38   DONE: On 0.41 hours  Lot 9.83 mins Wafer 3.28 mins   Max 57.0 secs
+12/08/09 14:39:51   DONE: On 0.47 hours  Lot 13.04 mins Wafer 3.12 mins   Max 57.0 secs
+12/08/09 14:43:02   DONE: On 0.52 hours  Lot 16.23 mins Wafer 3.09 mins   Max 57.0 secs
+12/08/09 14:46:19   DONE: On 0.57 hours  Lot 19.51 mins Wafer 3.18 mins   Max 57.0 secs
+12/08/09 14:49:30   DONE: On 0.63 hours  Lot 22.70 mins Wafer 3.09 mins   Max 57.0 secs
+12/08/09 14:52:53   DONE: On 0.68 hours  Lot 26.08 mins Wafer 3.29 mins   Max 57.0 secs
+12/08/09 14:56:06   DONE: On 0.74 hours  Lot 29.30 mins Wafer 3.11 mins   Max 57.0 secs
+12/08/09 14:59:21   DONE: On 0.79 hours  Lot 32.54 mins Wafer 3.14 mins   Max 57.0 secs
+12/08/09 14:59:21   COMPLETE: On 0.79 hours  Lot 32.54 mins  Max 57.0 secs
+12/08/09 15:17:33   Begin: LP1, 1A27S360, TEST_AP
+12/08/09 15:37:44   DONE: On 1.43 hours  Lot 20.18 mins Wafer 20.08 mins   Max 56.8 secs
+12/08/09 15:37:44   COMPLETE: On 1.43 hours  Lot 20.18 mins  Max 56.8 secs
+12/08/10 15:11:23   Begin: LP1, 1A27S360, TEST_AP
+12/08/10 15:14:28   DONE: On 0.07 hours  Lot 3.08 mins Wafer 2.62 mins   Max 58.4 secs
+12/08/10 15:14:28   COMPLETE: On 0.07 hours  Lot 3.08 mins  Max 58.4 secs
+12/08/17 12:17:22   Begin: LP1, 0817_TEST1, TEST_AP
+12/08/17 12:21:23   DONE: On 0.10 hours  Lot 4.01 mins Wafer 3.47 mins   Max 53.3 secs
+12/08/17 12:21:23   COMPLETE: On 0.10 hours  Lot 4.01 mins  Max 53.3 secs
+12/08/17 15:10:00   Begin: LP1, 0817_TEST2, TEST_AP
+12/08/17 15:13:53   DONE: On 0.17 hours  Lot 3.88 mins Wafer 3.21 mins   Max 52.5 secs
+12/08/17 15:13:53   COMPLETE: On 0.17 hours  Lot 3.88 mins  Max 52.5 secs
+12/08/18 10:27:51   Begin: LP1, 0818_TEST1, TEST_AP
+12/08/18 10:31:41   DONE: On 0.08 hours  Lot 3.83 mins Wafer 3.30 mins   Max 54.2 secs
+12/08/18 10:31:41   COMPLETE: On 0.08 hours  Lot 3.83 mins  Max 54.2 secs
+12/08/18 10:33:33   Begin: LP1, 0818_TEST2, TEST_AP
+12/08/18 10:36:39   DONE: On 0.17 hours  Lot 3.09 mins Wafer 2.99 mins   Max 51.3 secs
+12/08/18 10:39:39   DONE: On 0.22 hours  Lot 6.09 mins Wafer 2.91 mins   Max 51.3 secs
+12/08/18 10:42:55   DONE: On 0.27 hours  Lot 9.35 mins Wafer 3.17 mins   Max 51.3 secs
+12/08/18 10:46:04   DONE: On 0.32 hours  Lot 12.50 mins Wafer 3.06 mins   Max 51.5 secs
+12/08/18 10:49:19   DONE: On 0.38 hours  Lot 15.76 mins Wafer 3.17 mins   Max 52.3 secs
+12/08/18 10:52:26   DONE: On 0.43 hours  Lot 18.88 mins Wafer 3.04 mins   Max 52.3 secs
+12/08/18 10:55:45   DONE: On 0.48 hours  Lot 22.19 mins Wafer 3.21 mins   Max 52.3 secs
+12/08/18 10:58:58   DONE: On 0.54 hours  Lot 25.42 mins Wafer 3.13 mins   Max 52.3 secs
+12/08/18 11:02:10   DONE: On 0.59 hours  Lot 28.60 mins Wafer 3.10 mins   Max 52.3 secs
+12/08/18 11:05:13   DONE: On 0.64 hours  Lot 31.65 mins Wafer 2.96 mins   Max 52.3 secs
+12/08/18 11:05:13   COMPLETE: On 0.64 hours  Lot 31.66 mins  Max 52.3 secs
+12/08/18 11:10:48   Begin: LP1, 0818_TEST3, TEST_AP
+12/08/18 11:13:55   DONE: On 0.79 hours  Lot 3.12 mins Wafer 3.01 mins   Max 50.3 secs
+12/08/18 11:16:57   DONE: On 0.84 hours  Lot 6.15 mins Wafer 2.93 mins   Max 51.1 secs
+12/08/18 11:16:57   STOP: On 0.84 hours   Lot 6.15  Wafer 2.93  Max 51.1 secs
+12/08/18 11:23:43   Begin: LP1, 0818_TEST4, TEST_AP
+12/08/18 11:28:22   DONE: On 0.15 hours  Lot 4.66 mins Wafer 3.97 mins   Max 52.5 secs
+12/08/18 11:28:23   COMPLETE: On 0.15 hours  Lot 4.66 mins  Max 52.5 secs
+12/08/18 11:40:33   Begin: LP1, 0818_TEST5, TEST_AP
+12/08/18 11:44:37   DONE: On 0.42 hours  Lot 4.06 mins Wafer 3.98 mins   Max 50.8 secs
+12/08/18 11:44:38   COMPLETE: On 0.42 hours  Lot 4.07 mins  Max 50.8 secs
+12/08/18 12:04:53   Begin: LP1, 0818_TEST6, TEST_AP
+12/08/18 12:08:52   DONE: On 0.83 hours  Lot 3.96 mins Wafer 3.87 mins   Max 51.6 secs
+12/08/18 12:08:52   COMPLETE: On 0.83 hours  Lot 3.97 mins  Max 51.6 secs
+12/08/20 09:51:30   Begin: LP1, 0820_TEST1, TEST_AP
+12/08/20 09:53:05   COMPLETE: On 0.81 hours  Lot 1.59 mins  Max 93.9 secs
+12/08/20 10:15:49   Begin: LP1, 0820_TEST1, TEST_AP
+12/08/20 10:20:03   DONE: On 0.11 hours  Lot 4.21 mins Wafer 3.68 mins   Max 52.3 secs
+12/08/20 10:20:03   COMPLETE: On 0.11 hours  Lot 4.22 mins  Max 52.3 secs
+12/08/20 10:52:31   Begin: LP1, 0820_TEST2, TEST_AP
+12/08/20 10:56:53   DONE: On 0.48 hours  Lot 4.36 mins Wafer 3.68 mins   Max 52.0 secs
+12/08/20 10:56:53   COMPLETE: On 0.48 hours  Lot 4.36 mins  Max 52.0 secs
+12/08/20 11:00:20   Begin: LP1, 0820_TEST3, TEST_AP
+12/08/20 11:03:56   DONE: On 0.60 hours  Lot 3.60 mins Wafer 3.52 mins   Max 51.8 secs
+12/08/20 11:03:56   COMPLETE: On 0.60 hours  Lot 3.61 mins  Max 51.8 secs
+12/08/20 11:19:12   Begin: LP1, 0820_TEST4, TEST_AP
+12/08/20 11:22:33   DONE: On 0.91 hours  Lot 3.35 mins Wafer 3.28 mins   Max 50.8 secs
+12/08/20 11:22:33   COMPLETE: On 0.91 hours  Lot 3.35 mins  Max 50.8 secs
+12/08/20 11:38:30   Begin: LP1, 0820_TEST5, TEST_AP
+12/08/20 11:43:36   DONE: On 0.10 hours  Lot 5.09 mins Wafer 4.34 mins   Max 52.5 secs
+12/08/20 11:43:36   COMPLETE: On 0.10 hours  Lot 5.09 mins  Max 52.5 secs
+12/08/21 14:36:08   Begin: LP2, 0821_TEST1, TEST_AP
+12/08/21 14:36:25   STOP: On 0.04 hours   Lot 0.27  Wafer 0.19  Max 10.9 secs
+12/08/21 14:41:15   Begin: LP1, 0820_TEST1, TEST_AP
+12/08/21 14:45:03   DONE: On 0.08 hours  Lot 3.80 mins Wafer 3.40 mins   Max 45.5 secs
+12/08/21 14:45:03   COMPLETE: On 0.08 hours  Lot 3.80 mins  Max 45.5 secs
+12/08/21 14:46:54   Begin: LP2, 0821_TEST2, TEST_AP
+12/08/21 14:50:22   DONE: On 0.17 hours  Lot 3.46 mins Wafer 3.33 mins   Max 46.0 secs
+12/08/21 14:50:22   COMPLETE: On 0.17 hours  Lot 3.46 mins  Max 46.0 secs
+12/08/21 14:52:29   Begin: LP2, 0821_TEST2, TEST_AP
+12/08/21 14:56:14   DONE: On 0.08 hours  Lot 3.75 mins Wafer 3.23 mins   Max 45.8 secs
+12/08/21 14:56:15   COMPLETE: On 0.08 hours  Lot 3.75 mins  Max 45.8 secs
+12/08/21 15:19:49   Begin: LP2, 0821_TEST3, TEST_AP
+12/08/21 15:23:44   DONE: On 0.09 hours  Lot 3.91 mins Wafer 3.38 mins   Max 45.3 secs
+12/08/21 15:23:45   COMPLETE: On 0.09 hours  Lot 3.91 mins  Max 45.3 secs
+12/08/21 15:25:44   Begin: LP2, 0821_TEST4, TEST_AP
+12/08/21 15:29:03   DONE: On 0.18 hours  Lot 3.31 mins Wafer 3.21 mins   Max 44.8 secs
+12/08/21 15:29:03   COMPLETE: On 0.18 hours  Lot 3.31 mins  Max 44.8 secs
+12/08/21 18:17:17   Begin: LP2, 0820_TEST3, TEST_AP
+12/08/21 18:21:08   DONE: On 0.11 hours  Lot 3.84 mins Wafer 3.31 mins   Max 46.8 secs
+12/08/21 18:21:08   COMPLETE: On 0.11 hours  Lot 3.84 mins  Max 46.8 secs
+12/08/21 18:24:11   Begin: LP2, 0821_TEST4, TEST_AP
+12/08/21 18:27:30   DONE: On 0.21 hours  Lot 3.32 mins Wafer 3.22 mins   Max 44.3 secs
+12/08/21 18:27:30   COMPLETE: On 0.21 hours  Lot 3.32 mins  Max 44.3 secs
+12/08/22 09:15:56   Begin: LP2, 0822_TEST1, TEST_AP
+12/08/22 09:16:43   STOP: On 0.03 hours   Lot 0.77  Wafer 0.26  Max 22.9 secs
+12/08/22 09:17:35   Begin: LP2, 0822_TEST1, TEST_AP
+12/08/22 09:20:47   DONE: On 0.10 hours  Lot 3.20 mins Wafer 3.11 mins   Max 44.1 secs
+12/08/22 09:20:47   COMPLETE: On 0.10 hours  Lot 3.20 mins  Max 44.1 secs
+12/08/22 09:22:18   Begin: LP2, 0822_TEST2, TEST_AP
+12/08/22 09:25:44   DONE: On 0.18 hours  Lot 3.41 mins Wafer 3.31 mins   Max 43.8 secs
+12/08/22 09:25:44   COMPLETE: On 0.18 hours  Lot 3.41 mins  Max 43.8 secs
+12/08/22 09:33:06   Begin: LP2, 0822_TEST3, TEST_AP
+12/08/22 09:36:42   DONE: On 0.37 hours  Lot 3.59 mins Wafer 3.49 mins   Max 44.0 secs
+12/08/22 09:36:42   COMPLETE: On 0.37 hours  Lot 3.59 mins  Max 44.0 secs
+12/08/22 09:41:34   Begin: LP2, 0822_TEST4, TEST_AP
+12/08/22 09:45:00   DONE: On 0.50 hours  Lot 3.42 mins Wafer 3.34 mins   Max 44.8 secs
+12/08/22 09:45:00   COMPLETE: On 0.50 hours  Lot 3.42 mins  Max 44.8 secs
+12/08/22 18:21:39   Begin: LP2, 0822_TEST5, TEST_AP
+12/08/22 18:25:40   DONE: On 0.08 hours  Lot 4.00 mins Wafer 3.49 mins   Max 38.6 secs
+12/08/22 18:25:40   COMPLETE: On 0.08 hours  Lot 4.00 mins  Max 38.6 secs
+12/08/23 10:36:45   Begin: LP2, 0823_TEST1, TEST_AP2
+12/08/23 10:41:14   DONE: On 16.34 hours  Lot 4.47 mins Wafer 3.98 mins   Max 44.4 secs
+12/08/23 10:41:14   COMPLETE: On 16.34 hours  Lot 4.47 mins  Max 44.4 secs
+12/08/23 10:42:53   Begin: LP2, 0823_TEST2, TEST_AP2
+12/08/23 10:46:28   DONE: On 16.43 hours  Lot 3.57 mins Wafer 3.47 mins   Max 37.3 secs
+12/08/23 10:46:28   COMPLETE: On 16.43 hours  Lot 3.57 mins  Max 37.3 secs
+12/08/23 10:48:19   Begin: LP2, 0823_TEST3, TEST_AP
+12/08/23 10:52:16   DONE: On 16.53 hours  Lot 3.95 mins Wafer 3.85 mins   Max 43.6 secs
+12/08/23 10:52:16   COMPLETE: On 16.53 hours  Lot 3.95 mins  Max 43.6 secs
+12/08/24 15:07:51   Begin: LP2, 1A27S360, BARE1
+12/08/24 15:09:24   DONE: On 0.04 hours  Lot 1.54 mins Wafer 0.80 mins   Max 36.0 secs
+12/08/24 15:09:24   STOP: On 0.04 hours   Lot 1.54  Wafer 0.80  Max 36.0 secs
+12/08/24 15:15:42   Begin: LP2, 1A27S360, BARE1
+12/08/24 15:17:42   DONE: On 0.09 hours  Lot 1.99 mins Wafer 1.48 mins   Max 24.9 secs
+12/08/24 15:17:42   COMPLETE: On 0.09 hours  Lot 1.99 mins  Max 24.9 secs
+12/08/24 15:39:31   Begin: LP2, 1A27S360, BARE1
+12/08/24 15:40:52   DONE: On 0.04 hours  Lot 1.34 mins Wafer 0.77 mins   Max 24.9 secs
+12/08/24 15:40:52   STOP: On 0.04 hours   Lot 1.34 mins Wafer 0.77  Max 24.9 secs
+12/08/24 15:42:38   Begin: LP2, 1A27S360, BARE1
+12/08/24 15:44:28   DONE: On 0.10 hours  Lot 1.81 mins Wafer 1.72 mins   Max 19.5 secs
+12/08/24 15:44:28   COMPLETE: On 0.10 hours  Lot 1.82 mins  Max 19.5 secs
+12/08/24 16:36:10   Begin: LP2, 1A27S360, BARE1
+12/08/24 16:38:32   Begin: LP2, 1A27S360, BARE1
+12/08/24 16:40:59   Begin: LP2, 1A27S360, BARE1
+12/08/24 16:52:21   DONE: On 0.22 hours  Lot 11.35 mins Wafer 10.63 mins   Max 37.9 secs
+12/08/24 16:52:21   COMPLETE: On 0.22 hours  Lot 11.36 mins  Max 37.9 secs
+12/08/24 17:38:43   Begin: LP2, 1A27S360, PMATCH
+12/08/24 17:39:54   DONE: On 0.25 hours  Lot 1.17 mins Wafer 0.61 mins   Max 26.0 secs
+12/08/24 17:39:54   NEXT: LP2, 1A27S360, PMATCH
+12/08/24 17:40:29   DONE: On 0.26 hours  Lot 1.75 mins Wafer 0.58 mins   Max 26.0 secs
+12/08/24 17:40:29   NEXT: LP2, 1A27S360, PMATCH
+12/08/24 17:41:16   DONE: On 0.27 hours  Lot 2.53 mins Wafer 0.78 mins   Max 26.0 secs
+12/08/24 17:41:16   NEXT: LP2, 1A27S360, PMATCH
+12/08/24 17:42:07   DONE: On 0.28 hours  Lot 3.38 mins Wafer 0.85 mins   Max 26.8 secs
+12/08/24 17:42:07   NEXT: LP2, 1A27S360, PMATCH
+12/08/24 17:42:53   DONE: On 0.30 hours  Lot 4.15 mins Wafer 0.77 mins   Max 26.8 secs
+12/08/24 17:42:53   NEXT: LP2, 1A27S360, PMATCH
+12/08/24 17:43:37   DONE: On 0.31 hours  Lot 4.89 mins Wafer 0.73 mins   Max 26.8 secs
+12/08/24 17:43:37   COMPLETE: On 0.31 hours  Lot 4.89 mins  Max 26.8 secs
+12/08/25 13:27:42   Begin: LP2, TEST, SCOTT BARE1
+12/08/25 13:29:17   DONE: On 1.57 hours  Lot 1.57 mins Wafer 1.00 mins   Max 25.9 secs
+12/08/25 13:29:17   COMPLETE: On 1.57 hours  Lot 1.57 mins  Max 25.9 secs
+12/08/25 13:31:29   Begin: LP2, TEST2, SCOTT BARE1
+12/08/25 13:32:47   DONE: On 1.63 hours  Lot 1.29 mins Wafer 1.22 mins   Max 12.0 secs
+12/08/25 13:32:47   COMPLETE: On 1.63 hours  Lot 1.29 mins  Max 12.0 secs
+12/08/27 11:04:17   Begin: LP2, 1A27S360, BARE2
+12/08/27 11:07:28   DONE: On 0.09 hours  Lot 3.15 mins Wafer 2.59 mins   Max 24.9 secs
+12/08/27 11:07:28   STOP: On 0.09 hours   Lot 3.15 mins Wafer 2.59  Max 24.9 secs
+12/08/27 11:10:02   Begin: LP2, 1A27S360, BARE2
+12/08/27 11:11:32   DONE: On 0.15 hours  Lot 1.49 mins Wafer 1.38 mins   Max 12.8 secs
+12/08/27 11:11:32   STOP: On 0.15 hours   Lot 1.49 mins Wafer 1.38  Max 12.8 secs
+12/08/27 11:15:46   Begin: LP2, 1A27S360, BARE2
+12/08/27 11:19:24   Begin: LP2, 1A27S360, BARE2
+12/08/27 11:20:34   Begin: LP2, 1A27S360, BARE2
+12/08/27 11:32:18   DONE: On 0.22 hours  Lot 11.73 mins Wafer 11.28 mins   Max 17.9 secs
+12/08/27 11:32:19   COMPLETE: On 0.22 hours  Lot 11.74 mins  Max 17.9 secs
+12/08/28 17:50:21   Begin: LP2, TEST BUMP, SC BUMP TEST
+12/08/28 17:52:03   DONE: On 0.05 hours  Lot 1.68 mins Wafer 0.89 mins   Max 36.0 secs
+12/08/28 17:52:03   COMPLETE: On 0.05 hours  Lot 1.68 mins  Max 36.0 secs
+12/08/31 08:56:56   Begin: LP2, 1A27S360, BARE1
+12/08/31 08:57:22   DONE: On 0.03 hours  Lot 0.43 mins Wafer 0.29 mins   Max 8.0 secs
+12/08/31 08:57:22   COMPLETE: On 0.03 hours  Lot 0.43 mins  Max 8.0 secs
+12/08/31 09:02:46   Begin: LP2, 1A27S360, BARE1
+12/08/31 09:04:19   DONE: On 0.11 hours  Lot 1.53 mins Wafer 0.58 mins   Max 48.9 secs
+12/08/31 09:04:19   STOP: On 0.11 hours   Lot 1.53 mins Wafer 0.58  Max 48.9 secs
+12/08/31 09:35:23   Begin: LP2, 1A27S360, BARE1
+12/08/31 09:38:56   DONE: On 0.68 hours  Lot 3.53 mins Wafer 3.44 mins   Max 12.2 secs
+12/08/31 09:38:56   COMPLETE: On 0.68 hours  Lot 3.54 mins  Max 12.2 secs
+12/08/31 09:58:54   Begin: LP2, 1A27S360, 111
+12/08/31 09:59:51   DONE: On 0.32 hours  Lot 0.94 mins Wafer 0.29 mins   Max 35.0 secs
+12/08/31 09:59:51   COMPLETE: On 0.32 hours  Lot 0.94 mins  Max 35.0 secs
+12/08/31 10:11:17   Begin: LP2, 1A27S360, 111
+12/08/31 10:11:44   DONE: On 0.52 hours  Lot 0.42 mins Wafer 0.36 mins   Max 14.8 secs
+12/08/31 10:11:44   COMPLETE: On 0.52 hours  Lot 0.43 mins  Max 14.8 secs
+12/08/31 10:12:40   Begin: LP2, 1A27S360, 111
+12/08/31 10:13:11   DONE: On 0.54 hours  Lot 0.50 mins Wafer 0.47 mins   Max 21.4 secs
+12/08/31 10:13:12   COMPLETE: On 0.54 hours  Lot 0.51 mins  Max 21.4 secs
+12/08/31 10:15:35   Begin: LP2, 1A27S360, 111
+12/08/31 10:16:25   DONE: On 0.59 hours  Lot 0.81 mins Wafer 0.76 mins   Max 39.3 secs
+12/08/31 10:16:25   COMPLETE: On 0.59 hours  Lot 0.81 mins  Max 39.3 secs
+12/08/31 10:24:01   Begin: LP2, 1A27S360, 111
+12/08/31 10:24:23   DONE: On 0.73 hours  Lot 0.35 mins Wafer 0.31 mins   Max 12.7 secs
+12/08/31 10:24:23   COMPLETE: On 0.73 hours  Lot 0.35 mins  Max 12.7 secs
+12/08/31 11:36:36   Begin: LP2, 1A27S360, 111
+12/08/31 11:37:39   DONE: On 0.27 hours  Lot 1.05 mins Wafer 0.32 mins   Max 36.0 secs
+12/08/31 11:37:40   COMPLETE: On 0.27 hours  Lot 1.05 mins  Max 36.0 secs
+12/08/31 11:41:28   Begin: LP2, 1A27S360, 111
+12/08/31 11:41:54   DONE: On 0.34 hours  Lot 0.41 mins Wafer 0.34 mins   Max 12.7 secs
+12/08/31 11:41:54   NEXT: LP2, 1A27S360, 111
+12/08/31 11:42:13   DONE: On 0.35 hours  Lot 0.73 mins Wafer 0.32 mins   Max 12.7 secs
+12/08/31 11:42:13   NEXT: LP2, 1A27S360, 111
+12/08/31 11:42:31   DONE: On 0.35 hours  Lot 1.03 mins Wafer 0.30 mins   Max 12.7 secs
+12/08/31 11:42:31   NEXT: LP2, 1A27S360, 111
+12/08/31 11:42:49   DONE: On 0.36 hours  Lot 1.34 mins Wafer 0.31 mins   Max 12.7 secs
+12/08/31 11:42:50   COMPLETE: On 0.36 hours  Lot 1.34 mins  Max 12.7 secs
+20/05/27 19:22:41   Begin: LP1, 1234, 1234
+20/05/27 19:22:46   STOP: On 0.31 hours   Lot 0.06 mins Wafer 0.06  Max 0.0 secs
+20/05/27 19:24:45   Begin: LP1, 1234, 1234
+20/05/27 19:24:48   STOP: On 0.34 hours   Lot 0.02 mins Wafer 0.02  Max 0.0 secs

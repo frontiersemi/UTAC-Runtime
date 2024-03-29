@@ -1,0 +1,35 @@
+[1] SVID: 1
+Description: DEVICE ID (ECID)
+Format: ASCII
+Value { "MD0001" }
+
+[2] SVID: 2
+Description: SOFTWARE REVISION (ECID)
+Format: ASCII
+Value { "2.00" }
+
+[11] SVID: 11
+Description: TIME FORMAT (ECID)
+Format: INT2
+Value { 1 }
+
+[15] SVID: 15
+Description: MAX LOADPORT (ECID)
+Format: INT2
+Value { 2 }
+
+[86] SVID: 86
+Description: PASSIVE PORT NUMBER (ECID)
+Format: INT2
+Value { 5000 }
+
+[88] SVID: 88
+Description: ACTIVE PORT NUMBER (ECID)
+Format: ASCII
+Value { "5000" }
+
+[89] SVID: 89
+Description: ESTABLISH COMMUNICATION TIMEOUT (ECID)
+Format: INT2
+Value { 6000 }
+

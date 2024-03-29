@@ -1,0 +1,3964 @@
+[3] SVID: 3
+Description: CURRENT PROCESSING SLOT NO (SVID)
+Format: INT2
+Value { 0 }
+
+[4] SVID: 4
+Description: CURRENT PJOB (SVID)
+Format: ASCII
+Value { "" }
+
+[5] SVID: 5
+Description: CURRENT CJOB (SVID)
+Format: ASCII
+Value { "" }
+
+[6] SVID: 6
+Description: CURRENT PORT NO (SVID)
+Format: INT2
+Value { 0 }
+
+[7] SVID: 7
+Description: CURRENT CARRIER ID (SVID)
+Format: ASCII
+Value { "" }
+
+[8] SVID: 8
+Description: LAST KNOWN SLOT MAP (SVID)
+Format: ASCII
+Value { "" }
+
+[9] SVID: 9
+Description: TIME STAMP (SVID)
+Format: ASCII
+Value { "2021052017083518" }
+
+[10] SVID: 10
+Description: CLOCK (SVID)
+Format: ASCII
+Value { "2021052017083518" }
+
+[12] SVID: 12
+Description: LINEMODE (SVID)
+Format: INT2
+Value { 4 (OFFLINE(HOST).) }
+
+[13] SVID: 13
+Description: CONTROL STATE (SVID)
+Format: INT2
+Value { 4 (OFFLINE(HOST).) }
+
+[14] SVID: 14
+Description: EQUIPMENT STATUS (SVID)
+Format: INT2
+Value { 1 (IDLE) }
+
+[16] SVID: 16
+Description: LINE MODE LIST (SVID)
+Format: LIST
+Value
+{
+< L [6]
+      < L [2]
+            < U2 0 >
+            < A "NO STATE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "REMOTE" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "LOCAL" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "OFFLINE EQP" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "OFFLINE HOST" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "ATTEMPT ONLINE" >
+      >
+>
+}
+
+[17] SVID: 17
+Description: EQUIPMENT STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [9]
+      < L [2]
+            < U2 0 >
+            < A "NO STATE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "PRODUCTIVE" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "STANDBY" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "ENGINEERING" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "SCHEDULE DOWN" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "UNSCHEDULED DOWN" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "NOT SCHEDULED" >
+      >
+      < L [2]
+            < U2 7 >
+            < A "INITIALIZE" >
+      >
+      < L [2]
+            < U2 8 >
+            < A "SETTING UP" >
+      >
+>
+}
+
+[18] SVID: 18
+Description: LP OCCUPANCY STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [2]
+            < U2 0 >
+            < A "CARRIER NOT PRESENT" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "CARRIER PRESENT" >
+      >
+>
+}
+
+[19] SVID: 19
+Description: LP ACCESS STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [2]
+            < U2 0 >
+            < A "MANUAL" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "AUTO" >
+      >
+>
+}
+
+[20] SVID: 20
+Description: LP TRANSFER STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [7]
+      < L [2]
+            < U2 0 >
+            < A "NO STATE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "READY TO LOAD" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "IN SERVICE" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "TRANSFER READY" >
+      >
+>
+}
+
+[21] SVID: 21
+Description: LP ASSOCIATE STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [2]
+            < U2 0 >
+            < A "NOT ASSOCIATE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "ASSOCIATED" >
+      >
+>
+}
+
+[22] SVID: 22
+Description: LP RESERVATION STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [2]
+            < U2 0 >
+            < A "NOT RESERVED" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "RESERVED" >
+      >
+>
+}
+
+[23] SVID: 23
+Description: LP1 WAFERCOUNT (SVID)
+Format: INT2
+Value { 0 }
+
+[24] SVID: 24
+Description: LP1 CARRIERID (SVID)
+Format: ASCII
+Value { "" }
+
+[25] SVID: 25
+Description: LP1 SLOTMAP (SVID)
+Format: ASCII
+Value { "0000000000000000000000000" }
+
+[26] SVID: 26
+Description: LP1 SLOTMAP STATUS (TEXT) (SVID)
+Format: ASCII
+Value { "SM NO STATE" }
+
+[27] SVID: 27
+Description: LP1 SLOTMAP STATUS (SVID)
+Format: INT2
+Value { 0 (SM NO STATE) }
+
+[28] SVID: 28
+Description: LP1 OCCUPANCY STATUS (SVID)
+Format: INT2
+Value { 0 (NOT OCCUPIED) }
+
+[29] SVID: 29
+Description: LP1 CARRIER ACCESS STATUS (SVID)
+Format: ASCII
+Value { "NO STATE" }
+
+[30] SVID: 30
+Description: LP1 TRANSFER STATUS (SVID)
+Format: INT2
+Value { 0 (UNKNOWN) }
+
+[31] SVID: 31
+Description: LP1 ASSOCIATE STATUS (SVID)
+Format: INT2
+Value { 0 (NOT ASSOCIATED) }
+
+[32] SVID: 32
+Description: LP1 RESERVATION STATUS (SVID)
+Format: INT2
+Value { 0 (NOT RESERVED) }
+
+[33] SVID: 33
+Description: LP1 BARCODE STATUS (SVID)
+Format: INT2
+Value { 1 (IN SERVICE) }
+
+[34] SVID: 34
+Description: LP1 DOCKING STATE (SVID)
+Format: ASCII
+Value { "" }
+
+[35] SVID: 35
+Description: LP1 CARRIER ID AT PLACEMENT (SVID)
+Format: ASCII
+Value { "UNKNOWN" }
+
+[36] SVID: 36
+Description: LP1 CARRIER ID AT DOCK (SVID)
+Format: ASCII
+Value { "UNKNOWN" }
+
+[37] SVID: 37
+Description: LP1 LOCATION ID AT PLACEMENT (SVID)
+Format: ASCII
+Value { "PLACEMENT" }
+
+[38] SVID: 38
+Description: LP1 LOCATION ID AT DOCK (SVID)
+Format: ASCII
+Value { "DOCKED" }
+
+[39] SVID: 39
+Description: LP1 ACCESS MODE (SVID)
+Format: INT2
+Value { 1 (MANUAL) }
+
+[40] SVID: 40
+Description: LP2 WAFERCOUNT (SVID)
+Format: INT2
+Value { 0 }
+
+[41] SVID: 41
+Description: LP2 CARRIERID (SVID)
+Format: ASCII
+Value { "" }
+
+[42] SVID: 42
+Description: LP2 SLOTMAP (SVID)
+Format: ASCII
+Value { "0000000000000000000000000" }
+
+[43] SVID: 43
+Description: LP2 SLOTMAP STATUS (TEXT) (SVID)
+Format: ASCII
+Value { "SM NO STATE" }
+
+[44] SVID: 44
+Description: LP2 SLOTMAP STATUS (SVID)
+Format: INT2
+Value { 0 (SM NO STATE) }
+
+[45] SVID: 45
+Description: LP2 OCCUPANCY STATUS (SVID)
+Format: INT2
+Value { 0 (NOT OCCUPIED) }
+
+[46] SVID: 46
+Description: LP2 CARRIER ACCESS STATUS (SVID)
+Format: ASCII
+Value { "NO STATE" }
+
+[47] SVID: 47
+Description: LP2 TRANSFER STATUS (SVID)
+Format: INT2
+Value { 0 (UNKNOWN) }
+
+[48] SVID: 48
+Description: LP2 ASSOCIATE STATUS (SVID)
+Format: INT2
+Value { 0 (NOT ASSOCIATED) }
+
+[49] SVID: 49
+Description: LP2 RESERVATION STATUS (SVID)
+Format: INT2
+Value { 0 (NOT RESERVED) }
+
+[50] SVID: 50
+Description: LP2 BARCODE STATUS (SVID)
+Format: INT2
+Value { 1 (IN SERVICE) }
+
+[51] SVID: 51
+Description: LP2 DOCKING STATE (SVID)
+Format: ASCII
+Value { "" }
+
+[52] SVID: 52
+Description: LP2 CARRIER ID AT PLACEMENT (SVID)
+Format: ASCII
+Value { "UNKNOWN" }
+
+[53] SVID: 53
+Description: LP2 CARRIER ID AT DOCK (SVID)
+Format: ASCII
+Value { "UNKNOWN" }
+
+[54] SVID: 54
+Description: LP2 LOCATION ID AT PLACEMENT (SVID)
+Format: ASCII
+Value { "PLACEMENT" }
+
+[55] SVID: 55
+Description: LP2 LOCATION ID AT DOCK (SVID)
+Format: ASCII
+Value { "DOCKED" }
+
+[56] SVID: 56
+Description: LP2 ACCESS MODE (SVID)
+Format: INT2
+Value { 1 (MANUAL) }
+
+[57] SVID: 57
+Description: CARRIER LOCATION MATRIX (SVID)
+Format: LIST
+Value
+{
+< L [6]
+      < L [2]
+            < A "LP1 PLACEMENT" >
+            < A "" >
+      >
+      < L [2]
+            < A "LP1 DOCKED" >
+            < A "" >
+      >
+      < L [2]
+            < A "LP1 AWAY" >
+            < A "" >
+      >
+      < L [2]
+            < A "LP2 PLACEMENT" >
+            < A "" >
+      >
+      < L [2]
+            < A "LP2 DOCKED" >
+            < A "" >
+      >
+      < L [2]
+            < A "LP2 AWAY" >
+            < A "" >
+      >
+>
+}
+
+[58] SVID: 58
+Description: LP PORT ASSOCIATION STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [2]
+            < U1 0 >
+            < A "NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U1 0 >
+            < A "NOT ASSOCIATED" >
+      >
+>
+}
+
+[59] SVID: 59
+Description: LP PORT STATE INFO LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [4]
+            < A "LOAD PORT NUMBER" >
+            < U1 1 >
+            < L [2]
+                  < A "ACCESS MODE" >
+                  < L [2]
+                        < U1 1 >
+                        < A "MANUAL" >
+                  >
+            >
+            < L [2]
+                  < A "TRANSFER STATUS" >
+                  < L [2]
+                        < U1 0 >
+                        < A "UNKNOWN" >
+                  >
+            >
+      >
+      < L [4]
+            < A "LOAD PORT NUMBER" >
+            < U1 2 >
+            < L [2]
+                  < A "ACCESS MODE" >
+                  < L [2]
+                        < U1 1 >
+                        < A "MANUAL" >
+                  >
+            >
+            < L [2]
+                  < A "TRANSFER STATUS" >
+                  < L [2]
+                        < U1 0 >
+                        < A "UNKNOWN" >
+                  >
+            >
+      >
+>
+}
+
+[60] SVID: 60
+Description: LP PORT TRANSFER STATUS LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [4]
+            < A "LOAD PORT NUMBER" >
+            < U1 1 >
+            < A "TRANSFER STATUS" >
+            < L [2]
+                  < U1 0 >
+                  < A "UNKNOWN" >
+            >
+      >
+      < L [4]
+            < A "LOAD PORT NUMBER" >
+            < U1 2 >
+            < A "TRANSFER STATUS" >
+            < L [2]
+                  < U1 0 >
+                  < A "UNKNOWN" >
+            >
+      >
+>
+}
+
+[61] SVID: 61
+Description: LP PORT LOCATION ID (SVID)
+Format: ASCII
+Value { "" }
+
+[62] SVID: 62
+Description: CONTROL JOB MAX QUEUE COUNT (SVID)
+Format: INT2
+Value { 30 }
+
+[63] SVID: 63
+Description: CONTROL JOB AVAILABLE SPACE (SVID)
+Format: INT2
+Value { 30 }
+
+[64] SVID: 64
+Description: CONTROL JOB STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [9]
+      < L [2]
+            < U2 1 >
+            < A "QUEUED" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "SELECTED" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "WAITING FOR START" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "EXECUTING" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "PAUSED" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "COMPLETED" >
+      >
+      < L [2]
+            < U2 7 >
+            < A "ACTIVE" >
+      >
+      < L [2]
+            < U2 8 >
+            < A "ABORTED" >
+      >
+      < L [2]
+            < U2 9 >
+            < A "STOPPED" >
+      >
+>
+}
+
+[65] SVID: 65
+Description: QUEUED CJOBS LIST (SVID)
+Format: ASCII
+Value { "" }
+
+[66] SVID: 66
+Description: CURRENT CJOB ID (SVID)
+Format: ASCII
+Value { "" }
+
+[67] SVID: 67
+Description: CURRENT CJOB STATE (SVID)
+Format: INT2
+Value { 0 }
+
+[68] SVID: 68
+Description: CURRENT CJOB STATE (TEXT) (SVID)
+Format: ASCII
+Value { "" }
+
+[69] SVID: 69
+Description: PROCESSJOB MAX QUEUE COUNT (SVID)
+Format: INT2
+Value { 30 }
+
+[70] SVID: 70
+Description: PROCESS JOB AVAILABLE SPACE (SVID)
+Format: INT2
+Value { 30 }
+
+[71] SVID: 71
+Description: PROCESS JOB STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [10]
+      < L [2]
+            < U2 0 >
+            < A "QUEUED" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "SETTING UP" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "WAITING FOR START" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "PROCESSING" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "EXECUTING" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "PAUSING" >
+      >
+      < L [2]
+            < U2 7 >
+            < A "PAUSED" >
+      >
+      < L [2]
+            < U2 8 >
+            < A "STOPPING" >
+      >
+      < L [2]
+            < U2 9 >
+            < A "ABORTING" >
+      >
+>
+}
+
+[72] SVID: 72
+Description: CURRENT PRJOB ID (SVID)
+Format: ASCII
+Value { "" }
+
+[73] SVID: 73
+Description: CURRENT PRJOB STATE (SVID)
+Format: INT2
+Value { 0 }
+
+[74] SVID: 74
+Description: CURRENT PRJOB STATE (TEXT) (SVID)
+Format: ASCII
+Value { "" }
+
+[75] SVID: 75
+Description: ALARM ENABLED LIST (SVID)
+Format: LIST
+Value
+{
+< L [117]
+      < L [2]
+            < U2 1 >
+            < A "LP1 Duplicated carrier error" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "LP2 Duplicated carrier error" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "CIDR 1 communication failure" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "CIDR 1 read operation failure" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "CIDR 2 communication failure" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "CIDR 2 read operation failure" >
+      >
+      < L [2]
+            < U2 7 >
+            < A "LP1 open failure" >
+      >
+      < L [2]
+            < U2 8 >
+            < A "LP1 close failure" >
+      >
+      < L [2]
+            < U2 9 >
+            < A "LP2 open failure" >
+      >
+      < L [2]
+            < U2 10 >
+            < A "LP2 close failure" >
+      >
+      < L [2]
+            < U2 11 >
+            < A "Attempt to use out of service load port" >
+      >
+      < L [2]
+            < U2 12 >
+            < A "Carrier presence error" >
+      >
+      < L [2]
+            < U2 13 >
+            < A "Carrier placement error" >
+      >
+      < L [2]
+            < U2 14 >
+            < A "Dock/Undock failure" >
+      >
+      < L [2]
+            < U2 15 >
+            < A "Open/Close failure" >
+      >
+      < L [2]
+            < U2 16 >
+            < A "Carrier removal error" >
+      >
+      < L [2]
+            < U2 17 >
+            < A "Load port not associated" >
+      >
+      < L [2]
+            < U2 18 >
+            < A "Carrier object not found" >
+      >
+      < L [2]
+            < U2 19 >
+            < A "Improper scenario" >
+      >
+      < L [2]
+            < U2 20 >
+            < A "LP1 clamp failure" >
+      >
+      < L [2]
+            < U2 21 >
+            < A "LP2 clamp failure" >
+      >
+      < L [2]
+            < U2 22 >
+            < A "LP1 unclamp failure" >
+      >
+      < L [2]
+            < U2 23 >
+            < A "LP2 unclamp failure" >
+      >
+      < L [2]
+            < U2 74 >
+            < A "Wafer handling failure" >
+      >
+      < L [2]
+            < U2 25 >
+            < A "LP1 excessive wafer out failure" >
+      >
+      < L [2]
+            < U2 26 >
+            < A "LP2 excessive wafer out failure" >
+      >
+      < L [2]
+            < U2 27 >
+            < A "LP1 perimeter sensor trip failure" >
+      >
+      < L [2]
+            < U2 28 >
+            < A "LP2 perimeter sensor trip failure" >
+      >
+      < L [2]
+            < U2 29 >
+            < A "LP1 wafer cross slotted" >
+      >
+      < L [2]
+            < U2 30 >
+            < A "LP2 wafer cross slotted" >
+      >
+      < L [2]
+            < U2 31 >
+            < A "LP1 Carrier ID read failure" >
+      >
+      < L [2]
+            < U2 32 >
+            < A "LP2 Carrier ID read failure" >
+      >
+      < L [2]
+            < U2 33 >
+            < A "LP1 Slot map read failure" >
+      >
+      < L [2]
+            < U2 34 >
+            < A "LP2 Slot map read failure" >
+      >
+      < L [2]
+            < U2 35 >
+            < A "LP1 Slot map verification failure" >
+      >
+      < L [2]
+            < U2 36 >
+            < A "LP2 Slot map verification failure" >
+      >
+      < L [2]
+            < U2 37 >
+            < A "LP1 ID verification failure" >
+      >
+      < L [2]
+            < U2 38 >
+            < A "LP2 ID verification failure" >
+      >
+      < L [2]
+            < U2 39 >
+            < A "Fan filter unit failure" >
+      >
+      < L [2]
+            < U2 40 >
+            < A "Lost E84 signal" >
+      >
+      < L [2]
+            < U2 41 >
+            < A "Unexpected E84 signal" >
+      >
+      < L [2]
+            < U2 42 >
+            < A "LP1 in alarmed state" >
+      >
+      < L [2]
+            < U2 43 >
+            < A "LP2 in alarmed state" >
+      >
+      < L [2]
+            < U2 44 >
+            < A "LP1 communication failure" >
+      >
+      < L [2]
+            < U2 45 >
+            < A "LP2 communication failure" >
+      >
+      < L [2]
+            < U2 46 >
+            < A "LP1 vacuum lost" >
+      >
+      < L [2]
+            < U2 47 >
+            < A "LP2 vacuum lost" >
+      >
+      < L [2]
+            < U2 48 >
+            < A "LP1 no vacuum" >
+      >
+      < L [2]
+            < U2 49 >
+            < A "LP2 no vacuum" >
+      >
+      < L [2]
+            < U2 50 >
+            < A "LP1 E84 TP1 timeout" >
+      >
+      < L [2]
+            < U2 51 >
+            < A "LP1 E84 TP2 timeout" >
+      >
+      < L [2]
+            < U2 52 >
+            < A "LP1 E84 TP3 timeout" >
+      >
+      < L [2]
+            < U2 53 >
+            < A "LP1 E84 TP4 timeout" >
+      >
+      < L [2]
+            < U2 54 >
+            < A "LP1 E84 TP5 timeout" >
+      >
+      < L [2]
+            < U2 55 >
+            < A "LP1 E84 TP6 timeout" >
+      >
+      < L [2]
+            < U2 56 >
+            < A "LP2 E84 TP1 timeout" >
+      >
+      < L [2]
+            < U2 57 >
+            < A "LP2 E84 TP2 timeout" >
+      >
+      < L [2]
+            < U2 58 >
+            < A "LP2 E84 TP3 timeout" >
+      >
+      < L [2]
+            < U2 59 >
+            < A "LP2 E84 TP4 timeout" >
+      >
+      < L [2]
+            < U2 60 >
+            < A "LP2 E84 TP5 timeout" >
+      >
+      < L [2]
+            < U2 61 >
+            < A "LP2 E84 TP6 timeout" >
+      >
+      < L [2]
+            < U2 62 >
+            < A "Equipment out of service" >
+      >
+      < L [2]
+            < U2 63 >
+            < A "Robot out of service" >
+      >
+      < L [2]
+            < U2 64 >
+            < A "LP1 out of service" >
+      >
+      < L [2]
+            < U2 65 >
+            < A "LP2 out of service" >
+      >
+      < L [2]
+            < U2 66 >
+            < A "CIDR 1 out of service" >
+      >
+      < L [2]
+            < U2 67 >
+            < A "CIDR 2 out of service" >
+      >
+      < L [2]
+            < U2 68 >
+            < A "413 module is out of service" >
+      >
+      < L [2]
+            < U2 69 >
+            < A "413 module not online" >
+      >
+      < L [2]
+            < U2 70 >
+            < A "LP1 not ready to load" >
+      >
+      < L [2]
+            < U2 71 >
+            < A "LP2 not ready to load" >
+      >
+      < L [2]
+            < U2 72 >
+            < A "LP1 access mode violation" >
+      >
+      < L [2]
+            < U2 73 >
+            < A "LP2 access mode violation" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "General wafer handling failure" >
+      >
+      < L [2]
+            < U2 75 >
+            < A "Robot home failure" >
+      >
+      < L [2]
+            < U2 76 >
+            < A "Lost communication with robot failure" >
+      >
+      < L [2]
+            < U2 77 >
+            < A "Robot startup failure" >
+      >
+      < L [2]
+            < U2 78 >
+            < A "Robot has wafer on arm" >
+      >
+      < L [2]
+            < U2 79 >
+            < A "LP1 reset failure" >
+      >
+      < L [2]
+            < U2 80 >
+            < A "LP2 reset failure" >
+      >
+      < L [2]
+            < U2 81 >
+            < A "Aligner home failure" >
+      >
+      < L [2]
+            < U2 82 >
+            < A "Aligner has wafer" >
+      >
+      < L [2]
+            < U2 83 >
+            < A "Wafer present inside tool" >
+      >
+      < L [2]
+            < U2 84 >
+            < A "PRJob Exec Error" >
+      >
+      < L [2]
+            < U2 85 >
+            < A "Take Background Error" >
+      >
+      < L [2]
+            < U2 86 >
+            < A "Take Reference Error" >
+      >
+      < L [2]
+            < U2 87 >
+            < A "Abnormal Spectrometer Behavior" >
+      >
+      < L [2]
+            < U2 88 >
+            < A "Measurement Aborted" >
+      >
+      < L [2]
+            < U2 89 >
+            < A "LP1 ID waiting for host timeout" >
+      >
+      < L [2]
+            < U2 90 >
+            < A "LP2 ID waiting for host timeout" >
+      >
+      < L [2]
+            < U2 91 >
+            < A "LP1 SM waiting for host timeout" >
+      >
+      < L [2]
+            < U2 92 >
+            < A "LP2 SM waiting for host timeout" >
+      >
+      < L [2]
+            < U2 93 >
+            < A "LP1 CJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 94 >
+            < A "LP2 CJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 95 >
+            < A "LP1 PJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 96 >
+            < A "LP2 PJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 97 >
+            < A "LP1 wafer processing timeout" >
+      >
+      < L [2]
+            < U2 98 >
+            < A "LP2 wafer processing timeout" >
+      >
+      < L [2]
+            < U2 99 >
+            < A "LP1 point processing timeout" >
+      >
+      < L [2]
+            < U2 100 >
+            < A "LP2 point processing timeout" >
+      >
+      < L [2]
+            < U2 101 >
+            < A "LP1 too many failed points" >
+      >
+      < L [2]
+            < U2 102 >
+            < A "LP2 too many failed points" >
+      >
+      < L [2]
+            < U2 103 >
+            < A "Echo motor error" >
+      >
+      < L [2]
+            < U2 104 >
+            < A "P motor error" >
+      >
+      < L [2]
+            < U2 105 >
+            < A "P motor error" >
+      >
+      < L [2]
+            < U2 106 >
+            < A "LP1 pattern matching fail and continue to next point" >
+      >
+      < L [2]
+            < U2 107 >
+            < A "LP2 pattern matching fail and continue to next point" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "LP1 E84 signal lost" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "LP2 E84 signal lost" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "LP1 Unexpected E84 signal" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "LP1 Unexpected E84 signal" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "Unknown Error" >
+      >
+      < L [2]
+            < U2 112 >
+            < A "WAFER PRESENT ON STAGE" >
+      >
+      < L [2]
+            < U2 113 >
+            < A "WAFER PRESENT ON ALIGNER" >
+      >
+      < L [2]
+            < U2 114 >
+            < A "WAFER PRESENT ON ROBOT ARM" >
+      >
+      < L [2]
+            < U2 115 >
+            < A "INCOMMING VACUUM LOW" >
+      >
+      < L [2]
+            < U2 123 >
+            < A "DOOR OPENED" >
+      >
+>
+}
+
+[76] SVID: 76
+Description: ALARM SET LIST (SVID)
+Format: LIST
+Value
+{
+< L [39]
+      < L [2]
+            < U2 3 >
+            < A "CIDR 1 communication failure" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "CIDR 2 read operation failure" >
+      >
+      < L [2]
+            < U2 7 >
+            < A "LP1 open failure" >
+      >
+      < L [2]
+            < U2 8 >
+            < A "LP1 close failure" >
+      >
+      < L [2]
+            < U2 9 >
+            < A "LP2 open failure" >
+      >
+      < L [2]
+            < U2 10 >
+            < A "LP2 close failure" >
+      >
+      < L [2]
+            < U2 30 >
+            < A "LP2 wafer cross slotted" >
+      >
+      < L [2]
+            < U2 31 >
+            < A "LP1 Carrier ID read failure" >
+      >
+      < L [2]
+            < U2 32 >
+            < A "LP2 Carrier ID read failure" >
+      >
+      < L [2]
+            < U2 34 >
+            < A "LP2 Slot map read failure" >
+      >
+      < L [2]
+            < U2 37 >
+            < A "LP1 ID verification failure" >
+      >
+      < L [2]
+            < U2 44 >
+            < A "LP1 communication failure" >
+      >
+      < L [2]
+            < U2 45 >
+            < A "LP2 communication failure" >
+      >
+      < L [2]
+            < U2 50 >
+            < A "LP1 E84 TP1 timeout" >
+      >
+      < L [2]
+            < U2 51 >
+            < A "LP1 E84 TP2 timeout" >
+      >
+      < L [2]
+            < U2 52 >
+            < A "LP1 E84 TP3 timeout" >
+      >
+      < L [2]
+            < U2 53 >
+            < A "LP1 E84 TP4 timeout" >
+      >
+      < L [2]
+            < U2 72 >
+            < A "LP1 access mode violation" >
+      >
+      < L [2]
+            < U2 73 >
+            < A "LP2 access mode violation" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "General wafer handling failure" >
+      >
+      < L [2]
+            < U2 75 >
+            < A "Robot home failure" >
+      >
+      < L [2]
+            < U2 76 >
+            < A "Lost communication with robot failure" >
+      >
+      < L [2]
+            < U2 77 >
+            < A "Robot startup failure" >
+      >
+      < L [2]
+            < U2 78 >
+            < A "Robot has wafer on arm" >
+      >
+      < L [2]
+            < U2 79 >
+            < A "LP1 reset failure" >
+      >
+      < L [2]
+            < U2 80 >
+            < A "LP2 reset failure" >
+      >
+      < L [2]
+            < U2 83 >
+            < A "Wafer present inside tool" >
+      >
+      < L [2]
+            < U2 88 >
+            < A "Measurement Aborted" >
+      >
+      < L [2]
+            < U2 89 >
+            < A "LP1 ID waiting for host timeout" >
+      >
+      < L [2]
+            < U2 90 >
+            < A "LP2 ID waiting for host timeout" >
+      >
+      < L [2]
+            < U2 91 >
+            < A "LP1 SM waiting for host timeout" >
+      >
+      < L [2]
+            < U2 93 >
+            < A "LP1 CJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 95 >
+            < A "LP1 PJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 96 >
+            < A "LP2 PJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 97 >
+            < A "LP1 wafer processing timeout" >
+      >
+      < L [2]
+            < U2 106 >
+            < A "LP1 pattern matching fail and continue to next point" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "LP1 E84 signal lost" >
+      >
+      < L [2]
+            < U2 116 >
+            < A "XY STAGE MOTOR ERROR" >
+      >
+      < L [2]
+            < U2 119 >
+            < A "WAFER MAY BE IN TOOL, RECOVERY NEEDED" >
+      >
+>
+}
+
+[77] SVID: 77
+Description: LAST ALARM (SVID)
+Format: INT2
+Value { -1 }
+
+[78] SVID: 78
+Description: LAST ALARM SET (SVID)
+Format: INT2
+Value { 0 }
+
+[79] SVID: 79
+Description: ALARMS LIST (SVID)
+Format: LIST
+Value
+{
+< L [123]
+      < L [2]
+            < U2 1 >
+            < A "LP1 Duplicated carrier error" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "LP2 Duplicated carrier error" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "CIDR 1 communication failure" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "CIDR 1 read operation failure" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "CIDR 2 communication failure" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "CIDR 2 read operation failure" >
+      >
+      < L [2]
+            < U2 7 >
+            < A "LP1 open failure" >
+      >
+      < L [2]
+            < U2 8 >
+            < A "LP1 close failure" >
+      >
+      < L [2]
+            < U2 9 >
+            < A "LP2 open failure" >
+      >
+      < L [2]
+            < U2 10 >
+            < A "LP2 close failure" >
+      >
+      < L [2]
+            < U2 11 >
+            < A "Attempt to use out of service load port" >
+      >
+      < L [2]
+            < U2 12 >
+            < A "Carrier presence error" >
+      >
+      < L [2]
+            < U2 13 >
+            < A "Carrier placement error" >
+      >
+      < L [2]
+            < U2 14 >
+            < A "Dock/Undock failure" >
+      >
+      < L [2]
+            < U2 15 >
+            < A "Open/Close failure" >
+      >
+      < L [2]
+            < U2 16 >
+            < A "Carrier removal error" >
+      >
+      < L [2]
+            < U2 17 >
+            < A "Load port not associated" >
+      >
+      < L [2]
+            < U2 18 >
+            < A "Carrier object not found" >
+      >
+      < L [2]
+            < U2 19 >
+            < A "Improper scenario" >
+      >
+      < L [2]
+            < U2 20 >
+            < A "LP1 clamp failure" >
+      >
+      < L [2]
+            < U2 21 >
+            < A "LP2 clamp failure" >
+      >
+      < L [2]
+            < U2 22 >
+            < A "LP1 unclamp failure" >
+      >
+      < L [2]
+            < U2 23 >
+            < A "LP2 unclamp failure" >
+      >
+      < L [2]
+            < U2 74 >
+            < A "Wafer handling failure" >
+      >
+      < L [2]
+            < U2 25 >
+            < A "LP1 excessive wafer out failure" >
+      >
+      < L [2]
+            < U2 26 >
+            < A "LP2 excessive wafer out failure" >
+      >
+      < L [2]
+            < U2 27 >
+            < A "LP1 perimeter sensor trip failure" >
+      >
+      < L [2]
+            < U2 28 >
+            < A "LP2 perimeter sensor trip failure" >
+      >
+      < L [2]
+            < U2 29 >
+            < A "LP1 wafer cross slotted" >
+      >
+      < L [2]
+            < U2 30 >
+            < A "LP2 wafer cross slotted" >
+      >
+      < L [2]
+            < U2 31 >
+            < A "LP1 Carrier ID read failure" >
+      >
+      < L [2]
+            < U2 32 >
+            < A "LP2 Carrier ID read failure" >
+      >
+      < L [2]
+            < U2 33 >
+            < A "LP1 Slot map read failure" >
+      >
+      < L [2]
+            < U2 34 >
+            < A "LP2 Slot map read failure" >
+      >
+      < L [2]
+            < U2 35 >
+            < A "LP1 Slot map verification failure" >
+      >
+      < L [2]
+            < U2 36 >
+            < A "LP2 Slot map verification failure" >
+      >
+      < L [2]
+            < U2 37 >
+            < A "LP1 ID verification failure" >
+      >
+      < L [2]
+            < U2 38 >
+            < A "LP2 ID verification failure" >
+      >
+      < L [2]
+            < U2 39 >
+            < A "Fan filter unit failure" >
+      >
+      < L [2]
+            < U2 40 >
+            < A "Lost E84 signal" >
+      >
+      < L [2]
+            < U2 41 >
+            < A "Unexpected E84 signal" >
+      >
+      < L [2]
+            < U2 42 >
+            < A "LP1 in alarmed state" >
+      >
+      < L [2]
+            < U2 43 >
+            < A "LP2 in alarmed state" >
+      >
+      < L [2]
+            < U2 44 >
+            < A "LP1 communication failure" >
+      >
+      < L [2]
+            < U2 45 >
+            < A "LP2 communication failure" >
+      >
+      < L [2]
+            < U2 46 >
+            < A "LP1 vacuum lost" >
+      >
+      < L [2]
+            < U2 47 >
+            < A "LP2 vacuum lost" >
+      >
+      < L [2]
+            < U2 48 >
+            < A "LP1 no vacuum" >
+      >
+      < L [2]
+            < U2 49 >
+            < A "LP2 no vacuum" >
+      >
+      < L [2]
+            < U2 50 >
+            < A "LP1 E84 TP1 timeout" >
+      >
+      < L [2]
+            < U2 51 >
+            < A "LP1 E84 TP2 timeout" >
+      >
+      < L [2]
+            < U2 52 >
+            < A "LP1 E84 TP3 timeout" >
+      >
+      < L [2]
+            < U2 53 >
+            < A "LP1 E84 TP4 timeout" >
+      >
+      < L [2]
+            < U2 54 >
+            < A "LP1 E84 TP5 timeout" >
+      >
+      < L [2]
+            < U2 55 >
+            < A "LP1 E84 TP6 timeout" >
+      >
+      < L [2]
+            < U2 56 >
+            < A "LP2 E84 TP1 timeout" >
+      >
+      < L [2]
+            < U2 57 >
+            < A "LP2 E84 TP2 timeout" >
+      >
+      < L [2]
+            < U2 58 >
+            < A "LP2 E84 TP3 timeout" >
+      >
+      < L [2]
+            < U2 59 >
+            < A "LP2 E84 TP4 timeout" >
+      >
+      < L [2]
+            < U2 60 >
+            < A "LP2 E84 TP5 timeout" >
+      >
+      < L [2]
+            < U2 61 >
+            < A "LP2 E84 TP6 timeout" >
+      >
+      < L [2]
+            < U2 62 >
+            < A "Equipment out of service" >
+      >
+      < L [2]
+            < U2 63 >
+            < A "Robot out of service" >
+      >
+      < L [2]
+            < U2 64 >
+            < A "LP1 out of service" >
+      >
+      < L [2]
+            < U2 65 >
+            < A "LP2 out of service" >
+      >
+      < L [2]
+            < U2 66 >
+            < A "CIDR 1 out of service" >
+      >
+      < L [2]
+            < U2 67 >
+            < A "CIDR 2 out of service" >
+      >
+      < L [2]
+            < U2 68 >
+            < A "413 module is out of service" >
+      >
+      < L [2]
+            < U2 69 >
+            < A "413 module not online" >
+      >
+      < L [2]
+            < U2 70 >
+            < A "LP1 not ready to load" >
+      >
+      < L [2]
+            < U2 71 >
+            < A "LP2 not ready to load" >
+      >
+      < L [2]
+            < U2 72 >
+            < A "LP1 access mode violation" >
+      >
+      < L [2]
+            < U2 73 >
+            < A "LP2 access mode violation" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "General wafer handling failure" >
+      >
+      < L [2]
+            < U2 75 >
+            < A "Robot home failure" >
+      >
+      < L [2]
+            < U2 76 >
+            < A "Lost communication with robot failure" >
+      >
+      < L [2]
+            < U2 77 >
+            < A "Robot startup failure" >
+      >
+      < L [2]
+            < U2 78 >
+            < A "Robot has wafer on arm" >
+      >
+      < L [2]
+            < U2 79 >
+            < A "LP1 reset failure" >
+      >
+      < L [2]
+            < U2 80 >
+            < A "LP2 reset failure" >
+      >
+      < L [2]
+            < U2 81 >
+            < A "Aligner home failure" >
+      >
+      < L [2]
+            < U2 82 >
+            < A "Aligner has wafer" >
+      >
+      < L [2]
+            < U2 83 >
+            < A "Wafer present inside tool" >
+      >
+      < L [2]
+            < U2 84 >
+            < A "PRJob Exec Error" >
+      >
+      < L [2]
+            < U2 85 >
+            < A "Take Background Error" >
+      >
+      < L [2]
+            < U2 86 >
+            < A "Take Reference Error" >
+      >
+      < L [2]
+            < U2 87 >
+            < A "Abnormal Spectrometer Behavior" >
+      >
+      < L [2]
+            < U2 88 >
+            < A "Measurement Aborted" >
+      >
+      < L [2]
+            < U2 89 >
+            < A "LP1 ID waiting for host timeout" >
+      >
+      < L [2]
+            < U2 90 >
+            < A "LP2 ID waiting for host timeout" >
+      >
+      < L [2]
+            < U2 91 >
+            < A "LP1 SM waiting for host timeout" >
+      >
+      < L [2]
+            < U2 92 >
+            < A "LP2 SM waiting for host timeout" >
+      >
+      < L [2]
+            < U2 93 >
+            < A "LP1 CJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 94 >
+            < A "LP2 CJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 95 >
+            < A "LP1 PJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 96 >
+            < A "LP2 PJ waiting for host timeout" >
+      >
+      < L [2]
+            < U2 97 >
+            < A "LP1 wafer processing timeout" >
+      >
+      < L [2]
+            < U2 98 >
+            < A "LP2 wafer processing timeout" >
+      >
+      < L [2]
+            < U2 99 >
+            < A "LP1 point processing timeout" >
+      >
+      < L [2]
+            < U2 100 >
+            < A "LP2 point processing timeout" >
+      >
+      < L [2]
+            < U2 101 >
+            < A "LP1 too many failed points" >
+      >
+      < L [2]
+            < U2 102 >
+            < A "LP2 too many failed points" >
+      >
+      < L [2]
+            < U2 103 >
+            < A "Echo motor error" >
+      >
+      < L [2]
+            < U2 104 >
+            < A "P motor error" >
+      >
+      < L [2]
+            < U2 105 >
+            < A "P motor error" >
+      >
+      < L [2]
+            < U2 106 >
+            < A "LP1 pattern matching fail and continue to next point" >
+      >
+      < L [2]
+            < U2 107 >
+            < A "LP2 pattern matching fail and continue to next point" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "LP1 E84 signal lost" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "LP2 E84 signal lost" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "LP1 Unexpected E84 signal" >
+      >
+      < L [2]
+            < U2 0 >
+            < A "LP1 Unexpected E84 signal" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "Unknown Error" >
+      >
+      < L [2]
+            < U2 112 >
+            < A "WAFER PRESENT ON STAGE" >
+      >
+      < L [2]
+            < U2 113 >
+            < A "WAFER PRESENT ON ALIGNER" >
+      >
+      < L [2]
+            < U2 114 >
+            < A "WAFER PRESENT ON ROBOT ARM" >
+      >
+      < L [2]
+            < U2 115 >
+            < A "INCOMMING VACUUM LOW" >
+      >
+      < L [2]
+            < U2 116 >
+            < A "XY STAGE MOTOR ERROR" >
+      >
+      < L [2]
+            < U2 117 >
+            < A "XY STAGE RESET FAILED" >
+      >
+      < L [2]
+            < U2 118 >
+            < A "PREVIOUS INCOMPLETE PROCESS DETECTED, RECOVERY NEEDED" >
+      >
+      < L [2]
+            < U2 119 >
+            < A "WAFER MAY BE IN TOOL, RECOVERY NEEDED" >
+      >
+      < L [2]
+            < U2 120 >
+            < A "LP1 WAFER CENTERING FAILED" >
+      >
+      < L [2]
+            < U2 121 >
+            < A "LP2 WAFER CENTERING FAILED" >
+      >
+      < L [2]
+            < U2 123 >
+            < A "DOOR OPENED" >
+      >
+>
+}
+
+[80] SVID: 80
+Description: SPOOL COUNT TOTAL (SVID)
+Format: INT2
+Value { 0 }
+
+[81] SVID: 81
+Description: SPOOL COUNT ACTUAL (SVID)
+Format: INT2
+Value { 0 }
+
+[82] SVID: 82
+Description: SPOOL START TIME (SVID)
+Format: ASCII
+Value { "                " }
+
+[83] SVID: 83
+Description: SPOOL FULL TIME (SVID)
+Format: ASCII
+Value { "                " }
+
+[84] SVID: 84
+Description: SPOOL OVERIDE (SVID)
+Format: BOOLEAN
+Value { false }
+
+[85] SVID: 85
+Description: CONNECTION MODE (SVID)
+Format: INT2
+Value { 0 }
+
+[87] SVID: 87
+Description: ACTIVE IP ADDRESS (SVID)
+Format: ASCII
+Value { "192.168.0.110" }
+
+[90] SVID: 90
+Description: DEFAULT ONLINE STATE (SVID)
+Format: INT2
+Value { 1 }
+
+[91] SVID: 91
+Description: DEFAULT OFFLINE STATE (SVID)
+Format: INT2
+Value { 3 }
+
+[92] SVID: 92
+Description: SUBSRATE LOT ID (SVID)
+Format: ASCII
+Value { "" }
+
+[93] SVID: 93
+Description: SUBSRATE DESTINATION (SVID)
+Format: ASCII
+Value { "" }
+
+[94] SVID: 94
+Description: SUBSRATE HISTORY (SVID)
+Format: LIST
+Value
+{
+< L [0]
+>
+}
+
+[95] SVID: 95
+Description: SUBSRATE ID (SVID)
+Format: ASCII
+Value { "" }
+
+[96] SVID: 96
+Description: SUBSRATE LOCATION ID (SVID)
+Format: ASCII
+Value { "0" }
+
+[97] SVID: 97
+Description: SUBSRATE LOCATION STATE (SVID)
+Format: ASCII
+Value { "" }
+
+[98] SVID: 98
+Description: SUBSRATE PROCESSING STATE (SVID)
+Format: INT2
+Value { 0 }
+
+[99] SVID: 99
+Description: SUBSRATE SOURCE (SVID)
+Format: ASCII
+Value { "" }
+
+[100] SVID: 100
+Description: SUBSRATE STATE (SVID)
+Format: ASCII
+Value { "" }
+
+[101] SVID: 101
+Description: SUBSRATE TYPE (SVID)
+Format: INT2
+Value { 0 }
+
+[102] SVID: 102
+Description: SUBSRATE USAGE (SVID)
+Format: INT2
+Value { 0 }
+
+[103] SVID: 103
+Description: SUBSRATE PROCESSING STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [7]
+      < L [2]
+            < U2 0 >
+            < A "NO STATE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "NEEDS PROCESSING" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "IN PROCESS" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "PROCESSED" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "ABORTED" >
+      >
+      < L [2]
+            < U2 5 >
+            < A "STOPPED" >
+      >
+      < L [2]
+            < U2 6 >
+            < A "REJECTED" >
+      >
+>
+}
+
+[104] SVID: 104
+Description: SUBSRATE STATE LIST (SVID)
+Format: LIST
+Value
+{
+< L [4]
+      < L [2]
+            < U2 0 >
+            < A "NO STATE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "AT SOURCE" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "AT WORK" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "AT DESTINATION" >
+      >
+>
+}
+
+[105] SVID: 105
+Description: CHUCK SUBSRATE LOCATION STATE (SVID)
+Format: ASCII
+Value { "0" }
+
+[106] SVID: 106
+Description: CHUCK SUBSRATE ID (SVID)
+Format: ASCII
+Value { "" }
+
+[107] SVID: 107
+Description: EVENT ENABLED LIST (SVID)
+Format: LIST
+Value
+{
+< L [231]
+      < L [2]
+            < U2 1 >
+            < A "ONLINE REMOTE" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "ONLINE LOCAL" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "OFFLINE EQUIPMENT" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "OFFLINE HOST" >
+      >
+      < L [2]
+            < U2 10 >
+            < A "EQUIPMENT IDLE" >
+      >
+      < L [2]
+            < U2 11 >
+            < A "EQUIPMENT WORKING" >
+      >
+      < L [2]
+            < U2 12 >
+            < A "EQUIPMENT MAINTENANCE" >
+      >
+      < L [2]
+            < U2 13 >
+            < A "EQUIPMENT IN SERVICE" >
+      >
+      < L [2]
+            < U2 14 >
+            < A "EQUIPMENT OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 20 >
+            < A "ALARM SET" >
+      >
+      < L [2]
+            < U2 21 >
+            < A "ALARM CLEARED" >
+      >
+      < L [2]
+            < U2 24 >
+            < A "PER POINT LEVEL RESULT" >
+      >
+      < L [2]
+            < U2 25 >
+            < A "PER WAFER LEVEL REULT" >
+      >
+      < L [2]
+            < U2 40 >
+            < A "CANCEL NOT POSSIBLE" >
+      >
+      < L [2]
+            < U2 41 >
+            < A "CARRIER NOT FOUND" >
+      >
+      < L [2]
+            < U2 42 >
+            < A "CARRIER REMOVE FAILED" >
+      >
+      < L [2]
+            < U2 43 >
+            < A "CARRIER REMOVE OK" >
+      >
+      < L [2]
+            < U2 44 >
+            < A "CARRIER OBJECT DELETED" >
+      >
+      < L [2]
+            < U2 45 >
+            < A "CARRIER WAIT FOR CJ TIMEOUT" >
+      >
+      < L [2]
+            < U2 50 >
+            < A "INVALID PORT ID" >
+      >
+      < L [2]
+            < U2 51 >
+            < A "NOT READY TO LOAD" >
+      >
+      < L [2]
+            < U2 52 >
+            < A "PORT IS ASSOCIATED" >
+      >
+      < L [2]
+            < U2 53 >
+            < A "PORT IS NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 60 >
+            < A "PROCESSING START" >
+      >
+      < L [2]
+            < U2 61 >
+            < A "PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 62 >
+            < A "PROCESSING STOPPED" >
+      >
+      < L [2]
+            < U2 63 >
+            < A "PROCESSING STATE CHANGE" >
+      >
+      < L [2]
+            < U2 64 >
+            < A "WAFER PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 100 >
+            < A "LP1 CARRIER ARRIVED" >
+      >
+      < L [2]
+            < U2 101 >
+            < A "LP1 CLAMP COMPLETE" >
+      >
+      < L [2]
+            < U2 102 >
+            < A "LP1 CARRIER DOCKED" >
+      >
+      < L [2]
+            < U2 103 >
+            < A "LP1 CARRIER OPENED" >
+      >
+      < L [2]
+            < U2 104 >
+            < A "LP1 CARRIER OPEN FAILED" >
+      >
+      < L [2]
+            < U2 105 >
+            < A "LP1 CARRIER UNDOCKED" >
+      >
+      < L [2]
+            < U2 106 >
+            < A "LP1 CARRIER CLOSED" >
+      >
+      < L [2]
+            < U2 107 >
+            < A "LP1 CARRIER CLAMPPED" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "LP1 CARRIER UNCLAMPED" >
+      >
+      < L [2]
+            < U2 109 >
+            < A "LP1 CARRIER REMOVED" >
+      >
+      < L [2]
+            < U2 110 >
+            < A "LP1 OUTOFSERVICE" >
+      >
+      < L [2]
+            < U2 111 >
+            < A "LP1 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 112 >
+            < A "LP1 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 113 >
+            < A "LP1 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 114 >
+            < A "LP1 CANCEL CARRIER OK" >
+      >
+      < L [2]
+            < U2 115 >
+            < A "LP1 CANCEL CARRIER FAILED" >
+      >
+      < L [2]
+            < U2 116 >
+            < A "LP1 CARRIER LOCATION CHANGED" >
+      >
+      < L [2]
+            < U2 117 >
+            < A "LP1 LOAD COMPLETE" >
+      >
+      < L [2]
+            < U2 118 >
+            < A "LP1 CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 119 >
+            < A "LP1 WAFER REMOVED" >
+      >
+      < L [2]
+            < U2 120 >
+            < A "LP1 WAFER RETURNED" >
+      >
+      < L [2]
+            < U2 150 >
+            < A "LP1 NO STATE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 151 >
+            < A "LP1 NO STATE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 152 >
+            < A "LP1 OUT OF SERVICE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 153 >
+            < A "LP1 IN SERVICE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 154 >
+            < A "LP1 IN SERVICE 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 155 >
+            < A "LP1 IN SERVICE 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 156 >
+            < A "LP1 TRANSFER READY 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 157 >
+            < A "LP1 TRANSFER READY 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 158 >
+            < A "LP1 READY TO LOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 159 >
+            < A "LP1 READY TO UNLOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 160 >
+            < A "LP1 TRANSFER BLOCKED 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 161 >
+            < A "LP1 TRANSFER BLOCKED 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 162 >
+            < A "LP1 TRANSFER BLOCKED 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 180 >
+            < A "LP1 NO STATE TO CARRIER" >
+      >
+      < L [2]
+            < U2 181 >
+            < A "LP1 NO STATE TO ID NO TREAD" >
+      >
+      < L [2]
+            < U2 182 >
+            < A "LP1 NO STATE TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 183 >
+            < A "LP1 NO STATE TO ID VER OK" >
+      >
+      < L [2]
+            < U2 184 >
+            < A "LP1 NO STATE TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 185 >
+            < A "LP1 ID NO TREAD TO ID VER OK" >
+      >
+      < L [2]
+            < U2 186 >
+            < A "LP1 ID NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 187 >
+            < A "LP1 WAITING FOR HOST TO ID VER OK" >
+      >
+      < L [2]
+            < U2 188 >
+            < A "LP1 WAITING FOR HOST TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 210 >
+            < A "LP1 NO STATE TO SLOTMAP NOT READ" >
+      >
+      < L [2]
+            < U2 211 >
+            < A "LP1 SLOTMAP NOT READ TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 212 >
+            < A "LP1 SLOTMAP NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 213 >
+            < A "LP1 WAITING FOR HOST TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 214 >
+            < A "LP1 WAITING FOR HOST TO SLOTMAP VER FAIL" >
+      >
+      < L [2]
+            < U2 215 >
+            < A "LP1 NO STATE TO NOT ACCESSED" >
+      >
+      < L [2]
+            < U2 216 >
+            < A "LP1 NOT ACCESSED TO IN ACCESS" >
+      >
+      < L [2]
+            < U2 217 >
+            < A "LP1 IN ACCESS TO CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 218 >
+            < A "LP1 IN ACCESS TO CARRIE RSTOPPED" >
+      >
+      < L [2]
+            < U2 219 >
+            < A "LP1 CARRIER TO NO STATE" >
+      >
+      < L [2]
+            < U2 230 >
+            < A "LP1 NO STATE TO MANUAL" >
+      >
+      < L [2]
+            < U2 231 >
+            < A "LP1 NO STATE TO AUTO" >
+      >
+      < L [2]
+            < U2 232 >
+            < A "LP1 MANUAL TO AUTO" >
+      >
+      < L [2]
+            < U2 233 >
+            < A "LP1 AUTO TO MANUAL" >
+      >
+      < L [2]
+            < U2 240 >
+            < A "LP1 NO STATE TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 241 >
+            < A "LP1 NOT RESERVED TO RESERVED" >
+      >
+      < L [2]
+            < U2 242 >
+            < A "LP1 RESERVED TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 250 >
+            < A "LP1 NO STATE TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 251 >
+            < A "LP1 NOT ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 252 >
+            < A "LP1 ASSOCIATED TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 253 >
+            < A "LP1 ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 260 >
+            < A "LP1 NO STATE TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 261 >
+            < A "LP1 NOT OCCUPIED TO OCCUPIED" >
+      >
+      < L [2]
+            < U2 262 >
+            < A "LP1 OCCUPIED TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 300 >
+            < A "LP2 NO STATE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 301 >
+            < A "LP2 NO STATE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 302 >
+            < A "LP2 OUT OF SERVICE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 303 >
+            < A "LP2 IN SERVICE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 304 >
+            < A "LP2 IN SERVICE 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 305 >
+            < A "LP2 IN SERVICE 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 306 >
+            < A "LP2 TRANSFER READY 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 307 >
+            < A "LP2 TRANSFER READY 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 308 >
+            < A "LP2 READY TO LOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 309 >
+            < A "LP2 READY TO UNLOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 310 >
+            < A "LP2 TRANSFER BLOCKED 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 311 >
+            < A "LP2 TRANSFER BLOCKED 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 312 >
+            < A "LP2 TRANSFER BLOCKED 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 350 >
+            < A "LP2 CARRIER ARRIVED" >
+      >
+      < L [2]
+            < U2 351 >
+            < A "LP2 CLAMP COMPLETE" >
+      >
+      < L [2]
+            < U2 352 >
+            < A "LP2 CARRIER DOCKED" >
+      >
+      < L [2]
+            < U2 353 >
+            < A "LP2 CARRIER OPENED" >
+      >
+      < L [2]
+            < U2 354 >
+            < A "LP2 CARRIER OPEN FAILED" >
+      >
+      < L [2]
+            < U2 355 >
+            < A "LP2 CARRIER UNDOCKED" >
+      >
+      < L [2]
+            < U2 356 >
+            < A "LP2 CARRIER CLOSED" >
+      >
+      < L [2]
+            < U2 357 >
+            < A "LP2 CARRIER CLAMPPED" >
+      >
+      < L [2]
+            < U2 358 >
+            < A "LP2 CARRIER UNCLAMPED" >
+      >
+      < L [2]
+            < U2 359 >
+            < A "LP2 CARRIER REMOVED" >
+      >
+      < L [2]
+            < U2 360 >
+            < A "LP2 OUTOFSERVICE" >
+      >
+      < L [2]
+            < U2 361 >
+            < A "LP2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 362 >
+            < A "LP2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 363 >
+            < A "LP2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 364 >
+            < A "LP2 CANCEL CARRIER OK" >
+      >
+      < L [2]
+            < U2 365 >
+            < A "LP2 CANCEL CARRIER FAILED" >
+      >
+      < L [2]
+            < U2 366 >
+            < A "LP2 CARRIER LOCATION CHANGED" >
+      >
+      < L [2]
+            < U2 367 >
+            < A "LP2 LOAD COMPLETE" >
+      >
+      < L [2]
+            < U2 368 >
+            < A "LP2 CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 369 >
+            < A "LP2 WAFER REMOVED" >
+      >
+      < L [2]
+            < U2 370 >
+            < A "LP2 WAFER RETURNED" >
+      >
+      < L [2]
+            < U2 380 >
+            < A "LP2 NO STATE TO CARRIER" >
+      >
+      < L [2]
+            < U2 381 >
+            < A "LP2 NO STATE TO ID NO TREAD" >
+      >
+      < L [2]
+            < U2 382 >
+            < A "LP2 NO STATE TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 383 >
+            < A "LP2 NO STATE TO ID VER OK" >
+      >
+      < L [2]
+            < U2 384 >
+            < A "LP2 NO STATE TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 385 >
+            < A "LP2 ID NO TREAD TO ID VER OK" >
+      >
+      < L [2]
+            < U2 386 >
+            < A "LP2 ID NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 387 >
+            < A "LP2 WAITING FOR HOST TO ID VER OK" >
+      >
+      < L [2]
+            < U2 388 >
+            < A "LP2 WAITING FOR HOST TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 410 >
+            < A "LP2 NO STATE TO SLOTMAP NOT READ" >
+      >
+      < L [2]
+            < U2 411 >
+            < A "LP2 SLOTMAP NOT READ TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 412 >
+            < A "LP2 SLOTMAP NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 413 >
+            < A "LP2 WAITING FOR HOST TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 414 >
+            < A "LP2 WAITING FOR HOST TO SLOTMAP VER FAIL" >
+      >
+      < L [2]
+            < U2 415 >
+            < A "LP2 NO STATE TO NOT ACCESSED" >
+      >
+      < L [2]
+            < U2 416 >
+            < A "LP2 NOT ACCESSED TO IN ACCESS" >
+      >
+      < L [2]
+            < U2 417 >
+            < A "LP2 IN ACCESS TO CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 418 >
+            < A "LP2 IN ACCESS TO CARRIE RSTOPPED" >
+      >
+      < L [2]
+            < U2 419 >
+            < A "LP2 CARRIER TO NO STATE" >
+      >
+      < L [2]
+            < U2 420 >
+            < A "LP2 NO STATE TO MANUAL" >
+      >
+      < L [2]
+            < U2 421 >
+            < A "LP2 NO STATE TO AUTO" >
+      >
+      < L [2]
+            < U2 422 >
+            < A "LP2 MANUAL TO AUTO" >
+      >
+      < L [2]
+            < U2 423 >
+            < A "LP2 AUTO TO MANUAL" >
+      >
+      < L [2]
+            < U2 430 >
+            < A "LP2 NO STATE TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 431 >
+            < A "LP2 NOT RESERVED TO RESERVED" >
+      >
+      < L [2]
+            < U2 432 >
+            < A "LP2 RESERVED TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 440 >
+            < A "LP2 NO STATE TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 441 >
+            < A "LP2 NOT ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 442 >
+            < A "LP2 ASSOCIATED TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 443 >
+            < A "LP2 ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 450 >
+            < A "LP2 NO STATE TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 451 >
+            < A "LP2 NOT OCCUPIED TO OCCUPIED" >
+      >
+      < L [2]
+            < U2 452 >
+            < A "LP2 OCCUPIED TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 500 >
+            < A "NO STATE TO AT SOURCE" >
+      >
+      < L [2]
+            < U2 501 >
+            < A "AT SOURCE TO AT WORK" >
+      >
+      < L [2]
+            < U2 502 >
+            < A "AT WORK TO AT SOURCE" >
+      >
+      < L [2]
+            < U2 503 >
+            < A "AT WORK TO AT WORK" >
+      >
+      < L [2]
+            < U2 504 >
+            < A "AT WORK TO AT DESTINATION" >
+      >
+      < L [2]
+            < U2 505 >
+            < A "AT DESTINATION TO AT WORK" >
+      >
+      < L [2]
+            < U2 506 >
+            < A "AT DESTINITION TO EXTINCTION" >
+      >
+      < L [2]
+            < U2 507 >
+            < A "AT DESTINATION TO AT SOURCE" >
+      >
+      < L [2]
+            < U2 508 >
+            < A "ANY SUBSTRATE TO EXTINCTION" >
+      >
+      < L [2]
+            < U2 509 >
+            < A "NO STATE TO NEEDS PROCESSING" >
+      >
+      < L [2]
+            < U2 510 >
+            < A "NEEDS PROCESSING TO IN PROGRESS" >
+      >
+      < L [2]
+            < U2 511 >
+            < A "IN PROCESS TO PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 512 >
+            < A "IN PROCESS TO NEEDS PROCESSING" >
+      >
+      < L [2]
+            < U2 520 >
+            < A "PJ NO STATE TO QUEUED" >
+      >
+      < L [2]
+            < U2 521 >
+            < A "PJ QUEUED TO SETTING UP" >
+      >
+      < L [2]
+            < U2 522 >
+            < A "PJ SETTING UP TO WAITING FOR START" >
+      >
+      < L [2]
+            < U2 523 >
+            < A "PJ SETTING UP TO PROCESSING" >
+      >
+      < L [2]
+            < U2 524 >
+            < A "PJ WAITING FOR START TO PROCESSING" >
+      >
+      < L [2]
+            < U2 525 >
+            < A "PJ EXECUTING TO PROCESS COMPLETE" >
+      >
+      < L [2]
+            < U2 526 >
+            < A "PJ PROCESS COMPLETE TO NO STATE" >
+      >
+      < L [2]
+            < U2 527 >
+            < A "PJ EXECUTING TO PAUSING" >
+      >
+      < L [2]
+            < U2 528 >
+            < A "PJ PAUSING TO PAUSED" >
+      >
+      < L [2]
+            < U2 529 >
+            < A "PJ PAUSE TO EXECUTING" >
+      >
+      < L [2]
+            < U2 530 >
+            < A "PJ EXECUTING TO STOPPING" >
+      >
+      < L [2]
+            < U2 531 >
+            < A "PJ PAUSE TO STOPPING" >
+      >
+      < L [2]
+            < U2 532 >
+            < A "PJ EXECUTING TO ABORTING" >
+      >
+      < L [2]
+            < U2 533 >
+            < A "PJ STOPPING TO ABORTING" >
+      >
+      < L [2]
+            < U2 534 >
+            < A "PJ PAUSE TO ABORTING" >
+      >
+      < L [2]
+            < U2 535 >
+            < A "PJ ABORTING TO NO STATE" >
+      >
+      < L [2]
+            < U2 536 >
+            < A "PJ STOPPING TO NO STATE" >
+      >
+      < L [2]
+            < U2 537 >
+            < A "PJ QUEUED TO NO STATE" >
+      >
+      < L [2]
+            < U2 540 >
+            < A "CJ NO STATE TO QUEUED" >
+      >
+      < L [2]
+            < U2 541 >
+            < A "CJ QUEUED TO NO STATE" >
+      >
+      < L [2]
+            < U2 542 >
+            < A "CJ QUEUED TO SELECTED" >
+      >
+      < L [2]
+            < U2 543 >
+            < A "CJ SELECTED TO QUEUED" >
+      >
+      < L [2]
+            < U2 544 >
+            < A "CJ SELECTED TO EXECUTING" >
+      >
+      < L [2]
+            < U2 545 >
+            < A "CJ SELECTED TO WAITING FOR START" >
+      >
+      < L [2]
+            < U2 546 >
+            < A "CJ WAITING FOR START TO EXECUTING" >
+      >
+      < L [2]
+            < U2 547 >
+            < A "CJ EXECUTING TO PAUSED" >
+      >
+      < L [2]
+            < U2 548 >
+            < A "CJ PAUSED TO EXECUTING" >
+      >
+      < L [2]
+            < U2 549 >
+            < A "CJ EXECUTING TO COMPLETED" >
+      >
+      < L [2]
+            < U2 550 >
+            < A "CJ ACTIVE TO COMPLETED STOP" >
+      >
+      < L [2]
+            < U2 551 >
+            < A "CJ ACTIVE TO COMPLETED ABORT" >
+      >
+      < L [2]
+            < U2 552 >
+            < A "CJ COMPLETED TO NO STATE" >
+      >
+      < L [2]
+            < U2 560 >
+            < A "PJ ALERT SETUP" >
+      >
+      < L [2]
+            < U2 561 >
+            < A "PJ ALERT PROCESSING" >
+      >
+      < L [2]
+            < U2 562 >
+            < A "PJ ALERT PROCESING COMPLETE" >
+      >
+      < L [2]
+            < U2 563 >
+            < A "PJ ALERT COMPLETE" >
+      >
+      < L [2]
+            < U2 564 >
+            < A "PJ ALERT WAITING FOR START" >
+      >
+      < L [2]
+            < U2 565 >
+            < A "PJ ALERT WAITING FOR MATERIAL" >
+      >
+      < L [2]
+            < U2 600 >
+            < A "PROCESS PROGRAM CHANGED" >
+      >
+      < L [2]
+            < U2 601 >
+            < A "PROCESS PROGRAM SELECTED" >
+      >
+      < L [2]
+            < U2 610 >
+            < A "CANCEL BIND OK" >
+      >
+      < L [2]
+            < U2 611 >
+            < A "INVALID CARRIER ID" >
+      >
+      < L [2]
+            < U2 620 >
+            < A "BIND OK" >
+      >
+      < L [2]
+            < U2 621 >
+            < A "BIND CREATE FAIL" >
+      >
+      < L [2]
+            < U2 622 >
+            < A "DUPLICATED CARRIER" >
+      >
+      < L [2]
+            < U2 630 >
+            < A "SPOOL ACTIVATED" >
+      >
+      < L [2]
+            < U2 631 >
+            < A "SPOOL DEACTIVATED" >
+      >
+      < L [2]
+            < U2 640 >
+            < A "CARRIEER SLOT NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 641 >
+            < A "CARRIEER SLOT CORRECTLY OCCUPIED" >
+      >
+      < L [2]
+            < U2 642 >
+            < A "CARRIEER SLOT CROSS SLOTTED" >
+      >
+      < L [2]
+            < U2 643 >
+            < A "CARRIEER SLOT DOUBLE SLOTTED" >
+      >
+      < L [2]
+            < U2 644 >
+            < A "CARRIEER SLOT NOT EMPTY" >
+      >
+      < L [2]
+            < U2 650 >
+            < A "SCANNER LOCATION NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 651 >
+            < A "SCANNER LOCATION CORRECTLY OCCUPIED" >
+      >
+      < L [2]
+            < U2 652 >
+            < A "LP1 SLOT MAP AVAILABLE" >
+      >
+      < L [2]
+            < U2 653 >
+            < A "LP2 SLOT MAP AVAILABLE" >
+      >
+      < L [2]
+            < U2 700 >
+            < A "DOOR OPENED" >
+      >
+>
+}
+
+[108] SVID: 108
+Description: POINT LEVEL MEASUREMENT RESULT (DVID)
+Format: LIST
+Value
+{
+< L [0]
+>
+}
+
+[109] SVID: 109
+Description: WAFER LEVEL MEASUREMENT RESULT (DVID)
+Format: LIST
+Value
+{
+< L [0]
+>
+}
+
+[110] SVID: 110
+Description: SLOT MAP STATUS LIST (SVID)
+Format: LIST
+Value
+{
+< L [5]
+      < L [2]
+            < I2  0 >
+            < A "SM NO STATE" >
+      >
+      < L [2]
+            < I2  1 >
+            < A "SM NOT READ" >
+      >
+      < L [2]
+            < I2  2 >
+            < A "SM WAITING FOR HOST" >
+      >
+      < L [2]
+            < I2  3 >
+            < A "SM VERIFICATION OK" >
+      >
+      < L [2]
+            < I2  4 >
+            < A "SM VERIFICATION FAILED" >
+      >
+>
+}
+
+[111] SVID: 111
+Description: CONNECTION MODE LIST (SVID)
+Format: LIST
+Value
+{
+< L [2]
+      < L [2]
+            < U2 0 >
+            < A "PASSIVE" >
+      >
+      < L [2]
+            < U2 1 >
+            < A "ACTIVE" >
+      >
+>
+}
+
+[112] SVID: 112
+Description: EVENT LIST (SVID)
+Format: LIST
+Value
+{
+< L [231]
+      < L [2]
+            < U2 1 >
+            < A "ONLINE REMOTE" >
+      >
+      < L [2]
+            < U2 2 >
+            < A "ONLINE LOCAL" >
+      >
+      < L [2]
+            < U2 3 >
+            < A "OFFLINE EQUIPMENT" >
+      >
+      < L [2]
+            < U2 4 >
+            < A "OFFLINE HOST" >
+      >
+      < L [2]
+            < U2 10 >
+            < A "EQUIPMENT IDLE" >
+      >
+      < L [2]
+            < U2 11 >
+            < A "EQUIPMENT WORKING" >
+      >
+      < L [2]
+            < U2 12 >
+            < A "EQUIPMENT MAINTENANCE" >
+      >
+      < L [2]
+            < U2 13 >
+            < A "EQUIPMENT IN SERVICE" >
+      >
+      < L [2]
+            < U2 14 >
+            < A "EQUIPMENT OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 20 >
+            < A "ALARM SET" >
+      >
+      < L [2]
+            < U2 21 >
+            < A "ALARM CLEARED" >
+      >
+      < L [2]
+            < U2 24 >
+            < A "PER POINT LEVEL RESULT" >
+      >
+      < L [2]
+            < U2 25 >
+            < A "PER WAFER LEVEL REULT" >
+      >
+      < L [2]
+            < U2 40 >
+            < A "CANCEL NOT POSSIBLE" >
+      >
+      < L [2]
+            < U2 41 >
+            < A "CARRIER NOT FOUND" >
+      >
+      < L [2]
+            < U2 42 >
+            < A "CARRIER REMOVE FAILED" >
+      >
+      < L [2]
+            < U2 43 >
+            < A "CARRIER REMOVE OK" >
+      >
+      < L [2]
+            < U2 44 >
+            < A "CARRIER OBJECT DELETED" >
+      >
+      < L [2]
+            < U2 45 >
+            < A "CARRIER WAIT FOR CJ TIMEOUT" >
+      >
+      < L [2]
+            < U2 50 >
+            < A "INVALID PORT ID" >
+      >
+      < L [2]
+            < U2 51 >
+            < A "NOT READY TO LOAD" >
+      >
+      < L [2]
+            < U2 52 >
+            < A "PORT IS ASSOCIATED" >
+      >
+      < L [2]
+            < U2 53 >
+            < A "PORT IS NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 60 >
+            < A "PROCESSING START" >
+      >
+      < L [2]
+            < U2 61 >
+            < A "PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 62 >
+            < A "PROCESSING STOPPED" >
+      >
+      < L [2]
+            < U2 63 >
+            < A "PROCESSING STATE CHANGE" >
+      >
+      < L [2]
+            < U2 64 >
+            < A "WAFER PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 100 >
+            < A "LP1 CARRIER ARRIVED" >
+      >
+      < L [2]
+            < U2 101 >
+            < A "LP1 CLAMP COMPLETE" >
+      >
+      < L [2]
+            < U2 102 >
+            < A "LP1 CARRIER DOCKED" >
+      >
+      < L [2]
+            < U2 103 >
+            < A "LP1 CARRIER OPENED" >
+      >
+      < L [2]
+            < U2 104 >
+            < A "LP1 CARRIER OPEN FAILED" >
+      >
+      < L [2]
+            < U2 105 >
+            < A "LP1 CARRIER UNDOCKED" >
+      >
+      < L [2]
+            < U2 106 >
+            < A "LP1 CARRIER CLOSED" >
+      >
+      < L [2]
+            < U2 107 >
+            < A "LP1 CARRIER CLAMPPED" >
+      >
+      < L [2]
+            < U2 108 >
+            < A "LP1 CARRIER UNCLAMPED" >
+      >
+      < L [2]
+            < U2 109 >
+            < A "LP1 CARRIER REMOVED" >
+      >
+      < L [2]
+            < U2 110 >
+            < A "LP1 OUTOFSERVICE" >
+      >
+      < L [2]
+            < U2 111 >
+            < A "LP1 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 112 >
+            < A "LP1 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 113 >
+            < A "LP1 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 114 >
+            < A "LP1 CANCEL CARRIER OK" >
+      >
+      < L [2]
+            < U2 115 >
+            < A "LP1 CANCEL CARRIER FAILED" >
+      >
+      < L [2]
+            < U2 116 >
+            < A "LP1 CARRIER LOCATION CHANGED" >
+      >
+      < L [2]
+            < U2 117 >
+            < A "LP1 LOAD COMPLETE" >
+      >
+      < L [2]
+            < U2 118 >
+            < A "LP1 CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 119 >
+            < A "LP1 WAFER REMOVED" >
+      >
+      < L [2]
+            < U2 120 >
+            < A "LP1 WAFER RETURNED" >
+      >
+      < L [2]
+            < U2 150 >
+            < A "LP1 NO STATE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 151 >
+            < A "LP1 NO STATE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 152 >
+            < A "LP1 OUT OF SERVICE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 153 >
+            < A "LP1 IN SERVICE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 154 >
+            < A "LP1 IN SERVICE 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 155 >
+            < A "LP1 IN SERVICE 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 156 >
+            < A "LP1 TRANSFER READY 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 157 >
+            < A "LP1 TRANSFER READY 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 158 >
+            < A "LP1 READY TO LOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 159 >
+            < A "LP1 READY TO UNLOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 160 >
+            < A "LP1 TRANSFER BLOCKED 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 161 >
+            < A "LP1 TRANSFER BLOCKED 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 162 >
+            < A "LP1 TRANSFER BLOCKED 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 180 >
+            < A "LP1 NO STATE TO CARRIER" >
+      >
+      < L [2]
+            < U2 181 >
+            < A "LP1 NO STATE TO ID NO TREAD" >
+      >
+      < L [2]
+            < U2 182 >
+            < A "LP1 NO STATE TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 183 >
+            < A "LP1 NO STATE TO ID VER OK" >
+      >
+      < L [2]
+            < U2 184 >
+            < A "LP1 NO STATE TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 185 >
+            < A "LP1 ID NO TREAD TO ID VER OK" >
+      >
+      < L [2]
+            < U2 186 >
+            < A "LP1 ID NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 187 >
+            < A "LP1 WAITING FOR HOST TO ID VER OK" >
+      >
+      < L [2]
+            < U2 188 >
+            < A "LP1 WAITING FOR HOST TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 210 >
+            < A "LP1 NO STATE TO SLOTMAP NOT READ" >
+      >
+      < L [2]
+            < U2 211 >
+            < A "LP1 SLOTMAP NOT READ TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 212 >
+            < A "LP1 SLOTMAP NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 213 >
+            < A "LP1 WAITING FOR HOST TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 214 >
+            < A "LP1 WAITING FOR HOST TO SLOTMAP VER FAIL" >
+      >
+      < L [2]
+            < U2 215 >
+            < A "LP1 NO STATE TO NOT ACCESSED" >
+      >
+      < L [2]
+            < U2 216 >
+            < A "LP1 NOT ACCESSED TO IN ACCESS" >
+      >
+      < L [2]
+            < U2 217 >
+            < A "LP1 IN ACCESS TO CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 218 >
+            < A "LP1 IN ACCESS TO CARRIE RSTOPPED" >
+      >
+      < L [2]
+            < U2 219 >
+            < A "LP1 CARRIER TO NO STATE" >
+      >
+      < L [2]
+            < U2 230 >
+            < A "LP1 NO STATE TO MANUAL" >
+      >
+      < L [2]
+            < U2 231 >
+            < A "LP1 NO STATE TO AUTO" >
+      >
+      < L [2]
+            < U2 232 >
+            < A "LP1 MANUAL TO AUTO" >
+      >
+      < L [2]
+            < U2 233 >
+            < A "LP1 AUTO TO MANUAL" >
+      >
+      < L [2]
+            < U2 240 >
+            < A "LP1 NO STATE TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 241 >
+            < A "LP1 NOT RESERVED TO RESERVED" >
+      >
+      < L [2]
+            < U2 242 >
+            < A "LP1 RESERVED TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 250 >
+            < A "LP1 NO STATE TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 251 >
+            < A "LP1 NOT ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 252 >
+            < A "LP1 ASSOCIATED TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 253 >
+            < A "LP1 ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 260 >
+            < A "LP1 NO STATE TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 261 >
+            < A "LP1 NOT OCCUPIED TO OCCUPIED" >
+      >
+      < L [2]
+            < U2 262 >
+            < A "LP1 OCCUPIED TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 300 >
+            < A "LP2 NO STATE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 301 >
+            < A "LP2 NO STATE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 302 >
+            < A "LP2 OUT OF SERVICE 2 IN SERVICE" >
+      >
+      < L [2]
+            < U2 303 >
+            < A "LP2 IN SERVICE 2 OUT OF SERVICE" >
+      >
+      < L [2]
+            < U2 304 >
+            < A "LP2 IN SERVICE 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 305 >
+            < A "LP2 IN SERVICE 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 306 >
+            < A "LP2 TRANSFER READY 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 307 >
+            < A "LP2 TRANSFER READY 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 308 >
+            < A "LP2 READY TO LOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 309 >
+            < A "LP2 READY TO UNLOAD 2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 310 >
+            < A "LP2 TRANSFER BLOCKED 2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 311 >
+            < A "LP2 TRANSFER BLOCKED 2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 312 >
+            < A "LP2 TRANSFER BLOCKED 2 TRANSFER READY" >
+      >
+      < L [2]
+            < U2 350 >
+            < A "LP2 CARRIER ARRIVED" >
+      >
+      < L [2]
+            < U2 351 >
+            < A "LP2 CLAMP COMPLETE" >
+      >
+      < L [2]
+            < U2 352 >
+            < A "LP2 CARRIER DOCKED" >
+      >
+      < L [2]
+            < U2 353 >
+            < A "LP2 CARRIER OPENED" >
+      >
+      < L [2]
+            < U2 354 >
+            < A "LP2 CARRIER OPEN FAILED" >
+      >
+      < L [2]
+            < U2 355 >
+            < A "LP2 CARRIER UNDOCKED" >
+      >
+      < L [2]
+            < U2 356 >
+            < A "LP2 CARRIER CLOSED" >
+      >
+      < L [2]
+            < U2 357 >
+            < A "LP2 CARRIER CLAMPPED" >
+      >
+      < L [2]
+            < U2 358 >
+            < A "LP2 CARRIER UNCLAMPED" >
+      >
+      < L [2]
+            < U2 359 >
+            < A "LP2 CARRIER REMOVED" >
+      >
+      < L [2]
+            < U2 360 >
+            < A "LP2 OUTOFSERVICE" >
+      >
+      < L [2]
+            < U2 361 >
+            < A "LP2 READY TO LOAD" >
+      >
+      < L [2]
+            < U2 362 >
+            < A "LP2 READY TO UNLOAD" >
+      >
+      < L [2]
+            < U2 363 >
+            < A "LP2 TRANSFER BLOCKED" >
+      >
+      < L [2]
+            < U2 364 >
+            < A "LP2 CANCEL CARRIER OK" >
+      >
+      < L [2]
+            < U2 365 >
+            < A "LP2 CANCEL CARRIER FAILED" >
+      >
+      < L [2]
+            < U2 366 >
+            < A "LP2 CARRIER LOCATION CHANGED" >
+      >
+      < L [2]
+            < U2 367 >
+            < A "LP2 LOAD COMPLETE" >
+      >
+      < L [2]
+            < U2 368 >
+            < A "LP2 CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 369 >
+            < A "LP2 WAFER REMOVED" >
+      >
+      < L [2]
+            < U2 370 >
+            < A "LP2 WAFER RETURNED" >
+      >
+      < L [2]
+            < U2 380 >
+            < A "LP2 NO STATE TO CARRIER" >
+      >
+      < L [2]
+            < U2 381 >
+            < A "LP2 NO STATE TO ID NO TREAD" >
+      >
+      < L [2]
+            < U2 382 >
+            < A "LP2 NO STATE TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 383 >
+            < A "LP2 NO STATE TO ID VER OK" >
+      >
+      < L [2]
+            < U2 384 >
+            < A "LP2 NO STATE TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 385 >
+            < A "LP2 ID NO TREAD TO ID VER OK" >
+      >
+      < L [2]
+            < U2 386 >
+            < A "LP2 ID NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 387 >
+            < A "LP2 WAITING FOR HOST TO ID VER OK" >
+      >
+      < L [2]
+            < U2 388 >
+            < A "LP2 WAITING FOR HOST TO ID VER FAIL" >
+      >
+      < L [2]
+            < U2 410 >
+            < A "LP2 NO STATE TO SLOTMAP NOT READ" >
+      >
+      < L [2]
+            < U2 411 >
+            < A "LP2 SLOTMAP NOT READ TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 412 >
+            < A "LP2 SLOTMAP NOT READ TO WAITING FOR HOST" >
+      >
+      < L [2]
+            < U2 413 >
+            < A "LP2 WAITING FOR HOST TO SLOTMAP VER OK" >
+      >
+      < L [2]
+            < U2 414 >
+            < A "LP2 WAITING FOR HOST TO SLOTMAP VER FAIL" >
+      >
+      < L [2]
+            < U2 415 >
+            < A "LP2 NO STATE TO NOT ACCESSED" >
+      >
+      < L [2]
+            < U2 416 >
+            < A "LP2 NOT ACCESSED TO IN ACCESS" >
+      >
+      < L [2]
+            < U2 417 >
+            < A "LP2 IN ACCESS TO CARRIER COMPLETE" >
+      >
+      < L [2]
+            < U2 418 >
+            < A "LP2 IN ACCESS TO CARRIE RSTOPPED" >
+      >
+      < L [2]
+            < U2 419 >
+            < A "LP2 CARRIER TO NO STATE" >
+      >
+      < L [2]
+            < U2 420 >
+            < A "LP2 NO STATE TO MANUAL" >
+      >
+      < L [2]
+            < U2 421 >
+            < A "LP2 NO STATE TO AUTO" >
+      >
+      < L [2]
+            < U2 422 >
+            < A "LP2 MANUAL TO AUTO" >
+      >
+      < L [2]
+            < U2 423 >
+            < A "LP2 AUTO TO MANUAL" >
+      >
+      < L [2]
+            < U2 430 >
+            < A "LP2 NO STATE TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 431 >
+            < A "LP2 NOT RESERVED TO RESERVED" >
+      >
+      < L [2]
+            < U2 432 >
+            < A "LP2 RESERVED TO NOT RESERVED" >
+      >
+      < L [2]
+            < U2 440 >
+            < A "LP2 NO STATE TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 441 >
+            < A "LP2 NOT ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 442 >
+            < A "LP2 ASSOCIATED TO NOT ASSOCIATED" >
+      >
+      < L [2]
+            < U2 443 >
+            < A "LP2 ASSOCIATED TO ASSOCIATED" >
+      >
+      < L [2]
+            < U2 450 >
+            < A "LP2 NO STATE TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 451 >
+            < A "LP2 NOT OCCUPIED TO OCCUPIED" >
+      >
+      < L [2]
+            < U2 452 >
+            < A "LP2 OCCUPIED TO NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 500 >
+            < A "NO STATE TO AT SOURCE" >
+      >
+      < L [2]
+            < U2 501 >
+            < A "AT SOURCE TO AT WORK" >
+      >
+      < L [2]
+            < U2 502 >
+            < A "AT WORK TO AT SOURCE" >
+      >
+      < L [2]
+            < U2 503 >
+            < A "AT WORK TO AT WORK" >
+      >
+      < L [2]
+            < U2 504 >
+            < A "AT WORK TO AT DESTINATION" >
+      >
+      < L [2]
+            < U2 505 >
+            < A "AT DESTINATION TO AT WORK" >
+      >
+      < L [2]
+            < U2 506 >
+            < A "AT DESTINITION TO EXTINCTION" >
+      >
+      < L [2]
+            < U2 507 >
+            < A "AT DESTINATION TO AT SOURCE" >
+      >
+      < L [2]
+            < U2 508 >
+            < A "ANY SUBSTRATE TO EXTINCTION" >
+      >
+      < L [2]
+            < U2 509 >
+            < A "NO STATE TO NEEDS PROCESSING" >
+      >
+      < L [2]
+            < U2 510 >
+            < A "NEEDS PROCESSING TO IN PROGRESS" >
+      >
+      < L [2]
+            < U2 511 >
+            < A "IN PROCESS TO PROCESSING COMPLETE" >
+      >
+      < L [2]
+            < U2 512 >
+            < A "IN PROCESS TO NEEDS PROCESSING" >
+      >
+      < L [2]
+            < U2 520 >
+            < A "PJ NO STATE TO QUEUED" >
+      >
+      < L [2]
+            < U2 521 >
+            < A "PJ QUEUED TO SETTING UP" >
+      >
+      < L [2]
+            < U2 522 >
+            < A "PJ SETTING UP TO WAITING FOR START" >
+      >
+      < L [2]
+            < U2 523 >
+            < A "PJ SETTING UP TO PROCESSING" >
+      >
+      < L [2]
+            < U2 524 >
+            < A "PJ WAITING FOR START TO PROCESSING" >
+      >
+      < L [2]
+            < U2 525 >
+            < A "PJ EXECUTING TO PROCESS COMPLETE" >
+      >
+      < L [2]
+            < U2 526 >
+            < A "PJ PROCESS COMPLETE TO NO STATE" >
+      >
+      < L [2]
+            < U2 527 >
+            < A "PJ EXECUTING TO PAUSING" >
+      >
+      < L [2]
+            < U2 528 >
+            < A "PJ PAUSING TO PAUSED" >
+      >
+      < L [2]
+            < U2 529 >
+            < A "PJ PAUSE TO EXECUTING" >
+      >
+      < L [2]
+            < U2 530 >
+            < A "PJ EXECUTING TO STOPPING" >
+      >
+      < L [2]
+            < U2 531 >
+            < A "PJ PAUSE TO STOPPING" >
+      >
+      < L [2]
+            < U2 532 >
+            < A "PJ EXECUTING TO ABORTING" >
+      >
+      < L [2]
+            < U2 533 >
+            < A "PJ STOPPING TO ABORTING" >
+      >
+      < L [2]
+            < U2 534 >
+            < A "PJ PAUSE TO ABORTING" >
+      >
+      < L [2]
+            < U2 535 >
+            < A "PJ ABORTING TO NO STATE" >
+      >
+      < L [2]
+            < U2 536 >
+            < A "PJ STOPPING TO NO STATE" >
+      >
+      < L [2]
+            < U2 537 >
+            < A "PJ QUEUED TO NO STATE" >
+      >
+      < L [2]
+            < U2 540 >
+            < A "CJ NO STATE TO QUEUED" >
+      >
+      < L [2]
+            < U2 541 >
+            < A "CJ QUEUED TO NO STATE" >
+      >
+      < L [2]
+            < U2 542 >
+            < A "CJ QUEUED TO SELECTED" >
+      >
+      < L [2]
+            < U2 543 >
+            < A "CJ SELECTED TO QUEUED" >
+      >
+      < L [2]
+            < U2 544 >
+            < A "CJ SELECTED TO EXECUTING" >
+      >
+      < L [2]
+            < U2 545 >
+            < A "CJ SELECTED TO WAITING FOR START" >
+      >
+      < L [2]
+            < U2 546 >
+            < A "CJ WAITING FOR START TO EXECUTING" >
+      >
+      < L [2]
+            < U2 547 >
+            < A "CJ EXECUTING TO PAUSED" >
+      >
+      < L [2]
+            < U2 548 >
+            < A "CJ PAUSED TO EXECUTING" >
+      >
+      < L [2]
+            < U2 549 >
+            < A "CJ EXECUTING TO COMPLETED" >
+      >
+      < L [2]
+            < U2 550 >
+            < A "CJ ACTIVE TO COMPLETED STOP" >
+      >
+      < L [2]
+            < U2 551 >
+            < A "CJ ACTIVE TO COMPLETED ABORT" >
+      >
+      < L [2]
+            < U2 552 >
+            < A "CJ COMPLETED TO NO STATE" >
+      >
+      < L [2]
+            < U2 560 >
+            < A "PJ ALERT SETUP" >
+      >
+      < L [2]
+            < U2 561 >
+            < A "PJ ALERT PROCESSING" >
+      >
+      < L [2]
+            < U2 562 >
+            < A "PJ ALERT PROCESING COMPLETE" >
+      >
+      < L [2]
+            < U2 563 >
+            < A "PJ ALERT COMPLETE" >
+      >
+      < L [2]
+            < U2 564 >
+            < A "PJ ALERT WAITING FOR START" >
+      >
+      < L [2]
+            < U2 565 >
+            < A "PJ ALERT WAITING FOR MATERIAL" >
+      >
+      < L [2]
+            < U2 600 >
+            < A "PROCESS PROGRAM CHANGED" >
+      >
+      < L [2]
+            < U2 601 >
+            < A "PROCESS PROGRAM SELECTED" >
+      >
+      < L [2]
+            < U2 610 >
+            < A "CANCEL BIND OK" >
+      >
+      < L [2]
+            < U2 611 >
+            < A "INVALID CARRIER ID" >
+      >
+      < L [2]
+            < U2 620 >
+            < A "BIND OK" >
+      >
+      < L [2]
+            < U2 621 >
+            < A "BIND CREATE FAIL" >
+      >
+      < L [2]
+            < U2 622 >
+            < A "DUPLICATED CARRIER" >
+      >
+      < L [2]
+            < U2 630 >
+            < A "SPOOL ACTIVATED" >
+      >
+      < L [2]
+            < U2 631 >
+            < A "SPOOL DEACTIVATED" >
+      >
+      < L [2]
+            < U2 640 >
+            < A "CARRIEER SLOT NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 641 >
+            < A "CARRIEER SLOT CORRECTLY OCCUPIED" >
+      >
+      < L [2]
+            < U2 642 >
+            < A "CARRIEER SLOT CROSS SLOTTED" >
+      >
+      < L [2]
+            < U2 643 >
+            < A "CARRIEER SLOT DOUBLE SLOTTED" >
+      >
+      < L [2]
+            < U2 644 >
+            < A "CARRIEER SLOT NOT EMPTY" >
+      >
+      < L [2]
+            < U2 650 >
+            < A "SCANNER LOCATION NOT OCCUPIED" >
+      >
+      < L [2]
+            < U2 651 >
+            < A "SCANNER LOCATION CORRECTLY OCCUPIED" >
+      >
+      < L [2]
+            < U2 652 >
+            < A "LP1 SLOT MAP AVAILABLE" >
+      >
+      < L [2]
+            < U2 653 >
+            < A "LP2 SLOT MAP AVAILABLE" >
+      >
+      < L [2]
+            < U2 700 >
+            < A "DOOR OPENED" >
+      >
+>
+}
+
+[113] SVID: 113
+Description: LP1 CARRIER LOCATION (SVID)
+Format: ASCII
+Value { "< L [1]
+      < A "AWAY" >
+>
+" }
+
+[114] SVID: 114
+Description: LP2 CARRIER LOCATION (SVID)
+Format: ASCII
+Value { "< L [1]
+      < A "AWAY" >
+>
+" }
+
+[115] SVID: 115
+Description: FFU Status (SVID)
+Format: FLOAT4
+Value { 1.200 }
+
